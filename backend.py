@@ -11,7 +11,7 @@ SECRET_KEY = "13457689"  # CHANGE MOI AUSSI
 
 # --- MySQL ---
 MYSQL_CONFIG = {
-    "host":     "localhost",              # ou une URL genre mysqlXXX.infomaniak.com
+    "host":     "l70kvq.myd.infomaniak.com",              # ou une URL genre mysqlXXX.infomaniak.com
     "user":     "l70kvq_louis",        # ex : l70kvq_athle
     "password": "rKZP516wl3k&?.@",                # le mot de passe MySQL
     "database": "l70kvq_athle",           # nom de ta base
