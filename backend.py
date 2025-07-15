@@ -6,8 +6,8 @@ from flask_cors import CORS
 
 # --- CONFIG ---
 ADMIN_USER = "admin"
-ADMIN_PASSWORD = "SuperMotDePasse2025!"  # CHANGE MOI
-SECRET_KEY = "une_clé_bien_random_et_longue"  # CHANGE MOI AUSSI
+ADMIN_PASSWORD = "cac"  # CHANGE MOI
+SECRET_KEY = "13457689"  # CHANGE MOI AUSSI
 
 # --- MySQL ---
 MYSQL_CONFIG = {
