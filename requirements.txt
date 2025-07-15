@@ -4,4 +4,4 @@ flask
 flask-login
 flask-cors
 mysql-connector-python
-
+gunicorn
