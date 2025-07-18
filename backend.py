@@ -43,7 +43,7 @@ def load_user(user_id):
 @app.route('/api/competitions', methods=['GET'])
 def get_competitions():
     data = load_json()
-    comps = [c for c in data if c.get("validated", 0) == 1]
+    comps = [c for c in data if str(c.get("validated", 0)) == "1"]
     return jsonify(comps)
 
 @app.route('/api/competitions', methods=['POST'])
@@ -53,8 +53,12 @@ def add_competition():
     if not all(f in data for f in required_fields):
         return jsonify({"error": "Champs manquants"}), 400
     comps = load_json()
-    # id = max + 1 pour éviter doublon avec FFA
-    data['id'] = max((int(c['id']) for c in comps), default=100000) + 1
+    # id = max + 1 pour éviter doublon avec FFA (force int ou fallback 100000)
+    try:
+        last_id = max((int(str(c['id']).replace("user-", "")) for c in comps if str(c.get("id")).startswith("user-")), default=100000)
+    except:
+        last_id = 100000
+    data['id'] = "user-" + str(last_id + 1)
     data['validated'] = 0
     comps.append(data)
     save_json(comps)
@@ -82,24 +86,24 @@ def admin_get_all():
     comps = load_json()
     return jsonify(comps)
 
-@app.route('/api/admin/validate/<int:comp_id>', methods=['POST'])
+@app.route('/api/admin/validate/<comp_id>', methods=['POST'])
 @login_required
 def admin_validate(comp_id):
     comps = load_json()
     modified = 0
     for c in comps:
-        if int(c['id']) == int(comp_id):
+        if str(c['id']) == str(comp_id):
             c['validated'] = 1
             modified += 1
     save_json(comps)
     return jsonify({"success": True, "validated": modified})
 
-@app.route('/api/admin/delete/<int:comp_id>', methods=['POST'])
+@app.route('/api/admin/delete/<comp_id>', methods=['POST'])
 @login_required
 def admin_delete(comp_id):
     comps = load_json()
     n_before = len(comps)
-    comps = [c for c in comps if int(c['id']) != int(comp_id)]
+    comps = [c for c in comps if str(c['id']) != str(comp_id)]
     save_json(comps)
     return jsonify({"removed": n_before - len(comps), "success": True})
 
