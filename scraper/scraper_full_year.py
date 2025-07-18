@@ -2,12 +2,13 @@
 # -*- coding: utf-8 -*-
 
 """
-scraper_full_year.py (FFA uniquement, toutes familles, SANS SQL, SANS VENT)
+scraper_full_year.py (FFA uniquement, toutes familles, SANS SQL, SANS VENT, avec fusion JSON ajouts manuels)
 
-Récupère toutes les compétitions FFA ("Stade", "Salle", "Cross", "Hors Stade", "Marche Route") à venir de 2025,
-géocode les lieux via Nominatim (robuste aux erreurs),
-et écrit toutes les compétitions dans competitions_full_2025.json,
-avec validated=1.
+- Récupère toutes les compétitions FFA ("Stade", "Salle", "Cross", "Hors Stade", "Marche Route") à venir de 2025,
+- Géocode les lieux via Nominatim (robuste aux erreurs),
+- Ajoute toutes les compétitions dans competitions_full_2025.json,
+- **Fusionne automatiquement** les ajouts manuels précédents (id user-xxx ou custom==1),
+- Toutes les FFA sont validated=1 par défaut.
 """
 
 import requests
@@ -16,6 +17,7 @@ import calendar
 import json
 import re
 import time
+import os
 from datetime import date
 
 BASE_URL = "https://bases.athle.fr/asp.net/accueil.aspx"
@@ -27,6 +29,7 @@ YEAR     = 2025
 TODAY    = date.today()
 FAMILLES = ["Stade", "Salle", "Cross", "Hors Stade", "Marche Route"]
 GEO_CACHE = {}
+JSON_PATH = "json/competitions_full_2025.json"
 
 def geocode(place):
     if place in GEO_CACHE:
@@ -115,6 +118,26 @@ def scrape_month(session, hidden, year, month, famille):
     print(f"{famille} {month:02d}/{year} : {len(comps)} compétitions.")
     return comps
 
+def load_existing_manual_comps():
+    """Charge les compétitions déjà dans le JSON qui sont des ajouts manuels."""
+    if not os.path.isfile(JSON_PATH):
+        return []
+    with open(JSON_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    # Ajout manuel = id commence par "user-" OU champ custom=1 (optionnel)
+    return [c for c in data if str(c.get("id", "")).startswith("user-") or c.get("custom") == 1]
+
+def save_final_json(new_ffa_comps):
+    manual = load_existing_manual_comps()
+    # On ne garde que celles qui ne sont pas déjà dans les FFA (évite doublons si jamais !)
+    existing_ids = set(str(c['id']) for c in new_ffa_comps)
+    manual_keep = [c for c in manual if str(c['id']) not in existing_ids]
+    out = new_ffa_comps + manual_keep
+    os.makedirs("json", exist_ok=True)
+    with open(JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    print(f"✅ Fusionné et écrit {len(out)} compétitions dans {JSON_PATH}")
+
 def scrape_full_year(year):
     session = requests.Session()
     hidden = get_hidden_fields(session)
@@ -127,13 +150,11 @@ def scrape_full_year(year):
 
     out = list(all_comps.values())
 
-    # Ecrit le JSON pour debug/local
-    fname = f"json/competitions_full_{year}.json"
-    import os
-    os.makedirs("json", exist_ok=True)
-    with open(fname, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
-    print(f"\nTerminé : {len(out)} compétitions sauvegardées dans {fname}.")
+    # Toutes les FFA sont validées par défaut
+    for c in out:
+        c['validated'] = 1
+
+    save_final_json(out)
     return out
 
 if __name__ == "__main__":
