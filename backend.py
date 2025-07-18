@@ -2,116 +2,109 @@ import os
 import json
 from flask import Flask, request, jsonify, session
 from flask_cors import CORS
-from functools import wraps
 
-# ---- CONFIGURATION ----
-ADMIN_USERNAME = "admin"
-ADMIN_PASSWORD = "cac"      # Change-moi en prod !
-SECRET_KEY = "13457689"     # Change-moi en prod !
+# --- CONFIG ---
 JSON_PATH = "json/competitions_full_2025.json"
+ADMIN_USER = "admin"
+ADMIN_PASSWORD = "ton_mot_de_passe_fort"  # CHANGE MOI
+SECRET_KEY = "ta_secret_key_admin"        # CHANGE MOI AUSSI
 
 app = Flask(__name__)
 app.secret_key = SECRET_KEY
-CORS(app, supports_credentials=True, origins=["https://thegreenpadel.fr"])
+CORS(app, supports_credentials=True, origins=['https://thegreenpadel.fr'])
 
-# ---- UTILITAIRES ----
-def load_comps():
+# --- UTILS JSON ---
+def load_competitions():
     if not os.path.exists(JSON_PATH):
         return []
-    with open(JSON_PATH, "r", encoding="utf-8") as f:
+    with open(JSON_PATH, encoding="utf-8") as f:
         return json.load(f)
 
-def save_comps(comps):
+def save_competitions(comps):
+    os.makedirs(os.path.dirname(JSON_PATH), exist_ok=True)
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(comps, f, ensure_ascii=False, indent=2)
 
-def admin_required(func):
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        if not session.get("admin_logged"):
-            return jsonify({"success": False, "error": "Unauthorized"}), 401
-        return func(*args, **kwargs)
-    return wrapper
+# --- AUTH (simple session cookie) ---
+@app.route('/api/admin/login', methods=['POST'])
+def admin_login():
+    data = request.json
+    if not data or data.get('username') != ADMIN_USER or data.get('password') != ADMIN_PASSWORD:
+        return jsonify({'success': False, 'error': 'Identifiants invalides'}), 401
+    session['admin'] = True
+    return jsonify({'success': True})
 
-# ---- ROUTES PUBLIQUES ----
-@app.route("/api/competitions", methods=["GET"])
+@app.route('/api/admin/logout', methods=['POST'])
+def admin_logout():
+    session.pop('admin', None)
+    return jsonify({'success': True})
+
+def admin_required(f):
+    from functools import wraps
+    @wraps(f)
+    def wrap(*args, **kwargs):
+        if not session.get('admin'):
+            return jsonify({'success': False, 'error': 'Non autorisé'}), 403
+        return f(*args, **kwargs)
+    return wrap
+
+# --- ROUTES PUBLIQUES (compétitions validées) ---
+@app.route('/api/competitions', methods=['GET'])
 def get_competitions():
-    # Seules les compétitions validées (validated==1)
-    comps = [c for c in load_comps() if c.get("validated", 0) == 1]
-    return jsonify(comps)
+    comps = load_competitions()
+    return jsonify([c for c in comps if c.get("validated", 0)])
 
-@app.route("/api/competitions", methods=["POST"])
+@app.route('/api/competitions', methods=['POST'])
 def add_competition():
     data = request.json
-    required = ["nom", "famille", "date", "lieu", "lat", "lon"]
-    if not data or not all(field in data for field in required):
-        return jsonify({"success": False, "error": "Champs manquants"}), 400
-
-    comps = load_comps()
-    new_id = str(max([int(c["id"]) for c in comps] + [0]) + 1)
+    required = ['nom', 'famille', 'date', 'lieu', 'lat', 'lon']
+    if not all(k in data for k in required):
+        return jsonify({"error": "Champs manquants"}), 400
+    comps = load_competitions()
+    # Attribue un nouvel ID unique (max + 1)
+    existing_ids = [int(c['id']) for c in comps if str(c.get('id')).isdigit()]
+    new_id = str(max(existing_ids) + 1 if existing_ids else 1)
     comp = {
         "id": new_id,
-        "famille": data["famille"],
-        "date": data["date"],
-        "nom": data["nom"],
-        "lieu": data["lieu"],
-        "lat": data["lat"],
-        "lon": data["lon"],
-        "vent_deg": data.get("vent_deg"),
+        "famille": data['famille'],
+        "date": data['date'],
+        "nom": data['nom'],
+        "lieu": data['lieu'],
+        "lat": data['lat'],
+        "lon": data['lon'],
         "validated": 0
     }
     comps.append(comp)
-    save_comps(comps)
+    save_competitions(comps)
     return jsonify({"success": True, "id": new_id}), 201
 
-# ---- ADMIN AUTH ----
-@app.route("/api/admin/login", methods=["POST"])
-def admin_login():
-    data = request.json
-    if data and data.get("username") == ADMIN_USERNAME and data.get("password") == ADMIN_PASSWORD:
-        session["admin_logged"] = True
-        return jsonify({"success": True})
-    return jsonify({"success": False, "error": "Identifiants invalides"}), 401
-
-@app.route("/api/admin/logout", methods=["POST"])
+# --- ROUTES ADMIN (modération) ---
+@app.route('/api/admin/competitions', methods=['GET'])
 @admin_required
-def admin_logout():
-    session.pop("admin_logged", None)
-    return jsonify({"success": True})
+def admin_list():
+    return jsonify(load_competitions())
 
-# ---- ROUTES ADMIN : voir, valider, supprimer ----
-@app.route("/api/admin/competitions", methods=["GET"])
-@admin_required
-def admin_get_all():
-    comps = load_comps()
-    return jsonify(comps)
-
-@app.route("/api/admin/validate/<comp_id>", methods=["POST"])
+@app.route('/api/admin/validate/<comp_id>', methods=['POST'])
 @admin_required
 def admin_validate(comp_id):
-    comps = load_comps()
-    found = False
+    comps = load_competitions()
+    count = 0
     for c in comps:
-        if str(c["id"]) == str(comp_id):
-            c["validated"] = 1
-            found = True
-            break
-    if found:
-        save_comps(comps)
-        return jsonify({"success": True})
-    else:
-        return jsonify({"success": False, "error": "Compétition non trouvée"}), 404
+        if str(c['id']) == str(comp_id):
+            c['validated'] = 1
+            count += 1
+    save_competitions(comps)
+    return jsonify({"success": True, "validated": count})
 
-@app.route("/api/admin/delete/<comp_id>", methods=["POST"])
+@app.route('/api/admin/delete/<comp_id>', methods=['POST'])
 @admin_required
 def admin_delete(comp_id):
-    comps = load_comps()
-    new_comps = [c for c in comps if str(c["id"]) != str(comp_id)]
-    if len(new_comps) == len(comps):
-        return jsonify({"success": False, "error": "Compétition non trouvée"}), 404
-    save_comps(new_comps)
-    return jsonify({"success": True})
+    comps = load_competitions()
+    before = len(comps)
+    comps = [c for c in comps if str(c['id']) != str(comp_id)]
+    save_competitions(comps)
+    return jsonify({"success": True, "removed": before - len(comps)})
 
-# ---- SERVER ----
+# --- RUN ---
 if __name__ == "__main__":
     app.run(debug=True, port=5000)
