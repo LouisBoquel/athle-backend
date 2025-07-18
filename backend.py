@@ -1,110 +1,107 @@
-import os
 import json
-from flask import Flask, request, jsonify, session
+from flask import Flask, request, jsonify, g
+from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required
 from flask_cors import CORS
 
-# --- CONFIG ---
-JSON_PATH = "json/competitions_full_2025.json"
 ADMIN_USER = "admin"
-ADMIN_PASSWORD = "ton_mot_de_passe_fort"  # CHANGE MOI
-SECRET_KEY = "ta_secret_key_admin"        # CHANGE MOI AUSSI
+ADMIN_PASSWORD = "ton_mot_de_passe_fort"
+SECRET_KEY = "13457689"
+JSON_PATH = "json/competitions_full_2025.json"
 
 app = Flask(__name__)
 app.secret_key = SECRET_KEY
-CORS(app, supports_credentials=True, origins=['https://thegreenpadel.fr'])
+CORS(app, supports_credentials=True)
 
-# --- UTILS JSON ---
-def load_competitions():
-    if not os.path.exists(JSON_PATH):
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = "admin_login"
+
+# --- Chargement et sauvegarde JSON ---
+def load_json():
+    try:
+        with open(JSON_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
         return []
-    with open(JSON_PATH, encoding="utf-8") as f:
-        return json.load(f)
 
-def save_competitions(comps):
-    os.makedirs(os.path.dirname(JSON_PATH), exist_ok=True)
+def save_json(data):
     with open(JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(comps, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
-# --- AUTH (simple session cookie) ---
+# --- SÉCURITÉ ADMIN ---
+class AdminUser(UserMixin):
+    id = 1
+    username = ADMIN_USER
+
+@login_manager.user_loader
+def load_user(user_id):
+    if str(user_id) == "1":
+        return AdminUser()
+    return None
+
+# --- ROUTES PUBLIQUES ---
+@app.route('/api/competitions', methods=['GET'])
+def get_competitions():
+    data = load_json()
+    comps = [c for c in data if c.get("validated", 0) == 1]
+    return jsonify(comps)
+
+@app.route('/api/competitions', methods=['POST'])
+def add_competition():
+    data = request.json
+    required_fields = ['nom', 'famille', 'date', 'lieu', 'lat', 'lon']
+    if not all(f in data for f in required_fields):
+        return jsonify({"error": "Champs manquants"}), 400
+    comps = load_json()
+    # id = max + 1 pour éviter doublon avec FFA
+    data['id'] = max((int(c['id']) for c in comps), default=100000) + 1
+    data['validated'] = 0
+    comps.append(data)
+    save_json(comps)
+    return jsonify({"success": True, "id": data['id']}), 201
+
+# --- AUTHENTIFICATION ADMIN ---
 @app.route('/api/admin/login', methods=['POST'])
 def admin_login():
     data = request.json
     if not data or data.get('username') != ADMIN_USER or data.get('password') != ADMIN_PASSWORD:
         return jsonify({'success': False, 'error': 'Identifiants invalides'}), 401
-    session['admin'] = True
+    login_user(AdminUser())
     return jsonify({'success': True})
 
 @app.route('/api/admin/logout', methods=['POST'])
+@login_required
 def admin_logout():
-    session.pop('admin', None)
+    logout_user()
     return jsonify({'success': True})
 
-def admin_required(f):
-    from functools import wraps
-    @wraps(f)
-    def wrap(*args, **kwargs):
-        if not session.get('admin'):
-            return jsonify({'success': False, 'error': 'Non autorisé'}), 403
-        return f(*args, **kwargs)
-    return wrap
-
-# --- ROUTES PUBLIQUES (compétitions validées) ---
-@app.route('/api/competitions', methods=['GET'])
-def get_competitions():
-    comps = load_competitions()
-    return jsonify([c for c in comps if c.get("validated", 0)])
-
-@app.route('/api/competitions', methods=['POST'])
-def add_competition():
-    data = request.json
-    required = ['nom', 'famille', 'date', 'lieu', 'lat', 'lon']
-    if not all(k in data for k in required):
-        return jsonify({"error": "Champs manquants"}), 400
-    comps = load_competitions()
-    # Attribue un nouvel ID unique (max + 1)
-    existing_ids = [int(c['id']) for c in comps if str(c.get('id')).isdigit()]
-    new_id = str(max(existing_ids) + 1 if existing_ids else 1)
-    comp = {
-        "id": new_id,
-        "famille": data['famille'],
-        "date": data['date'],
-        "nom": data['nom'],
-        "lieu": data['lieu'],
-        "lat": data['lat'],
-        "lon": data['lon'],
-        "validated": 0
-    }
-    comps.append(comp)
-    save_competitions(comps)
-    return jsonify({"success": True, "id": new_id}), 201
-
-# --- ROUTES ADMIN (modération) ---
+# --- ENDPOINTS ADMIN ---
 @app.route('/api/admin/competitions', methods=['GET'])
-@admin_required
-def admin_list():
-    return jsonify(load_competitions())
+@login_required
+def admin_get_all():
+    comps = load_json()
+    return jsonify(comps)
 
-@app.route('/api/admin/validate/<comp_id>', methods=['POST'])
-@admin_required
+@app.route('/api/admin/validate/<int:comp_id>', methods=['POST'])
+@login_required
 def admin_validate(comp_id):
-    comps = load_competitions()
-    count = 0
+    comps = load_json()
+    modified = 0
     for c in comps:
-        if str(c['id']) == str(comp_id):
+        if int(c['id']) == int(comp_id):
             c['validated'] = 1
-            count += 1
-    save_competitions(comps)
-    return jsonify({"success": True, "validated": count})
+            modified += 1
+    save_json(comps)
+    return jsonify({"success": True, "validated": modified})
 
-@app.route('/api/admin/delete/<comp_id>', methods=['POST'])
-@admin_required
+@app.route('/api/admin/delete/<int:comp_id>', methods=['POST'])
+@login_required
 def admin_delete(comp_id):
-    comps = load_competitions()
-    before = len(comps)
-    comps = [c for c in comps if str(c['id']) != str(comp_id)]
-    save_competitions(comps)
-    return jsonify({"success": True, "removed": before - len(comps)})
+    comps = load_json()
+    n_before = len(comps)
+    comps = [c for c in comps if int(c['id']) != int(comp_id)]
+    save_json(comps)
+    return jsonify({"removed": n_before - len(comps), "success": True})
 
-# --- RUN ---
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True, port=5000)
