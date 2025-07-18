@@ -7,7 +7,7 @@
     "lieu": "Epinal",
     "lat": 48.1747684,
     "lon": 6.4503643,
-    "vent_deg": 29
+    "validated": 1
   },
   {
     "id": "302348",
@@ -17,7 +17,7 @@
     "lieu": "Saint etienne",
     "lat": 45.4401467,
     "lon": 4.3873058,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "304618",
@@ -27,7 +27,7 @@
     "lieu": "Saint denis",
     "lat": 48.935773,
     "lon": 2.3580232,
-    "vent_deg": 40
+    "validated": 1
   },
   {
     "id": "309364",
@@ -37,7 +37,7 @@
     "lieu": "Savigny sur orge",
     "lat": 48.6794572,
     "lon": 2.3458417,
-    "vent_deg": 120
+    "validated": 1
   },
   {
     "id": "302244",
@@ -47,7 +47,7 @@
     "lieu": "Noumea",
     "lat": -22.2745264,
     "lon": 166.442419,
-    "vent_deg": 74
+    "validated": 1
   },
   {
     "id": "308846",
@@ -57,7 +57,7 @@
     "lieu": "Cercy la tour",
     "lat": 46.8696643,
     "lon": 3.6457483,
-    "vent_deg": 125
+    "validated": 1
   },
   {
     "id": "302349",
@@ -67,7 +67,7 @@
     "lieu": "Thonon les bains",
     "lat": 46.3731303,
     "lon": 6.4779448,
-    "vent_deg": 19
+    "validated": 1
   },
   {
     "id": "309365",
@@ -77,7 +77,7 @@
     "lieu": "Savigny sur orge",
     "lat": 48.6794572,
     "lon": 2.3458417,
-    "vent_deg": 120
+    "validated": 1
   },
   {
     "id": "302245",
@@ -87,7 +87,7 @@
     "lieu": "Noumea",
     "lat": -22.2745264,
     "lon": 166.442419,
-    "vent_deg": 74
+    "validated": 1
   },
   {
     "id": "309246",
@@ -97,7 +97,7 @@
     "lieu": "Bastia",
     "lat": 42.6993979,
     "lon": 9.4509187,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "295073",
@@ -107,7 +107,7 @@
     "lieu": "Lans en vercors",
     "lat": 45.1279159,
     "lon": 5.5885485,
-    "vent_deg": 109
+    "validated": 1
   },
   {
     "id": "297534",
@@ -117,7 +117,7 @@
     "lieu": "Voutezac",
     "lat": 45.2910034,
     "lon": 1.4383612,
-    "vent_deg": 176
+    "validated": 1
   },
   {
     "id": "297831",
@@ -127,7 +127,7 @@
     "lieu": "Goos",
     "lat": 43.7297297,
     "lon": -0.9003665,
-    "vent_deg": 270
+    "validated": 1
   },
   {
     "id": "302138",
@@ -137,7 +137,7 @@
     "lieu": "Igon",
     "lat": 43.1599245,
     "lon": -0.2327802,
-    "vent_deg": 280
+    "validated": 1
   },
   {
     "id": "307395",
@@ -147,7 +147,7 @@
     "lieu": "Saint ambroix",
     "lat": 44.2600172,
     "lon": 4.19978,
-    "vent_deg": 49
+    "validated": 1
   },
   {
     "id": "295873",
@@ -157,7 +157,7 @@
     "lieu": "Villard reculas",
     "lat": 45.0914971,
     "lon": 6.0313171,
-    "vent_deg": 271
+    "validated": 1
   },
   {
     "id": "296479",
@@ -167,7 +167,7 @@
     "lieu": "Lods",
     "lat": 47.045525,
     "lon": 6.2478258,
-    "vent_deg": 41
+    "validated": 1
   },
   {
     "id": "295234",
@@ -177,7 +177,7 @@
     "lieu": "Oyonnax",
     "lat": 46.2575174,
     "lon": 5.6556181,
-    "vent_deg": 224
+    "validated": 1
   },
   {
     "id": "298150",
@@ -187,7 +187,7 @@
     "lieu": "Laveissiere",
     "lat": 45.1153617,
     "lon": 2.8079656,
-    "vent_deg": 158
+    "validated": 1
   },
   {
     "id": "299998",
@@ -197,7 +197,7 @@
     "lieu": "Ax les thermes",
     "lat": 42.7193597,
     "lon": 1.8379765,
-    "vent_deg": 113
+    "validated": 1
   },
   {
     "id": "293784",
@@ -207,7 +207,7 @@
     "lieu": "Abbaretz",
     "lat": 47.5525545,
     "lon": -1.5322775,
-    "vent_deg": 339
+    "validated": 1
   },
   {
     "id": "295466",
@@ -217,7 +217,7 @@
     "lieu": "Plougastel daoulas",
     "lat": 48.3742317,
     "lon": -4.369679,
-    "vent_deg": 180
+    "validated": 1
   },
   {
     "id": "295670",
@@ -227,7 +227,7 @@
     "lieu": "Arles sur tech",
     "lat": 42.4562149,
     "lon": 2.6343451,
-    "vent_deg": 139
+    "validated": 1
   },
   {
     "id": "295771",
@@ -237,7 +237,7 @@
     "lieu": "Saint gervais les bains",
     "lat": 45.8928549,
     "lon": 6.7113338,
-    "vent_deg": 245
+    "validated": 1
   },
   {
     "id": "296380",
@@ -247,7 +247,7 @@
     "lieu": "Saint marc a loubaud",
     "lat": 45.8487127,
     "lon": 1.9961602,
-    "vent_deg": 65
+    "validated": 1
   },
   {
     "id": "296452",
@@ -257,7 +257,7 @@
     "lieu": "Belves",
     "lat": 44.7460712,
     "lon": 0.9751867,
-    "vent_deg": 219
+    "validated": 1
   },
   {
     "id": "296655",
@@ -267,7 +267,7 @@
     "lieu": "Corbere les cabanes",
     "lat": 42.6571712,
     "lon": 2.6737081,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "296963",
@@ -277,7 +277,7 @@
     "lieu": "La bresse",
     "lat": 48.0066282,
     "lon": 6.8766915,
-    "vent_deg": 81
+    "validated": 1
   },
   {
     "id": "297823",
@@ -287,7 +287,7 @@
     "lieu": "Verjon",
     "lat": 46.3463405,
     "lon": 5.3506518,
-    "vent_deg": 299
+    "validated": 1
   },
   {
     "id": "299016",
@@ -297,7 +297,7 @@
     "lieu": "Oderen",
     "lat": 47.909675,
     "lon": 6.9756051,
-    "vent_deg": 113
+    "validated": 1
   },
   {
     "id": "299173",
@@ -307,7 +307,7 @@
     "lieu": "La mailleraye sur seine",
     "lat": 49.4475415,
     "lon": 0.7504418,
-    "vent_deg": 147
+    "validated": 1
   },
   {
     "id": "299955",
@@ -317,7 +317,7 @@
     "lieu": "Montrond les bains",
     "lat": 45.6433431,
     "lon": 4.2299344,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "300028",
@@ -327,7 +327,7 @@
     "lieu": "Voegtlinshofen",
     "lat": null,
     "lon": null,
-    "vent_deg": null
+    "validated": 1
   },
   {
     "id": "301402",
@@ -337,7 +337,7 @@
     "lieu": "Paris",
     "lat": 48.8534951,
     "lon": 2.3483915,
-    "vent_deg": 120
+    "validated": 1
   },
   {
     "id": "301442",
@@ -347,7 +347,7 @@
     "lieu": "Le port",
     "lat": 42.8662832,
     "lon": 1.3740316,
-    "vent_deg": 1
+    "validated": 1
   },
   {
     "id": "301615",
@@ -357,7 +357,7 @@
     "lieu": "Saint jouvent",
     "lat": 45.9572716,
     "lon": 1.2052833,
-    "vent_deg": 60
+    "validated": 1
   },
   {
     "id": "304354",
@@ -367,7 +367,7 @@
     "lieu": "Queige",
     "lat": 45.7198103,
     "lon": 6.4597224,
-    "vent_deg": 242
+    "validated": 1
   },
   {
     "id": "305500",
@@ -377,7 +377,7 @@
     "lieu": "Avezan",
     "lat": 43.8769444,
     "lon": 0.7966667,
-    "vent_deg": 260
+    "validated": 1
   },
   {
     "id": "305872",
@@ -387,7 +387,7 @@
     "lieu": "La bresse",
     "lat": 48.0066282,
     "lon": 6.8766915,
-    "vent_deg": 81
+    "validated": 1
   },
   {
     "id": "307034",
@@ -397,7 +397,7 @@
     "lieu": "Biot",
     "lat": 43.6270041,
     "lon": 7.0989546,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "307409",
@@ -407,7 +407,7 @@
     "lieu": "Saint jean de la haize",
     "lat": 48.7037065,
     "lon": -1.3608267,
-    "vent_deg": 346
+    "validated": 1
   },
   {
     "id": "299373",
@@ -417,7 +417,7 @@
     "lieu": "Briancon",
     "lat": 44.8984037,
     "lon": 6.6436313,
-    "vent_deg": 229
+    "validated": 1
   },
   {
     "id": "299905",
@@ -427,7 +427,7 @@
     "lieu": "Saint lary soulan",
     "lat": 42.816936,
     "lon": 0.3219538,
-    "vent_deg": 188
+    "validated": 1
   },
   {
     "id": "301227",
@@ -437,7 +437,7 @@
     "lieu": "Colmars",
     "lat": 44.1814485,
     "lon": 6.6270041,
-    "vent_deg": 227
+    "validated": 1
   },
   {
     "id": "302033",
@@ -447,7 +447,7 @@
     "lieu": "Les gets",
     "lat": 46.1550977,
     "lon": 6.6633354,
-    "vent_deg": 316
+    "validated": 1
   },
   {
     "id": "295404",
@@ -457,7 +457,7 @@
     "lieu": "Bernay",
     "lat": 49.0902278,
     "lon": 0.5989157,
-    "vent_deg": 172
+    "validated": 1
   },
   {
     "id": "308438",
@@ -467,7 +467,7 @@
     "lieu": "Abbaretz",
     "lat": 47.5525545,
     "lon": -1.5322775,
-    "vent_deg": 339
+    "validated": 1
   },
   {
     "id": "294315",
@@ -477,7 +477,7 @@
     "lieu": "Pornic",
     "lat": 47.1152695,
     "lon": -2.1040102,
-    "vent_deg": 355
+    "validated": 1
   },
   {
     "id": "294590",
@@ -487,7 +487,7 @@
     "lieu": "Manigod",
     "lat": 45.8609621,
     "lon": 6.3697041,
-    "vent_deg": 267
+    "validated": 1
   },
   {
     "id": "295034",
@@ -497,7 +497,7 @@
     "lieu": "Courthezon",
     "lat": 44.0867088,
     "lon": 4.8835125,
-    "vent_deg": 340
+    "validated": 1
   },
   {
     "id": "295037",
@@ -507,7 +507,7 @@
     "lieu": "Cuttoli corticchiato",
     "lat": 41.9778633,
     "lon": 8.8880341,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "296046",
@@ -517,7 +517,7 @@
     "lieu": "Saint victor sur ouche",
     "lat": 47.2339062,
     "lon": 4.7456575,
-    "vent_deg": 83
+    "validated": 1
   },
   {
     "id": "296376",
@@ -527,7 +527,7 @@
     "lieu": "Migne",
     "lat": 46.7164122,
     "lon": 1.3179504,
-    "vent_deg": 93
+    "validated": 1
   },
   {
     "id": "297276",
@@ -537,7 +537,7 @@
     "lieu": "Berville",
     "lat": 49.7076762,
     "lon": 0.8325183,
-    "vent_deg": 161
+    "validated": 1
   },
   {
     "id": "297459",
@@ -547,7 +547,7 @@
     "lieu": "Saint bonnet le bourg",
     "lat": 45.43399,
     "lon": 3.60751,
-    "vent_deg": 161
+    "validated": 1
   },
   {
     "id": "297795",
@@ -557,7 +557,7 @@
     "lieu": "Ambrugeat",
     "lat": 45.5271448,
     "lon": 2.1186513,
-    "vent_deg": 158
+    "validated": 1
   },
   {
     "id": "297810",
@@ -567,7 +567,7 @@
     "lieu": "Belmont de la loire",
     "lat": 46.1658779,
     "lon": 4.3463482,
-    "vent_deg": 80
+    "validated": 1
   },
   {
     "id": "297818",
@@ -577,7 +577,7 @@
     "lieu": "Saint aubin de luigne",
     "lat": 47.3210699,
     "lon": -0.6708303,
-    "vent_deg": 191
+    "validated": 1
   },
   {
     "id": "298227",
@@ -587,7 +587,7 @@
     "lieu": "Allonnes",
     "lat": 47.969283,
     "lon": 0.1578819,
-    "vent_deg": 130
+    "validated": 1
   },
   {
     "id": "298331",
@@ -597,7 +597,7 @@
     "lieu": "Quievy",
     "lat": 50.1659358,
     "lon": 3.4269019,
-    "vent_deg": 58
+    "validated": 1
   },
   {
     "id": "298514",
@@ -607,7 +607,7 @@
     "lieu": "Rochefort montagne",
     "lat": 45.6838904,
     "lon": 2.8050875,
-    "vent_deg": 85
+    "validated": 1
   },
   {
     "id": "298714",
@@ -617,7 +617,7 @@
     "lieu": "Saint georges de didonne",
     "lat": 45.6024886,
     "lon": -0.997949,
-    "vent_deg": 313
+    "validated": 1
   },
   {
     "id": "299163",
@@ -627,7 +627,7 @@
     "lieu": "Boulzicourt",
     "lat": 49.6949638,
     "lon": 4.6944671,
-    "vent_deg": 130
+    "validated": 1
   },
   {
     "id": "299266",
@@ -637,7 +637,7 @@
     "lieu": "Biganos",
     "lat": 44.642014,
     "lon": -0.9766226,
-    "vent_deg": 320
+    "validated": 1
   },
   {
     "id": "299476",
@@ -647,7 +647,7 @@
     "lieu": "Felines",
     "lat": 45.3170207,
     "lon": 4.728122,
-    "vent_deg": 31
+    "validated": 1
   },
   {
     "id": "299602",
@@ -657,7 +657,7 @@
     "lieu": "Mende",
     "lat": 44.5180226,
     "lon": 3.4991057,
-    "vent_deg": 314
+    "validated": 1
   },
   {
     "id": "299695",
@@ -667,7 +667,7 @@
     "lieu": "Gaillan en medoc",
     "lat": 45.3234694,
     "lon": -0.9578932,
-    "vent_deg": 307
+    "validated": 1
   },
   {
     "id": "299938",
@@ -677,7 +677,7 @@
     "lieu": "Bretteville sur ay",
     "lat": 49.2600419,
     "lon": -1.6330942,
-    "vent_deg": 346
+    "validated": 1
   },
   {
     "id": "301298",
@@ -687,7 +687,7 @@
     "lieu": "Mons la trivalle",
     "lat": 43.5666226,
     "lon": 2.9597045,
-    "vent_deg": 90
+    "validated": 1
   },
   {
     "id": "301329",
@@ -697,7 +697,7 @@
     "lieu": "Thelus",
     "lat": 50.354547,
     "lon": 2.8001074,
-    "vent_deg": 137
+    "validated": 1
   },
   {
     "id": "301445",
@@ -707,7 +707,7 @@
     "lieu": "La plaine des palmistes",
     "lat": -21.1360638,
     "lon": 55.6399545,
-    "vent_deg": 151
+    "validated": 1
   },
   {
     "id": "301965",
@@ -717,7 +717,7 @@
     "lieu": "Bidarray",
     "lat": 43.2670721,
     "lon": -1.3510613,
-    "vent_deg": 306
+    "validated": 1
   },
   {
     "id": "302066",
@@ -727,7 +727,7 @@
     "lieu": "Gien",
     "lat": 47.6918575,
     "lon": 2.6313889,
-    "vent_deg": 117
+    "validated": 1
   },
   {
     "id": "302123",
@@ -737,7 +737,7 @@
     "lieu": "Urdos",
     "lat": 42.8730148,
     "lon": -0.5550375,
-    "vent_deg": 201
+    "validated": 1
   },
   {
     "id": "302859",
@@ -747,7 +747,7 @@
     "lieu": "Barry d'islemade",
     "lat": 44.0777342,
     "lon": 1.2455919,
-    "vent_deg": 249
+    "validated": 1
   },
   {
     "id": "304107",
@@ -757,7 +757,7 @@
     "lieu": "Nogent le bernard",
     "lat": 48.2359975,
     "lon": 0.4900954,
-    "vent_deg": 169
+    "validated": 1
   },
   {
     "id": "306009",
@@ -767,7 +767,7 @@
     "lieu": "Argentiere",
     "lat": 45.9838402,
     "lon": 6.9298616,
-    "vent_deg": 292
+    "validated": 1
   },
   {
     "id": "307012",
@@ -777,7 +777,7 @@
     "lieu": "La lucerne d'outremer",
     "lat": 48.7855292,
     "lon": -1.4238126,
-    "vent_deg": 348
+    "validated": 1
   },
   {
     "id": "308741",
@@ -787,7 +787,7 @@
     "lieu": "Poilley",
     "lat": 48.6183654,
     "lon": -1.3099571,
-    "vent_deg": 340
+    "validated": 1
   },
   {
     "id": "306311",
@@ -797,7 +797,7 @@
     "lieu": "Saint claude",
     "lat": 46.3874699,
     "lon": 5.8643866,
-    "vent_deg": 171
+    "validated": 1
   },
   {
     "id": "300161",
@@ -807,7 +807,7 @@
     "lieu": "Les deux alpes",
     "lat": 45.0099949,
     "lon": 6.1237609,
-    "vent_deg": 260
+    "validated": 1
   },
   {
     "id": "308565",
@@ -817,7 +817,7 @@
     "lieu": "Castelnau montratier",
     "lat": 44.2705036,
     "lon": 1.3543304,
-    "vent_deg": 219
+    "validated": 1
   },
   {
     "id": "298965",
@@ -827,7 +827,7 @@
     "lieu": "Begaar",
     "lat": 43.8227791,
     "lon": -0.8489899,
-    "vent_deg": 287
+    "validated": 1
   },
   {
     "id": "302105",
@@ -837,7 +837,7 @@
     "lieu": "Saint sauveur",
     "lat": 49.9380929,
     "lon": 2.2120112,
-    "vent_deg": 142
+    "validated": 1
   },
   {
     "id": "302115",
@@ -847,7 +847,7 @@
     "lieu": "Lacommande",
     "lat": 43.2777179,
     "lon": -0.5089142,
-    "vent_deg": 280
+    "validated": 1
   },
   {
     "id": "302128",
@@ -857,7 +857,7 @@
     "lieu": "Ger",
     "lat": 43.2525682,
     "lon": -0.0525885,
-    "vent_deg": 280
+    "validated": 1
   },
   {
     "id": "306067",
@@ -867,7 +867,7 @@
     "lieu": "Escatalens",
     "lat": 43.9858333,
     "lon": 1.1897222,
-    "vent_deg": 257
+    "validated": 1
   },
   {
     "id": "297975",
@@ -877,7 +877,7 @@
     "lieu": "Vars",
     "lat": 47.5343201,
     "lon": 5.5342065,
-    "vent_deg": 61
+    "validated": 1
   },
   {
     "id": "294460",
@@ -887,7 +887,7 @@
     "lieu": "Orgelet",
     "lat": 46.5205835,
     "lon": 5.6109831,
-    "vent_deg": 293
+    "validated": 1
   },
   {
     "id": "295556",
@@ -897,7 +897,7 @@
     "lieu": "Verton",
     "lat": 50.4015533,
     "lon": 1.6507982,
-    "vent_deg": 140
+    "validated": 1
   },
   {
     "id": "295567",
@@ -907,7 +907,7 @@
     "lieu": "Guerlesquin",
     "lat": 48.517454,
     "lon": -3.588165,
-    "vent_deg": 220
+    "validated": 1
   },
   {
     "id": "296203",
@@ -917,7 +917,7 @@
     "lieu": "Martigues",
     "lat": 43.4057279,
     "lon": 5.0548176,
-    "vent_deg": 310
+    "validated": 1
   },
   {
     "id": "297347",
@@ -927,7 +927,7 @@
     "lieu": "Villejesus",
     "lat": 45.9063712,
     "lon": 0.0329026,
-    "vent_deg": 138
+    "validated": 1
   },
   {
     "id": "298623",
@@ -937,7 +937,7 @@
     "lieu": "Origny sainte benoite",
     "lat": 49.8399408,
     "lon": 3.4879558,
-    "vent_deg": 110
+    "validated": 1
   },
   {
     "id": "301446",
@@ -947,7 +947,7 @@
     "lieu": "Salazie",
     "lat": -21.0243835,
     "lon": 55.543545,
-    "vent_deg": 110
+    "validated": 1
   },
   {
     "id": "301890",
@@ -957,7 +957,7 @@
     "lieu": "Prez",
     "lat": 49.79979,
     "lon": 4.35061,
-    "vent_deg": 135
+    "validated": 1
   },
   {
     "id": "302127",
@@ -967,7 +967,7 @@
     "lieu": "Sauvagnon",
     "lat": 43.404401,
     "lon": -0.3858932,
-    "vent_deg": 280
+    "validated": 1
   },
   {
     "id": "302133",
@@ -977,7 +977,7 @@
     "lieu": "Chaum",
     "lat": 42.9376097,
     "lon": 0.6556996,
-    "vent_deg": 333
+    "validated": 1
   },
   {
     "id": "303629",
@@ -987,7 +987,7 @@
     "lieu": "Saint disdier",
     "lat": 44.7349442,
     "lon": 5.8953542,
-    "vent_deg": 358
+    "validated": 1
   },
   {
     "id": "305778",
@@ -997,7 +997,7 @@
     "lieu": "Vabre",
     "lat": 43.6938078,
     "lon": 2.4255195,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "308035",
@@ -1007,7 +1007,7 @@
     "lieu": "Bomy",
     "lat": 50.5744328,
     "lon": 2.2354651,
-    "vent_deg": 176
+    "validated": 1
   },
   {
     "id": "308362",
@@ -1017,7 +1017,7 @@
     "lieu": "Vallauris",
     "lat": 43.5761001,
     "lon": 7.05859,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "296656",
@@ -1027,7 +1027,7 @@
     "lieu": "Porte puymorens",
     "lat": 42.5488878,
     "lon": 1.833462,
-    "vent_deg": 174
+    "validated": 1
   },
   {
     "id": "297084",
@@ -1037,7 +1037,7 @@
     "lieu": "Le bourg d'oisans",
     "lat": 45.054713,
     "lon": 6.0306625,
-    "vent_deg": 261
+    "validated": 1
   },
   {
     "id": "306310",
@@ -1047,7 +1047,7 @@
     "lieu": "Capesterre belle eau",
     "lat": 16.0423322,
     "lon": -61.5697274,
-    "vent_deg": 76
+    "validated": 1
   },
   {
     "id": "292075",
@@ -1057,7 +1057,7 @@
     "lieu": "Locunole",
     "lat": 47.9363705,
     "lon": -3.4784972,
-    "vent_deg": 345
+    "validated": 1
   },
   {
     "id": "293592",
@@ -1067,7 +1067,7 @@
     "lieu": "Saint etienne de tinee",
     "lat": 44.2564013,
     "lon": 6.9249179,
-    "vent_deg": 216
+    "validated": 1
   },
   {
     "id": "293659",
@@ -1077,7 +1077,7 @@
     "lieu": "Saint nazaire",
     "lat": 47.2733517,
     "lon": -2.2138905,
-    "vent_deg": 360
+    "validated": 1
   },
   {
     "id": "295275",
@@ -1087,7 +1087,7 @@
     "lieu": "Ille sur tet",
     "lat": 42.6709665,
     "lon": 2.6224853,
-    "vent_deg": 93
+    "validated": 1
   },
   {
     "id": "295719",
@@ -1097,7 +1097,7 @@
     "lieu": "La barre de monts",
     "lat": 46.8848965,
     "lon": -2.1163235,
-    "vent_deg": 353
+    "validated": 1
   },
   {
     "id": "295897",
@@ -1107,7 +1107,7 @@
     "lieu": "Harcourt",
     "lat": 49.1668691,
     "lon": 0.7857071,
-    "vent_deg": 155
+    "validated": 1
   },
   {
     "id": "296239",
@@ -1117,7 +1117,7 @@
     "lieu": "Quiberon",
     "lat": 47.4874,
     "lon": -3.12152,
-    "vent_deg": 333
+    "validated": 1
   },
   {
     "id": "296277",
@@ -1127,7 +1127,7 @@
     "lieu": "La faute sur mer",
     "lat": 46.332778,
     "lon": -1.321367,
-    "vent_deg": 340
+    "validated": 1
   },
   {
     "id": "296463",
@@ -1137,7 +1137,7 @@
     "lieu": "Thenon",
     "lat": 45.1371,
     "lon": 1.06994,
-    "vent_deg": 179
+    "validated": 1
   },
   {
     "id": "296680",
@@ -1147,7 +1147,7 @@
     "lieu": "Serralongue",
     "lat": 42.3975059,
     "lon": 2.5559092,
-    "vent_deg": 141
+    "validated": 1
   },
   {
     "id": "297033",
@@ -1157,7 +1157,7 @@
     "lieu": "Perros guirec",
     "lat": 48.8151133,
     "lon": -3.4394662,
-    "vent_deg": 270
+    "validated": 1
   },
   {
     "id": "297552",
@@ -1167,7 +1167,7 @@
     "lieu": "Bapaume",
     "lat": 50.1038393,
     "lon": 2.8496211,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "297953",
@@ -1177,7 +1177,7 @@
     "lieu": "Grignan",
     "lat": 44.4205,
     "lon": 4.90993,
-    "vent_deg": 2
+    "validated": 1
   },
   {
     "id": "298055",
@@ -1187,7 +1187,7 @@
     "lieu": "Campeneac",
     "lat": 47.9586458,
     "lon": -2.2924529,
-    "vent_deg": 8
+    "validated": 1
   },
   {
     "id": "298089",
@@ -1197,7 +1197,7 @@
     "lieu": "Pralognan la vanoise",
     "lat": 45.381809,
     "lon": 6.7212822,
-    "vent_deg": 294
+    "validated": 1
   },
   {
     "id": "298253",
@@ -1207,7 +1207,7 @@
     "lieu": "Saint sauveur",
     "lat": 49.9380929,
     "lon": 2.2120112,
-    "vent_deg": 142
+    "validated": 1
   },
   {
     "id": "298501",
@@ -1217,7 +1217,7 @@
     "lieu": "Clavieres",
     "lat": 44.9854418,
     "lon": 3.2773532,
-    "vent_deg": 73
+    "validated": 1
   },
   {
     "id": "298566",
@@ -1227,7 +1227,7 @@
     "lieu": "Saint etienne de tinee",
     "lat": 44.2564013,
     "lon": 6.9249179,
-    "vent_deg": 216
+    "validated": 1
   },
   {
     "id": "300492",
@@ -1237,7 +1237,7 @@
     "lieu": "Saint goussaud",
     "lat": 46.0404269,
     "lon": 1.5779222,
-    "vent_deg": 90
+    "validated": 1
   },
   {
     "id": "300523",
@@ -1247,7 +1247,7 @@
     "lieu": "Vendays montalivet",
     "lat": 45.3555884,
     "lon": -1.0593641,
-    "vent_deg": 311
+    "validated": 1
   },
   {
     "id": "301447",
@@ -1257,7 +1257,7 @@
     "lieu": "Saint denis",
     "lat": 48.935773,
     "lon": 2.3580232,
-    "vent_deg": 40
+    "validated": 1
   },
   {
     "id": "301450",
@@ -1267,7 +1267,7 @@
     "lieu": "Les trois bassins",
     "lat": -21.1137892,
     "lon": 55.3359811,
-    "vent_deg": 152
+    "validated": 1
   },
   {
     "id": "303166",
@@ -1277,7 +1277,7 @@
     "lieu": "Prapoutel",
     "lat": 45.2567786,
     "lon": 5.9954353,
-    "vent_deg": 304
+    "validated": 1
   },
   {
     "id": "303559",
@@ -1287,7 +1287,7 @@
     "lieu": "Buais",
     "lat": 48.5221945,
     "lon": -0.969104,
-    "vent_deg": 287
+    "validated": 1
   },
   {
     "id": "305980",
@@ -1297,7 +1297,7 @@
     "lieu": "Escolives sainte camille",
     "lat": 47.7178191,
     "lon": 3.6069131,
-    "vent_deg": 98
+    "validated": 1
   },
   {
     "id": "306015",
@@ -1307,7 +1307,7 @@
     "lieu": "Mazeres",
     "lat": 44.4948895,
     "lon": -0.2586472,
-    "vent_deg": 277
+    "validated": 1
   },
   {
     "id": "306321",
@@ -1317,7 +1317,7 @@
     "lieu": "Entraunes",
     "lat": 44.1880502,
     "lon": 6.7489678,
-    "vent_deg": 223
+    "validated": 1
   },
   {
     "id": "308228",
@@ -1327,7 +1327,7 @@
     "lieu": "Plouasne",
     "lat": 48.3001245,
     "lon": -2.0077252,
-    "vent_deg": 356
+    "validated": 1
   },
   {
     "id": "295813",
@@ -1337,7 +1337,7 @@
     "lieu": "Leucate",
     "lat": 42.910007,
     "lon": 3.0270222,
-    "vent_deg": 156
+    "validated": 1
   },
   {
     "id": "295167",
@@ -1347,7 +1347,7 @@
     "lieu": "Macot la plagne",
     "lat": 45.5223052,
     "lon": 6.6933643,
-    "vent_deg": 286
+    "validated": 1
   },
   {
     "id": "302350",
@@ -1357,7 +1357,7 @@
     "lieu": "Talence",
     "lat": 44.8088438,
     "lon": -0.5879629,
-    "vent_deg": 300
+    "validated": 1
   },
   {
     "id": "302246",
@@ -1367,7 +1367,7 @@
     "lieu": "Noumea",
     "lat": -22.2745264,
     "lon": 166.442419,
-    "vent_deg": 74
+    "validated": 1
   },
   {
     "id": "305133",
@@ -1377,7 +1377,7 @@
     "lieu": "Noumea",
     "lat": -22.2745264,
     "lon": 166.442419,
-    "vent_deg": 74
+    "validated": 1
   },
   {
     "id": "302247",
@@ -1387,7 +1387,7 @@
     "lieu": "Mont dore",
     "lat": 45.5749966,
     "lon": 2.8094117,
-    "vent_deg": 164
+    "validated": 1
   },
   {
     "id": "304806",
@@ -1397,7 +1397,7 @@
     "lieu": "Noumea",
     "lat": -22.2745264,
     "lon": 166.442419,
-    "vent_deg": 74
+    "validated": 1
   },
   {
     "id": "303497",
@@ -1407,7 +1407,7 @@
     "lieu": "Chasseneuil sur bonnieure",
     "lat": 45.8239655,
     "lon": 0.4487238,
-    "vent_deg": 155
+    "validated": 1
   },
   {
     "id": "302248",
@@ -1417,7 +1417,7 @@
     "lieu": "Mont dore",
     "lat": 45.5749966,
     "lon": 2.8094117,
-    "vent_deg": 164
+    "validated": 1
   },
   {
     "id": "301265",
@@ -1427,7 +1427,7 @@
     "lieu": "Gujan mestras",
     "lat": 44.6360982,
     "lon": -1.0714014,
-    "vent_deg": 320
+    "validated": 1
   },
   {
     "id": "305134",
@@ -1437,7 +1437,7 @@
     "lieu": "Noumea",
     "lat": -22.2745264,
     "lon": 166.442419,
-    "vent_deg": 74
+    "validated": 1
   },
   {
     "id": "305153",
@@ -1447,7 +1447,7 @@
     "lieu": "Nantua",
     "lat": 46.1534255,
     "lon": 5.6058987,
-    "vent_deg": 232
+    "validated": 1
   },
   {
     "id": "309445",
@@ -1457,7 +1457,7 @@
     "lieu": "Albi",
     "lat": 43.9277552,
     "lon": 2.147899,
-    "vent_deg": 301
+    "validated": 1
   },
   {
     "id": "304188",
@@ -1467,7 +1467,7 @@
     "lieu": "Saint florentin",
     "lat": 48.00172,
     "lon": 3.7280106,
-    "vent_deg": 110
+    "validated": 1
   },
   {
     "id": "309214",
@@ -1477,7 +1477,7 @@
     "lieu": "Thaon les vosges",
     "lat": 48.2494845,
     "lon": 6.4123612,
-    "vent_deg": 36
+    "validated": 1
   },
   {
     "id": "309330",
@@ -1487,7 +1487,7 @@
     "lieu": "Nantes",
     "lat": 47.2186371,
     "lon": -1.5541362,
-    "vent_deg": 330
+    "validated": 1
   },
   {
     "id": "307806",
@@ -1497,7 +1497,7 @@
     "lieu": "Colline beaumont",
     "lat": 50.3398311,
     "lon": 1.6808146,
-    "vent_deg": 146
+    "validated": 1
   },
   {
     "id": "305820",
@@ -1507,7 +1507,7 @@
     "lieu": "Ploufragan",
     "lat": 48.4893432,
     "lon": -2.7933133,
-    "vent_deg": 310
+    "validated": 1
   },
   {
     "id": "297265",
@@ -1517,7 +1517,7 @@
     "lieu": "Roquebilliere",
     "lat": 44.0127173,
     "lon": 7.307673,
-    "vent_deg": 192
+    "validated": 1
   },
   {
     "id": "299254",
@@ -1527,7 +1527,7 @@
     "lieu": "Peyrehorade",
     "lat": 43.5440941,
     "lon": -1.105088,
-    "vent_deg": 270
+    "validated": 1
   },
   {
     "id": "309443",
@@ -1537,7 +1537,7 @@
     "lieu": "Bezac",
     "lat": 43.1485929,
     "lon": 1.5753874,
-    "vent_deg": 309
+    "validated": 1
   },
   {
     "id": "296702",
@@ -1547,7 +1547,7 @@
     "lieu": "Nedde",
     "lat": 45.7192783,
     "lon": 1.8314484,
-    "vent_deg": 236
+    "validated": 1
   },
   {
     "id": "297102",
@@ -1557,7 +1557,7 @@
     "lieu": "Plouhinec",
     "lat": 48.0153626,
     "lon": -4.4877863,
-    "vent_deg": 307
+    "validated": 1
   },
   {
     "id": "297412",
@@ -1567,7 +1567,7 @@
     "lieu": "Cuq les vielmur",
     "lat": null,
     "lon": null,
-    "vent_deg": null
+    "validated": 1
   },
   {
     "id": "298093",
@@ -1577,7 +1577,7 @@
     "lieu": "Surbourg",
     "lat": 48.9090322,
     "lon": 7.8497513,
-    "vent_deg": 320
+    "validated": 1
   },
   {
     "id": "298681",
@@ -1587,7 +1587,7 @@
     "lieu": "Saint germain du bel air",
     "lat": 44.6465961,
     "lon": 1.4393677,
-    "vent_deg": 193
+    "validated": 1
   },
   {
     "id": "298690",
@@ -1597,7 +1597,7 @@
     "lieu": "Briennon",
     "lat": 46.1486343,
     "lon": 4.0867174,
-    "vent_deg": 122
+    "validated": 1
   },
   {
     "id": "301396",
@@ -1607,7 +1607,7 @@
     "lieu": "Paris",
     "lat": 48.8534951,
     "lon": 2.3483915,
-    "vent_deg": 120
+    "validated": 1
   },
   {
     "id": "301651",
@@ -1617,7 +1617,7 @@
     "lieu": "Saint leu",
     "lat": -21.1677694,
     "lon": 55.2881932,
-    "vent_deg": 147
+    "validated": 1
   },
   {
     "id": "302129",
@@ -1627,7 +1627,7 @@
     "lieu": "Aydius",
     "lat": 43.0015205,
     "lon": -0.5419161,
-    "vent_deg": 340
+    "validated": 1
   },
   {
     "id": "304521",
@@ -1637,7 +1637,7 @@
     "lieu": "Merlimont",
     "lat": 50.4553061,
     "lon": 1.614809,
-    "vent_deg": 140
+    "validated": 1
   },
   {
     "id": "307454",
@@ -1647,7 +1647,7 @@
     "lieu": "Cubierettes",
     "lat": 44.4597,
     "lon": 3.78693,
-    "vent_deg": 259
+    "validated": 1
   },
   {
     "id": "300187",
@@ -1657,7 +1657,7 @@
     "lieu": "Merlette",
     "lat": 17.9133969,
     "lon": -62.8536857,
-    "vent_deg": 119
+    "validated": 1
   },
   {
     "id": "303652",
@@ -1667,7 +1667,7 @@
     "lieu": "Beaufort",
     "lat": 50.2144406,
     "lon": 3.9615305,
-    "vent_deg": 329
+    "validated": 1
   },
   {
     "id": "292919",
@@ -1677,7 +1677,7 @@
     "lieu": "Villenoy",
     "lat": 48.9412182,
     "lon": 2.8596553,
-    "vent_deg": 113
+    "validated": 1
   },
   {
     "id": "294308",
@@ -1687,7 +1687,7 @@
     "lieu": "Saint hilaire de riez",
     "lat": 46.7199488,
     "lon": -1.9461437,
-    "vent_deg": 348
+    "validated": 1
   },
   {
     "id": "294333",
@@ -1697,7 +1697,7 @@
     "lieu": "Villefranche du perigord",
     "lat": 44.6300268,
     "lon": 1.0808003,
-    "vent_deg": 221
+    "validated": 1
   },
   {
     "id": "295038",
@@ -1707,7 +1707,7 @@
     "lieu": "Vezzani",
     "lat": 42.17362,
     "lon": 9.2461,
-    "vent_deg": 121
+    "validated": 1
   },
   {
     "id": "295277",
@@ -1717,7 +1717,7 @@
     "lieu": "Saint laurent de la salan",
     "lat": null,
     "lon": null,
-    "vent_deg": null
+    "validated": 1
   },
   {
     "id": "295531",
@@ -1727,7 +1727,7 @@
     "lieu": "Saint sever calvados",
     "lat": 48.8253485,
     "lon": -1.0403589,
-    "vent_deg": 356
+    "validated": 1
   },
   {
     "id": "296227",
@@ -1737,7 +1737,7 @@
     "lieu": "Chabrillan",
     "lat": 44.724,
     "lon": 4.94344,
-    "vent_deg": 355
+    "validated": 1
   },
   {
     "id": "296403",
@@ -1747,7 +1747,7 @@
     "lieu": "Xonrupt longemer",
     "lat": 48.0812783,
     "lon": 6.9266841,
-    "vent_deg": 59
+    "validated": 1
   },
   {
     "id": "296860",
@@ -1757,7 +1757,7 @@
     "lieu": "Sainte anastasie sur isso",
     "lat": null,
     "lon": null,
-    "vent_deg": null
+    "validated": 1
   },
   {
     "id": "296994",
@@ -1767,7 +1767,7 @@
     "lieu": "Ferrette",
     "lat": 47.4944546,
     "lon": 7.3141424,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "297078",
@@ -1777,7 +1777,7 @@
     "lieu": "Saugues",
     "lat": 44.959244,
     "lon": 3.5446108,
-    "vent_deg": 62
+    "validated": 1
   },
   {
     "id": "297152",
@@ -1787,7 +1787,7 @@
     "lieu": "Turckheim",
     "lat": 48.0878217,
     "lon": 7.278011,
-    "vent_deg": 140
+    "validated": 1
   },
   {
     "id": "297257",
@@ -1797,7 +1797,7 @@
     "lieu": "Vigeois",
     "lat": 45.3794309,
     "lon": 1.5160928,
-    "vent_deg": 173
+    "validated": 1
   },
   {
     "id": "297357",
@@ -1807,7 +1807,7 @@
     "lieu": "Saint abraham",
     "lat": 47.85528,
     "lon": -2.41052,
-    "vent_deg": 9
+    "validated": 1
   },
   {
     "id": "297435",
@@ -1817,7 +1817,7 @@
     "lieu": "Saint christophe en oisan",
     "lat": null,
     "lon": null,
-    "vent_deg": null
+    "validated": 1
   },
   {
     "id": "297530",
@@ -1827,7 +1827,7 @@
     "lieu": "Valreas",
     "lat": 44.3851455,
     "lon": 4.9906089,
-    "vent_deg": 6
+    "validated": 1
   },
   {
     "id": "297551",
@@ -1837,7 +1837,7 @@
     "lieu": "La tour d'auvergne",
     "lat": 45.5326791,
     "lon": 2.6896574,
-    "vent_deg": 207
+    "validated": 1
   },
   {
     "id": "298685",
@@ -1847,7 +1847,7 @@
     "lieu": "Ghisoni",
     "lat": 42.1035625,
     "lon": 9.2122752,
-    "vent_deg": 135
+    "validated": 1
   },
   {
     "id": "298715",
@@ -1857,7 +1857,7 @@
     "lieu": "Saint augustin",
     "lat": 48.7858921,
     "lon": 3.0292059,
-    "vent_deg": 116
+    "validated": 1
   },
   {
     "id": "298876",
@@ -1867,7 +1867,7 @@
     "lieu": "Lanslebourg mont cenis",
     "lat": 45.2509937,
     "lon": 6.9325221,
-    "vent_deg": 251
+    "validated": 1
   },
   {
     "id": "301058",
@@ -1877,7 +1877,7 @@
     "lieu": "Fougerolles du plessis",
     "lat": 48.4737398,
     "lon": -0.9726933,
-    "vent_deg": 285
+    "validated": 1
   },
   {
     "id": "301652",
@@ -1887,7 +1887,7 @@
     "lieu": "La saline les bains",
     "lat": -21.094984,
     "lon": 55.2371304,
-    "vent_deg": 156
+    "validated": 1
   },
   {
     "id": "305099",
@@ -1897,7 +1897,7 @@
     "lieu": "Hirel",
     "lat": 48.606156,
     "lon": -1.8019488,
-    "vent_deg": 349
+    "validated": 1
   },
   {
     "id": "305452",
@@ -1907,7 +1907,7 @@
     "lieu": "Le verdon sur mer",
     "lat": 45.547543,
     "lon": -1.0622993,
-    "vent_deg": 315
+    "validated": 1
   },
   {
     "id": "305579",
@@ -1917,7 +1917,7 @@
     "lieu": "Arith",
     "lat": 45.7136,
     "lon": 6.08678,
-    "vent_deg": 360
+    "validated": 1
   },
   {
     "id": "307595",
@@ -1927,7 +1927,7 @@
     "lieu": "Grust",
     "lat": 42.889114,
     "lon": -0.0318475,
-    "vent_deg": 181
+    "validated": 1
   },
   {
     "id": "308025",
@@ -1937,7 +1937,7 @@
     "lieu": "Genolhac",
     "lat": 44.3511996,
     "lon": 3.9499106,
-    "vent_deg": 127
+    "validated": 1
   },
   {
     "id": "295892",
@@ -1947,7 +1947,7 @@
     "lieu": "Sarzeau",
     "lat": 47.5287694,
     "lon": -2.7641997,
-    "vent_deg": 351
+    "validated": 1
   },
   {
     "id": "296859",
@@ -1957,7 +1957,7 @@
     "lieu": "Soustons",
     "lat": 43.75079,
     "lon": -1.32955,
-    "vent_deg": 294
+    "validated": 1
   },
   {
     "id": "303566",
@@ -1967,7 +1967,7 @@
     "lieu": "Les arcs",
     "lat": 43.4629097,
     "lon": 6.4786269,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "297032",
@@ -1977,7 +1977,7 @@
     "lieu": "La tranche sur mer",
     "lat": 46.3440097,
     "lon": -1.4380541,
-    "vent_deg": 316
+    "validated": 1
   },
   {
     "id": "297828",
@@ -1987,7 +1987,7 @@
     "lieu": "Mugron",
     "lat": 43.7506673,
     "lon": -0.7496385,
-    "vent_deg": 290
+    "validated": 1
   },
   {
     "id": "301943",
@@ -1997,7 +1997,7 @@
     "lieu": "Hendaye",
     "lat": 43.3641518,
     "lon": -1.7616499,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "303636",
@@ -2007,7 +2007,7 @@
     "lieu": "Collobrieres",
     "lat": 43.2374,
     "lon": 6.3089533,
-    "vent_deg": 79
+    "validated": 1
   },
   {
     "id": "302494",
@@ -2017,7 +2017,7 @@
     "lieu": "Val thorens",
     "lat": 45.2979109,
     "lon": 6.5822693,
-    "vent_deg": 300
+    "validated": 1
   },
   {
     "id": "296121",
@@ -2027,7 +2027,7 @@
     "lieu": "Riom es montagnes",
     "lat": 45.2832492,
     "lon": 2.6594544,
-    "vent_deg": 244
+    "validated": 1
   },
   {
     "id": "297012",
@@ -2037,7 +2037,7 @@
     "lieu": "Saint laurent sur gorre",
     "lat": 45.7706201,
     "lon": 0.9572501,
-    "vent_deg": 206
+    "validated": 1
   },
   {
     "id": "298248",
@@ -2047,7 +2047,7 @@
     "lieu": "Morzine",
     "lat": 46.1799561,
     "lon": 6.7091057,
-    "vent_deg": 321
+    "validated": 1
   },
   {
     "id": "299268",
@@ -2057,7 +2057,7 @@
     "lieu": "Savigny sous faye",
     "lat": 46.8706115,
     "lon": 0.2865446,
-    "vent_deg": 140
+    "validated": 1
   },
   {
     "id": "302136",
@@ -2067,7 +2067,7 @@
     "lieu": "Sainte engrace",
     "lat": 42.9958555,
     "lon": -0.8108094,
-    "vent_deg": 1
+    "validated": 1
   },
   {
     "id": "303634",
@@ -2077,7 +2077,7 @@
     "lieu": "Saint francois longchamp",
     "lat": 45.4172599,
     "lon": 6.3620514,
-    "vent_deg": 306
+    "validated": 1
   },
   {
     "id": "304838",
@@ -2087,7 +2087,7 @@
     "lieu": "Les orres",
     "lat": 44.5140024,
     "lon": 6.5510313,
-    "vent_deg": 260
+    "validated": 1
   },
   {
     "id": "304929",
@@ -2097,7 +2097,7 @@
     "lieu": "Montsegur",
     "lat": 43.4328381,
     "lon": -0.0154831,
-    "vent_deg": 275
+    "validated": 1
   },
   {
     "id": "305517",
@@ -2107,7 +2107,7 @@
     "lieu": "Sainte mere eglise",
     "lat": 49.4117704,
     "lon": -1.3268248,
-    "vent_deg": 24
+    "validated": 1
   },
   {
     "id": "296352",
@@ -2117,7 +2117,7 @@
     "lieu": "Meribel les allues",
     "lat": 45.399064,
     "lon": 6.5666055,
-    "vent_deg": 302
+    "validated": 1
   },
   {
     "id": "297198",
@@ -2127,7 +2127,7 @@
     "lieu": "Vernet les bains",
     "lat": 42.5484832,
     "lon": 2.3878706,
-    "vent_deg": 152
+    "validated": 1
   },
   {
     "id": "301969",
@@ -2137,7 +2137,7 @@
     "lieu": "Agon coutainville",
     "lat": 49.0426274,
     "lon": -1.5767053,
-    "vent_deg": 351
+    "validated": 1
   },
   {
     "id": "302623",
@@ -2147,7 +2147,7 @@
     "lieu": "Le corbier",
     "lat": 45.2401623,
     "lon": 6.2682259,
-    "vent_deg": 75
+    "validated": 1
   },
   {
     "id": "301654",
@@ -2157,7 +2157,7 @@
     "lieu": "Saint denis",
     "lat": 48.935773,
     "lon": 2.3580232,
-    "vent_deg": 40
+    "validated": 1
   },
   {
     "id": "294316",
@@ -2167,7 +2167,7 @@
     "lieu": "Saint michel chef chef",
     "lat": 47.1816681,
     "lon": -2.1497904,
-    "vent_deg": 360
+    "validated": 1
   },
   {
     "id": "295554",
@@ -2177,7 +2177,7 @@
     "lieu": "Lajoux",
     "lat": 46.3750388,
     "lon": 5.9728027,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "297588",
@@ -2187,7 +2187,7 @@
     "lieu": "Ollioules",
     "lat": 43.1397205,
     "lon": 5.8483538,
-    "vent_deg": 117
+    "validated": 1
   },
   {
     "id": "297952",
@@ -2197,7 +2197,7 @@
     "lieu": "Locmiquelic",
     "lat": 47.7240686,
     "lon": -3.3424834,
-    "vent_deg": 340
+    "validated": 1
   },
   {
     "id": "298835",
@@ -2207,7 +2207,7 @@
     "lieu": "Chassignolles",
     "lat": 46.5411862,
     "lon": 1.9399055,
-    "vent_deg": 89
+    "validated": 1
   },
   {
     "id": "299949",
@@ -2217,7 +2217,7 @@
     "lieu": "Carcans",
     "lat": 45.0796259,
     "lon": -1.0439593,
-    "vent_deg": 307
+    "validated": 1
   },
   {
     "id": "299953",
@@ -2227,7 +2227,7 @@
     "lieu": "Montclar",
     "lat": 43.1351201,
     "lon": 2.247705,
-    "vent_deg": 260
+    "validated": 1
   },
   {
     "id": "301653",
@@ -2237,7 +2237,7 @@
     "lieu": "Sainte marie",
     "lat": 42.97204,
     "lon": 0.62129,
-    "vent_deg": 334
+    "validated": 1
   },
   {
     "id": "301655",
@@ -2247,7 +2247,7 @@
     "lieu": "Saint philippe",
     "lat": -21.359598,
     "lon": 55.7676911,
-    "vent_deg": 154
+    "validated": 1
   },
   {
     "id": "301659",
@@ -2257,7 +2257,7 @@
     "lieu": "Saint denis",
     "lat": 48.935773,
     "lon": 2.3580232,
-    "vent_deg": 40
+    "validated": 1
   },
   {
     "id": "301660",
@@ -2267,7 +2267,7 @@
     "lieu": "Saint denis",
     "lat": 48.935773,
     "lon": 2.3580232,
-    "vent_deg": 40
+    "validated": 1
   },
   {
     "id": "302114",
@@ -2277,7 +2277,7 @@
     "lieu": "Ascain",
     "lat": 43.3449356,
     "lon": -1.620839,
-    "vent_deg": 290
+    "validated": 1
   },
   {
     "id": "303573",
@@ -2287,7 +2287,7 @@
     "lieu": "Montaimont",
     "lat": 45.3781415,
     "lon": 6.3635717,
-    "vent_deg": 306
+    "validated": 1
   },
   {
     "id": "308272",
@@ -2297,7 +2297,7 @@
     "lieu": "Montaignac saint hippolyt",
     "lat": null,
     "lon": null,
-    "vent_deg": null
+    "validated": 1
   },
   {
     "id": "306287",
@@ -2307,7 +2307,7 @@
     "lieu": "La teste",
     "lat": 44.6369726,
     "lon": -1.1429337,
-    "vent_deg": 320
+    "validated": 1
   },
   {
     "id": "296748",
@@ -2317,7 +2317,7 @@
     "lieu": "Dax",
     "lat": 43.7084065,
     "lon": -1.0518771,
-    "vent_deg": 270
+    "validated": 1
   },
   {
     "id": "308726",
@@ -2327,7 +2327,7 @@
     "lieu": "Beziers",
     "lat": 43.3426562,
     "lon": 3.2131307,
-    "vent_deg": 270
+    "validated": 1
   },
   {
     "id": "296453",
@@ -2337,7 +2337,7 @@
     "lieu": "L'alpe d’huez",
     "lat": 45.092401,
     "lon": 6.0699443,
-    "vent_deg": 273
+    "validated": 1
   },
   {
     "id": "296486",
@@ -2347,7 +2347,7 @@
     "lieu": "Sainte marie",
     "lat": 42.97204,
     "lon": 0.62129,
-    "vent_deg": 334
+    "validated": 1
   },
   {
     "id": "299988",
@@ -2357,7 +2357,7 @@
     "lieu": "Vaire",
     "lat": 47.276952,
     "lon": 6.1568122,
-    "vent_deg": 47
+    "validated": 1
   },
   {
     "id": "303757",
@@ -2367,7 +2367,7 @@
     "lieu": "Langrune sur mer",
     "lat": 49.320622,
     "lon": -0.3727503,
-    "vent_deg": 330
+    "validated": 1
   },
   {
     "id": "301839",
@@ -2377,7 +2377,7 @@
     "lieu": "Auzat",
     "lat": 42.7655046,
     "lon": 1.4794271,
-    "vent_deg": 128
+    "validated": 1
   },
   {
     "id": "293000",
@@ -2387,7 +2387,7 @@
     "lieu": "Saint brevin les pins",
     "lat": 47.2473358,
     "lon": -2.1677298,
-    "vent_deg": 360
+    "validated": 1
   },
   {
     "id": "295524",
@@ -2397,7 +2397,7 @@
     "lieu": "Dampniat",
     "lat": 45.1678293,
     "lon": 1.6324484,
-    "vent_deg": 166
+    "validated": 1
   },
   {
     "id": "295641",
@@ -2407,7 +2407,7 @@
     "lieu": "Sainte marie sur ouche",
     "lat": 47.2871706,
     "lon": 4.7967455,
-    "vent_deg": 82
+    "validated": 1
   },
   {
     "id": "296353",
@@ -2417,7 +2417,7 @@
     "lieu": "Mont sous vaudrey",
     "lat": 46.9756991,
     "lon": 5.6039516,
-    "vent_deg": 30
+    "validated": 1
   },
   {
     "id": "296367",
@@ -2427,7 +2427,7 @@
     "lieu": "Oriol en royans",
     "lat": 44.9968,
     "lon": 5.27394,
-    "vent_deg": 348
+    "validated": 1
   },
   {
     "id": "296601",
@@ -2437,7 +2437,7 @@
     "lieu": "Puget ville",
     "lat": 43.2848554,
     "lon": 6.138408,
-    "vent_deg": 84
+    "validated": 1
   },
   {
     "id": "296765",
@@ -2447,7 +2447,7 @@
     "lieu": "Saint martin de seignanx",
     "lat": 43.5415353,
     "lon": -1.3870972,
-    "vent_deg": 310
+    "validated": 1
   },
   {
     "id": "296803",
@@ -2457,7 +2457,7 @@
     "lieu": "Marcenat",
     "lat": 46.2343708,
     "lon": 3.396444,
-    "vent_deg": 80
+    "validated": 1
   },
   {
     "id": "297681",
@@ -2467,7 +2467,7 @@
     "lieu": "Billiers",
     "lat": 47.5300893,
     "lon": -2.4886676,
-    "vent_deg": 5
+    "validated": 1
   },
   {
     "id": "297709",
@@ -2477,7 +2477,7 @@
     "lieu": "Rodes",
     "lat": 44.3511408,
     "lon": 2.5728493,
-    "vent_deg": 80
+    "validated": 1
   },
   {
     "id": "297755",
@@ -2487,7 +2487,7 @@
     "lieu": "Domeyrot",
     "lat": 46.2498152,
     "lon": 2.157501,
-    "vent_deg": 78
+    "validated": 1
   },
   {
     "id": "298053",
@@ -2497,7 +2497,7 @@
     "lieu": "Saint geraud de corps",
     "lat": 44.9520717,
     "lon": 0.2268816,
-    "vent_deg": 227
+    "validated": 1
   },
   {
     "id": "298716",
@@ -2507,7 +2507,7 @@
     "lieu": "Medis",
     "lat": 45.6422545,
     "lon": -0.966034,
-    "vent_deg": 313
+    "validated": 1
   },
   {
     "id": "298950",
@@ -2517,7 +2517,7 @@
     "lieu": "Saint hilaire la croix",
     "lat": 46.0464674,
     "lon": 3.0463657,
-    "vent_deg": 108
+    "validated": 1
   },
   {
     "id": "299253",
@@ -2527,7 +2527,7 @@
     "lieu": "Saint josse",
     "lat": 50.4674768,
     "lon": 1.6639835,
-    "vent_deg": 130
+    "validated": 1
   },
   {
     "id": "300237",
@@ -2537,7 +2537,7 @@
     "lieu": "Treffort cuisiat",
     "lat": 46.2734827,
     "lon": 5.3537793,
-    "vent_deg": 293
+    "validated": 1
   },
   {
     "id": "301657",
@@ -2547,7 +2547,7 @@
     "lieu": "Saint leu",
     "lat": -21.1677694,
     "lon": 55.2881932,
-    "vent_deg": 147
+    "validated": 1
   },
   {
     "id": "301658",
@@ -2557,7 +2557,7 @@
     "lieu": "Les avirons",
     "lat": -21.2423582,
     "lon": 55.3357911,
-    "vent_deg": 120
+    "validated": 1
   },
   {
     "id": "301970",
@@ -2567,7 +2567,7 @@
     "lieu": "Sainte marie du mont",
     "lat": 49.3788361,
     "lon": -1.2254755,
-    "vent_deg": 19
+    "validated": 1
   },
   {
     "id": "302518",
@@ -2577,7 +2577,7 @@
     "lieu": "Hattstatt",
     "lat": 48.0108981,
     "lon": 7.300144,
-    "vent_deg": 140
+    "validated": 1
   },
   {
     "id": "307054",
@@ -2587,7 +2587,7 @@
     "lieu": "Cadarcet",
     "lat": 43.0139106,
     "lon": 1.4995835,
-    "vent_deg": 344
+    "validated": 1
   },
   {
     "id": "307888",
@@ -2597,7 +2597,7 @@
     "lieu": "Les estables",
     "lat": 44.903352,
     "lon": 4.1558714,
-    "vent_deg": 353
+    "validated": 1
   },
   {
     "id": "308872",
@@ -2607,7 +2607,7 @@
     "lieu": "Vebron",
     "lat": 44.2393086,
     "lon": 3.5783427,
-    "vent_deg": 349
+    "validated": 1
   },
   {
     "id": "295765",
@@ -2617,7 +2617,7 @@
     "lieu": "Mont d’origny",
     "lat": 49.842125,
     "lon": 3.4992201,
-    "vent_deg": 110
+    "validated": 1
   },
   {
     "id": "296448",
@@ -2627,7 +2627,7 @@
     "lieu": "Jard sur mer",
     "lat": 46.4173018,
     "lon": -1.5758538,
-    "vent_deg": 326
+    "validated": 1
   },
   {
     "id": "298277",
@@ -2637,7 +2637,7 @@
     "lieu": "Irancy",
     "lat": 47.7132623,
     "lon": 3.6653566,
-    "vent_deg": 94
+    "validated": 1
   },
   {
     "id": "300438",
@@ -2647,7 +2647,7 @@
     "lieu": "Rocroi",
     "lat": 49.925032,
     "lon": 4.5204519,
-    "vent_deg": 166
+    "validated": 1
   },
   {
     "id": "301656",
@@ -2657,7 +2657,7 @@
     "lieu": "La possession",
     "lat": -20.9269658,
     "lon": 55.3362758,
-    "vent_deg": 110
+    "validated": 1
   },
   {
     "id": "302132",
@@ -2667,7 +2667,7 @@
     "lieu": "Louhossoa",
     "lat": 43.3163993,
     "lon": -1.3506594,
-    "vent_deg": 292
+    "validated": 1
   },
   {
     "id": "293862",
@@ -2677,7 +2677,7 @@
     "lieu": "Isola",
     "lat": 44.1860506,
     "lon": 7.0519874,
-    "vent_deg": 204
+    "validated": 1
   },
   {
     "id": "297070",
@@ -2687,7 +2687,7 @@
     "lieu": "Tignes",
     "lat": 45.4697293,
     "lon": 6.907594,
-    "vent_deg": 292
+    "validated": 1
   },
   {
     "id": "301282",
@@ -2697,7 +2697,7 @@
     "lieu": "Valloire",
     "lat": 45.165,
     "lon": 6.4296372,
-    "vent_deg": 294
+    "validated": 1
   },
   {
     "id": "293223",
@@ -2707,7 +2707,7 @@
     "lieu": "Sournia",
     "lat": 42.7279934,
     "lon": 2.4421869,
-    "vent_deg": 35
+    "validated": 1
   },
   {
     "id": "295322",
@@ -2717,7 +2717,7 @@
     "lieu": "Saint martin de fressenge",
     "lat": null,
     "lon": null,
-    "vent_deg": null
+    "validated": 1
   },
   {
     "id": "295819",
@@ -2727,7 +2727,7 @@
     "lieu": "Molines en queyras",
     "lat": 44.729805,
     "lon": 6.8448169,
-    "vent_deg": 254
+    "validated": 1
   },
   {
     "id": "296346",
@@ -2737,7 +2737,7 @@
     "lieu": "Madranges",
     "lat": 45.4739883,
     "lon": 1.7914574,
-    "vent_deg": 190
+    "validated": 1
   },
   {
     "id": "296438",
@@ -2747,7 +2747,7 @@
     "lieu": "Parlan",
     "lat": 44.8288037,
     "lon": 2.1727311,
-    "vent_deg": 191
+    "validated": 1
   },
   {
     "id": "297431",
@@ -2757,7 +2757,7 @@
     "lieu": "Cuxac cabardes",
     "lat": 43.3706114,
     "lon": 2.2832002,
-    "vent_deg": 260
+    "validated": 1
   },
   {
     "id": "298291",
@@ -2767,7 +2767,7 @@
     "lieu": "Accolay",
     "lat": 47.654119,
     "lon": 3.7061672,
-    "vent_deg": 87
+    "validated": 1
   },
   {
     "id": "300998",
@@ -2777,7 +2777,7 @@
     "lieu": "Saint gilles les forets",
     "lat": 45.6288115,
     "lon": 1.6641666,
-    "vent_deg": 214
+    "validated": 1
   },
   {
     "id": "301664",
@@ -2787,7 +2787,7 @@
     "lieu": "Saint paul",
     "lat": 49.4318046,
     "lon": 2.0100016,
-    "vent_deg": 110
+    "validated": 1
   },
   {
     "id": "302062",
@@ -2797,7 +2797,7 @@
     "lieu": "Rezza",
     "lat": 42.1247196,
     "lon": 8.9470353,
-    "vent_deg": 238
+    "validated": 1
   },
   {
     "id": "302456",
@@ -2807,7 +2807,7 @@
     "lieu": "Samoens",
     "lat": 46.0834066,
     "lon": 6.7269485,
-    "vent_deg": 268
+    "validated": 1
   },
   {
     "id": "304529",
@@ -2817,7 +2817,7 @@
     "lieu": "Champagny en vanoise",
     "lat": 45.4551515,
     "lon": 6.6942009,
-    "vent_deg": 295
+    "validated": 1
   },
   {
     "id": "309073",
@@ -2827,7 +2827,7 @@
     "lieu": "Argol",
     "lat": 48.2461346,
     "lon": -4.3173536,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "297194",
@@ -2837,7 +2837,7 @@
     "lieu": "Les deux alpes",
     "lat": 45.0099949,
     "lon": 6.1237609,
-    "vent_deg": 260
+    "validated": 1
   },
   {
     "id": "307837",
@@ -2847,7 +2847,7 @@
     "lieu": "Felce",
     "lat": 42.3499886,
     "lon": 9.4173512,
-    "vent_deg": 132
+    "validated": 1
   },
   {
     "id": "307467",
@@ -2857,7 +2857,7 @@
     "lieu": "Luzoir",
     "lat": 49.9261111,
     "lon": 3.9627778,
-    "vent_deg": 111
+    "validated": 1
   },
   {
     "id": "299814",
@@ -2867,7 +2867,7 @@
     "lieu": "Castelnaudary",
     "lat": 43.3192021,
     "lon": 1.9533495,
-    "vent_deg": 290
+    "validated": 1
   },
   {
     "id": "299127",
@@ -2877,7 +2877,7 @@
     "lieu": "Haguenau",
     "lat": 48.8172236,
     "lon": 7.7885978,
-    "vent_deg": 336
+    "validated": 1
   },
   {
     "id": "301587",
@@ -2887,7 +2887,7 @@
     "lieu": "Vielle aure",
     "lat": 42.82998,
     "lon": 0.3271205,
-    "vent_deg": 188
+    "validated": 1
   },
   {
     "id": "305971",
@@ -2897,7 +2897,7 @@
     "lieu": "Montech",
     "lat": 43.9577778,
     "lon": 1.2305556,
-    "vent_deg": 259
+    "validated": 1
   },
   {
     "id": "297679",
@@ -2907,7 +2907,7 @@
     "lieu": "Vizille",
     "lat": 45.0758358,
     "lon": 5.7715863,
-    "vent_deg": 275
+    "validated": 1
   },
   {
     "id": "298458",
@@ -2917,7 +2917,7 @@
     "lieu": "La clusaz",
     "lat": 45.9043659,
     "lon": 6.4239011,
-    "vent_deg": 282
+    "validated": 1
   },
   {
     "id": "294706",
@@ -2927,7 +2927,7 @@
     "lieu": "Sainte anne",
     "lat": 43.7434569,
     "lon": 0.9648468,
-    "vent_deg": 264
+    "validated": 1
   },
   {
     "id": "294721",
@@ -2937,7 +2937,7 @@
     "lieu": "Vignats",
     "lat": 48.8550289,
     "lon": -0.1046028,
-    "vent_deg": 184
+    "validated": 1
   },
   {
     "id": "296265",
@@ -2947,7 +2947,7 @@
     "lieu": "Mignovillard",
     "lat": 46.7738933,
     "lon": 6.141891,
-    "vent_deg": 71
+    "validated": 1
   },
   {
     "id": "296528",
@@ -2957,7 +2957,7 @@
     "lieu": "Gouville sur mer",
     "lat": 49.0979057,
     "lon": -1.5773793,
-    "vent_deg": 353
+    "validated": 1
   },
   {
     "id": "296843",
@@ -2967,7 +2967,7 @@
     "lieu": "Fressin",
     "lat": 50.4465629,
     "lon": 2.0553542,
-    "vent_deg": 170
+    "validated": 1
   },
   {
     "id": "297367",
@@ -2977,7 +2977,7 @@
     "lieu": "Les angles",
     "lat": 43.0835762,
     "lon": 0.0062129,
-    "vent_deg": 290
+    "validated": 1
   },
   {
     "id": "298388",
@@ -2987,7 +2987,7 @@
     "lieu": "Dettwiller",
     "lat": 48.7535135,
     "lon": 7.4675594,
-    "vent_deg": 18
+    "validated": 1
   },
   {
     "id": "298462",
@@ -2997,7 +2997,7 @@
     "lieu": "Vendeuvre du poitou",
     "lat": 46.7213689,
     "lon": 0.3259792,
-    "vent_deg": 40
+    "validated": 1
   },
   {
     "id": "299316",
@@ -3007,7 +3007,7 @@
     "lieu": "Agen",
     "lat": 44.2015827,
     "lon": 0.6176112,
-    "vent_deg": 260
+    "validated": 1
   },
   {
     "id": "299473",
@@ -3017,7 +3017,7 @@
     "lieu": "Rieulay",
     "lat": 50.3802594,
     "lon": 3.2542358,
-    "vent_deg": 4
+    "validated": 1
   },
   {
     "id": "299994",
@@ -3027,7 +3027,7 @@
     "lieu": "Le cambout",
     "lat": 48.0581077,
     "lon": -2.6155533,
-    "vent_deg": 358
+    "validated": 1
   },
   {
     "id": "302069",
@@ -3037,7 +3037,7 @@
     "lieu": "Velluire",
     "lat": 46.4052778,
     "lon": -0.8927778,
-    "vent_deg": 7
+    "validated": 1
   },
   {
     "id": "305994",
@@ -3047,7 +3047,7 @@
     "lieu": "Larroque",
     "lat": 43.1948395,
     "lon": 0.608575,
-    "vent_deg": 291
+    "validated": 1
   },
   {
     "id": "307924",
@@ -3057,7 +3057,7 @@
     "lieu": "Pleubian",
     "lat": 48.841766,
     "lon": -3.138518,
-    "vent_deg": 286
+    "validated": 1
   },
   {
     "id": "295666",
@@ -3067,7 +3067,7 @@
     "lieu": "Mauges sur loire",
     "lat": 47.3492914,
     "lon": -0.8660318,
-    "vent_deg": 309
+    "validated": 1
   },
   {
     "id": "303855",
@@ -3077,7 +3077,7 @@
     "lieu": "Saint etienne de tinee",
     "lat": 44.2564013,
     "lon": 6.9249179,
-    "vent_deg": 216
+    "validated": 1
   },
   {
     "id": "293456",
@@ -3087,7 +3087,7 @@
     "lieu": "Pont de pany",
     "lat": 47.2964154,
     "lon": 4.809174,
-    "vent_deg": 82
+    "validated": 1
   },
   {
     "id": "295610",
@@ -3097,7 +3097,7 @@
     "lieu": "Llo",
     "lat": 42.4553415,
     "lon": 2.0618369,
-    "vent_deg": 190
+    "validated": 1
   },
   {
     "id": "296034",
@@ -3107,7 +3107,7 @@
     "lieu": "Drucat",
     "lat": 50.1418504,
     "lon": 1.8684452,
-    "vent_deg": 138
+    "validated": 1
   },
   {
     "id": "296861",
@@ -3117,7 +3117,7 @@
     "lieu": "Neoules",
     "lat": 43.3109287,
     "lon": 6.0134378,
-    "vent_deg": 93
+    "validated": 1
   },
   {
     "id": "297153",
@@ -3127,7 +3127,7 @@
     "lieu": "Markstein",
     "lat": 47.9233312,
     "lon": 7.0318064,
-    "vent_deg": 106
+    "validated": 1
   },
   {
     "id": "297900",
@@ -3137,7 +3137,7 @@
     "lieu": "Cours de pile",
     "lat": 44.8411135,
     "lon": 0.5459787,
-    "vent_deg": 200
+    "validated": 1
   },
   {
     "id": "298306",
@@ -3147,7 +3147,7 @@
     "lieu": "Donzenac",
     "lat": 45.2277393,
     "lon": 1.5230861,
-    "vent_deg": 176
+    "validated": 1
   },
   {
     "id": "298875",
@@ -3157,7 +3157,7 @@
     "lieu": "Saint girons",
     "lat": 42.9841865,
     "lon": 1.1464455,
-    "vent_deg": 336
+    "validated": 1
   },
   {
     "id": "299139",
@@ -3167,7 +3167,7 @@
     "lieu": "Colleret",
     "lat": 50.2563884,
     "lon": 4.075551,
-    "vent_deg": 311
+    "validated": 1
   },
   {
     "id": "299809",
@@ -3177,7 +3177,7 @@
     "lieu": "Langrune sur mer",
     "lat": 49.320622,
     "lon": -0.3727503,
-    "vent_deg": 320
+    "validated": 1
   },
   {
     "id": "300242",
@@ -3187,7 +3187,7 @@
     "lieu": "Chateauvieux",
     "lat": 47.2307912,
     "lon": 1.3824577,
-    "vent_deg": 111
+    "validated": 1
   },
   {
     "id": "300918",
@@ -3197,7 +3197,7 @@
     "lieu": "Louzouer",
     "lat": 48.0384021,
     "lon": 2.8835144,
-    "vent_deg": 122
+    "validated": 1
   },
   {
     "id": "301665",
@@ -3207,7 +3207,7 @@
     "lieu": "Sainte suzanne",
     "lat": 47.5061216,
     "lon": 6.7750956,
-    "vent_deg": 68
+    "validated": 1
   },
   {
     "id": "301669",
@@ -3217,7 +3217,7 @@
     "lieu": "La plaine des cafres",
     "lat": -21.2252979,
     "lon": 55.5552098,
-    "vent_deg": 120
+    "validated": 1
   },
   {
     "id": "301750",
@@ -3227,7 +3227,7 @@
     "lieu": "Sene",
     "lat": 47.6199584,
     "lon": -2.7373441,
-    "vent_deg": 10
+    "validated": 1
   },
   {
     "id": "302047",
@@ -3237,7 +3237,7 @@
     "lieu": "Laruns",
     "lat": 42.9882368,
     "lon": -0.4266324,
-    "vent_deg": 340
+    "validated": 1
   },
   {
     "id": "302174",
@@ -3247,7 +3247,7 @@
     "lieu": "Berenx",
     "lat": 43.5024238,
     "lon": -0.8581147,
-    "vent_deg": 287
+    "validated": 1
   },
   {
     "id": "302986",
@@ -3257,7 +3257,7 @@
     "lieu": "Saint vaast la hougue",
     "lat": 49.5877016,
     "lon": -1.2662184,
-    "vent_deg": 310
+    "validated": 1
   },
   {
     "id": "303321",
@@ -3267,7 +3267,7 @@
     "lieu": "Gilley",
     "lat": 47.0479919,
     "lon": 6.4812983,
-    "vent_deg": 108
+    "validated": 1
   },
   {
     "id": "303723",
@@ -3277,7 +3277,7 @@
     "lieu": "Le porge",
     "lat": 44.8727944,
     "lon": -1.0927165,
-    "vent_deg": 304
+    "validated": 1
   },
   {
     "id": "304706",
@@ -3287,7 +3287,7 @@
     "lieu": "Brest",
     "lat": 48.3905283,
     "lon": -4.4860088,
-    "vent_deg": 180
+    "validated": 1
   },
   {
     "id": "305285",
@@ -3297,7 +3297,7 @@
     "lieu": "Peyrignac",
     "lat": 45.1567406,
     "lon": 1.1919001,
-    "vent_deg": 175
+    "validated": 1
   },
   {
     "id": "305531",
@@ -3307,7 +3307,7 @@
     "lieu": "Saint denis d'oleron",
     "lat": 46.033611,
     "lon": -1.3775,
-    "vent_deg": 316
+    "validated": 1
   },
   {
     "id": "306024",
@@ -3317,7 +3317,7 @@
     "lieu": "Cazouls les beziers",
     "lat": 43.3918541,
     "lon": 3.1013558,
-    "vent_deg": 254
+    "validated": 1
   },
   {
     "id": "306095",
@@ -3327,7 +3327,7 @@
     "lieu": "Habere poche",
     "lat": 46.2486108,
     "lon": 6.4735471,
-    "vent_deg": 343
+    "validated": 1
   },
   {
     "id": "307769",
@@ -3337,7 +3337,7 @@
     "lieu": "La feclaz",
     "lat": 45.6448216,
     "lon": 5.9832778,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "307800",
@@ -3347,7 +3347,7 @@
     "lieu": "Estang",
     "lat": 43.8675,
     "lon": -0.1075,
-    "vent_deg": 276
+    "validated": 1
   },
   {
     "id": "299537",
@@ -3357,7 +3357,7 @@
     "lieu": "Penta di casinca",
     "lat": 42.4671285,
     "lon": 9.4595153,
-    "vent_deg": 130
+    "validated": 1
   },
   {
     "id": "301635",
@@ -3367,7 +3367,7 @@
     "lieu": "Chamonix mont blanc",
     "lat": 45.9246705,
     "lon": 6.8727506,
-    "vent_deg": 273
+    "validated": 1
   },
   {
     "id": "308378",
@@ -3377,7 +3377,7 @@
     "lieu": "La gaude",
     "lat": 43.7228225,
     "lon": 7.1503312,
-    "vent_deg": 90
+    "validated": 1
   },
   {
     "id": "297616",
@@ -3387,7 +3387,7 @@
     "lieu": "Pierrefeu du var",
     "lat": 43.2272615,
     "lon": 6.14307,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "299793",
@@ -3397,7 +3397,7 @@
     "lieu": "Pradinas",
     "lat": 44.4794941,
     "lon": 1.403984,
-    "vent_deg": 202
+    "validated": 1
   },
   {
     "id": "292713",
@@ -3407,7 +3407,7 @@
     "lieu": "Llupia",
     "lat": 42.6227781,
     "lon": 2.7703201,
-    "vent_deg": 160
+    "validated": 1
   },
   {
     "id": "295697",
@@ -3417,7 +3417,7 @@
     "lieu": "Chaumussay",
     "lat": 46.8699633,
     "lon": 0.8624074,
-    "vent_deg": 112
+    "validated": 1
   },
   {
     "id": "296595",
@@ -3427,7 +3427,7 @@
     "lieu": "Quemigny sur seine",
     "lat": 47.6628649,
     "lon": 4.6681254,
-    "vent_deg": 78
+    "validated": 1
   },
   {
     "id": "296705",
@@ -3437,7 +3437,7 @@
     "lieu": "Mars",
     "lat": 45.022172,
     "lon": 4.3221548,
-    "vent_deg": 10
+    "validated": 1
   },
   {
     "id": "296824",
@@ -3447,7 +3447,7 @@
     "lieu": "Rubempre",
     "lat": 50.0183595,
     "lon": 2.3846198,
-    "vent_deg": 154
+    "validated": 1
   },
   {
     "id": "297258",
@@ -3457,7 +3457,7 @@
     "lieu": "Annesse et beaulieu",
     "lat": 45.175,
     "lon": 0.5919444,
-    "vent_deg": 203
+    "validated": 1
   },
   {
     "id": "297597",
@@ -3467,7 +3467,7 @@
     "lieu": "Giroussens",
     "lat": 43.7626,
     "lon": 1.7749,
-    "vent_deg": 270
+    "validated": 1
   },
   {
     "id": "297829",
@@ -3477,7 +3477,7 @@
     "lieu": "Saint pandelon",
     "lat": 43.66915,
     "lon": -1.03911,
-    "vent_deg": 270
+    "validated": 1
   },
   {
     "id": "298409",
@@ -3487,7 +3487,7 @@
     "lieu": "Schweighouse sur moder",
     "lat": 48.8212588,
     "lon": 7.7358441,
-    "vent_deg": 345
+    "validated": 1
   },
   {
     "id": "298425",
@@ -3497,7 +3497,7 @@
     "lieu": "Cuts",
     "lat": 49.5313296,
     "lon": 3.1013685,
-    "vent_deg": 162
+    "validated": 1
   },
   {
     "id": "298930",
@@ -3507,7 +3507,7 @@
     "lieu": "Cassel",
     "lat": 50.8000011,
     "lon": 2.4868314,
-    "vent_deg": 187
+    "validated": 1
   },
   {
     "id": "300018",
@@ -3517,7 +3517,7 @@
     "lieu": "Aurec sur loire",
     "lat": 45.3698465,
     "lon": 4.2008542,
-    "vent_deg": 57
+    "validated": 1
   },
   {
     "id": "300978",
@@ -3527,7 +3527,7 @@
     "lieu": "La possession",
     "lat": -20.9269658,
     "lon": 55.3362758,
-    "vent_deg": 110
+    "validated": 1
   },
   {
     "id": "301670",
@@ -3537,7 +3537,7 @@
     "lieu": "Cilaos",
     "lat": -21.1360575,
     "lon": 55.472515,
-    "vent_deg": 147
+    "validated": 1
   },
   {
     "id": "302175",
@@ -3547,7 +3547,7 @@
     "lieu": "Geus d'arzacq",
     "lat": 43.482489,
     "lon": -0.5216079,
-    "vent_deg": 270
+    "validated": 1
   },
   {
     "id": "302226",
@@ -3557,7 +3557,7 @@
     "lieu": "Bourges",
     "lat": 47.0811658,
     "lon": 2.399125,
-    "vent_deg": 110
+    "validated": 1
   },
   {
     "id": "303165",
@@ -3567,7 +3567,7 @@
     "lieu": "Pontcharra",
     "lat": 45.4327537,
     "lon": 6.0204233,
-    "vent_deg": 333
+    "validated": 1
   },
   {
     "id": "304572",
@@ -3577,7 +3577,7 @@
     "lieu": "Mondeville",
     "lat": 49.1770906,
     "lon": -0.3200702,
-    "vent_deg": 320
+    "validated": 1
   },
   {
     "id": "305281",
@@ -3587,7 +3587,7 @@
     "lieu": "Niort",
     "lat": 46.3239233,
     "lon": -0.4646064,
-    "vent_deg": 78
+    "validated": 1
   },
   {
     "id": "305571",
@@ -3597,7 +3597,7 @@
     "lieu": "Prailles",
     "lat": 46.3199302,
     "lon": -0.2042972,
-    "vent_deg": 125
+    "validated": 1
   },
   {
     "id": "305626",
@@ -3607,7 +3607,7 @@
     "lieu": "Aignan",
     "lat": 43.698595,
     "lon": 0.0846181,
-    "vent_deg": 273
+    "validated": 1
   },
   {
     "id": "306020",
@@ -3617,7 +3617,7 @@
     "lieu": "Valence d'agen",
     "lat": 44.1116826,
     "lon": 0.8916094,
-    "vent_deg": 248
+    "validated": 1
   },
   {
     "id": "306974",
@@ -3627,7 +3627,7 @@
     "lieu": "Thiers",
     "lat": 45.855795,
     "lon": 3.5489707,
-    "vent_deg": 312
+    "validated": 1
   },
   {
     "id": "307441",
@@ -3637,7 +3637,7 @@
     "lieu": "Parigny",
     "lat": 45.9903707,
     "lon": 4.0967191,
-    "vent_deg": 136
+    "validated": 1
   },
   {
     "id": "308103",
@@ -3647,7 +3647,7 @@
     "lieu": "Houlle",
     "lat": 50.7965913,
     "lon": 2.1742979,
-    "vent_deg": 182
+    "validated": 1
   },
   {
     "id": "308738",
@@ -3657,7 +3657,7 @@
     "lieu": "Desertines",
     "lat": 46.3556648,
     "lon": 2.6157229,
-    "vent_deg": 89
+    "validated": 1
   },
   {
     "id": "296723",
@@ -3667,7 +3667,7 @@
     "lieu": "Villenave d'ornon",
     "lat": 44.7737872,
     "lon": -0.5595029,
-    "vent_deg": 300
+    "validated": 1
   },
   {
     "id": "300186",
@@ -3677,7 +3677,7 @@
     "lieu": "Superdevoluy",
     "lat": 44.6765415,
     "lon": 5.9295878,
-    "vent_deg": 14
+    "validated": 1
   },
   {
     "id": "292268",
@@ -3687,7 +3687,7 @@
     "lieu": "Chauvigny",
     "lat": 46.5695048,
     "lon": 0.6439464,
-    "vent_deg": 95
+    "validated": 1
   },
   {
     "id": "293650",
@@ -3697,7 +3697,7 @@
     "lieu": "Savenay",
     "lat": 47.3592304,
     "lon": -1.9421244,
-    "vent_deg": 360
+    "validated": 1
   },
   {
     "id": "293732",
@@ -3707,7 +3707,7 @@
     "lieu": "Montevrain",
     "lat": 48.8741286,
     "lon": 2.748344,
-    "vent_deg": 115
+    "validated": 1
   },
   {
     "id": "293745",
@@ -3717,7 +3717,7 @@
     "lieu": "Paris",
     "lat": 48.8534951,
     "lon": 2.3483915,
-    "vent_deg": 120
+    "validated": 1
   },
   {
     "id": "294543",
@@ -3727,7 +3727,7 @@
     "lieu": "Villers bocage",
     "lat": 49.9956745,
     "lon": 2.3141984,
-    "vent_deg": 151
+    "validated": 1
   },
   {
     "id": "295119",
@@ -3737,7 +3737,7 @@
     "lieu": "Villey saint etienne",
     "lat": 48.7322,
     "lon": 5.978,
-    "vent_deg": 140
+    "validated": 1
   },
   {
     "id": "295842",
@@ -3747,7 +3747,7 @@
     "lieu": "Belleu",
     "lat": 49.3591667,
     "lon": 3.3355556,
-    "vent_deg": 157
+    "validated": 1
   },
   {
     "id": "296159",
@@ -3757,7 +3757,7 @@
     "lieu": "Vernon",
     "lat": 49.0932008,
     "lon": 1.4857205,
-    "vent_deg": 123
+    "validated": 1
   },
   {
     "id": "296314",
@@ -3767,7 +3767,7 @@
     "lieu": "Montferrat",
     "lat": 45.4858,
     "lon": 5.5902,
-    "vent_deg": 8
+    "validated": 1
   },
   {
     "id": "296698",
@@ -3777,7 +3777,7 @@
     "lieu": "Foucarmont",
     "lat": 49.8482364,
     "lon": 1.5678906,
-    "vent_deg": 155
+    "validated": 1
   },
   {
     "id": "296769",
@@ -3787,7 +3787,7 @@
     "lieu": "Mezieres en brenne",
     "lat": 46.8197395,
     "lon": 1.2126177,
-    "vent_deg": 101
+    "validated": 1
   },
   {
     "id": "297101",
@@ -3797,7 +3797,7 @@
     "lieu": "Domart en ponthieu",
     "lat": 50.0741656,
     "lon": 2.1263174,
-    "vent_deg": 151
+    "validated": 1
   },
   {
     "id": "297173",
@@ -3807,7 +3807,7 @@
     "lieu": "Saint claud",
     "lat": 45.8944098,
     "lon": 0.4650861,
-    "vent_deg": 144
+    "validated": 1
   },
   {
     "id": "297647",
@@ -3817,7 +3817,7 @@
     "lieu": "Bouville",
     "lat": 49.5605729,
     "lon": 0.8937539,
-    "vent_deg": 152
+    "validated": 1
   },
   {
     "id": "297684",
@@ -3827,7 +3827,7 @@
     "lieu": "Belcaire",
     "lat": 42.8163554,
     "lon": 1.9603877,
-    "vent_deg": 27
+    "validated": 1
   },
   {
     "id": "297786",
@@ -3837,7 +3837,7 @@
     "lieu": "Arras",
     "lat": 50.291048,
     "lon": 2.7772211,
-    "vent_deg": 140
+    "validated": 1
   },
   {
     "id": "297929",
@@ -3847,7 +3847,7 @@
     "lieu": "Fruges",
     "lat": 50.5150387,
     "lon": 2.1349286,
-    "vent_deg": 173
+    "validated": 1
   },
   {
     "id": "298329",
@@ -3857,7 +3857,7 @@
     "lieu": "Dachstein",
     "lat": 48.5608856,
     "lon": 7.5318998,
-    "vent_deg": 0
+    "validated": 1
   },
   {
     "id": "298337",
@@ -3867,7 +3867,7 @@
     "lieu": "Saint andre de corcy",
     "lat": 45.9281426,
     "lon": 4.9534729,
-    "vent_deg": 25
+    "validated": 1
   },
   {
     "id": "298574",
@@ -3877,7 +3877,7 @@
     "lieu": "Rochechouart",
     "lat": 45.8219757,
     "lon": 0.8198124,
-    "vent_deg": 214
+    "validated": 1
   },
   {
     "id": "298890",
@@ -3887,7 +3887,7 @@
     "lieu": "Saint malo",
     "lat": 48.649518,
     "lon": -2.0260409,
-    "vent_deg": 10
+    "validated": 1
   },
   {
     "id": "299221",
@@ -3897,7 +3897,7 @@
     "lieu": "Dagneux",
     "lat": 45.8541,
     "lon": 5.07498,
-    "vent_deg": 330
+    "validated": 1
   },
   {
     "id": "299411",
@@ -3907,7 +3907,7 @@
     "lieu": "Rolampont",
     "lat": 47.9493239,
     "lon": 5.2865474,
-    "vent_deg": 69
+    "validated": 1
   },
   {
     "id": "299469",
@@ -3917,7 +3917,7 @@
     "lieu": "Vals pres le puy",
     "lat": 45.0300955,
     "lon": 3.8757116,
-    "vent_deg": 35
+    "validated": 1
   },
   {
     "id": "299726",
@@ -3927,7 +3927,7 @@
     "lieu": "Saint pierre le moutier",
     "lat": 46.7905584,
     "lon": 3.1180359,
-    "vent_deg": 114
+    "validated": 1
   },
   {
     "id": "299908",
@@ -3937,7 +3937,7 @@
     "lieu": "Viroflay",
     "lat": 48.7995951,
     "lon": 2.1730571,
-    "vent_deg": 90
+    "validated": 1
   },
   {
     "id": "300489",
@@ -3947,7 +3947,7 @@
     "lieu": "Ussel",
     "lat": 45.545591,
     "lon": 2.3119397,
-    "vent_deg": 160
+    "validated": 1
   },
   {
     "id": "300614",
@@ -3957,7 +3957,7 @@
     "lieu": "Colomiers",
     "lat": 43.6112476,
     "lon": 1.3367443,
-    "vent_deg": 270
+    "validated": 1
   },
   {
     "id": "300770",
@@ -3967,7 +3967,7 @@
     "lieu": "Saint laurent",
     "lat": 43.3253,
     "lon": 0.79977,
-    "vent_deg": 272
+    "validated": 1
   },
   {
     "id": "301239",
@@ -3977,7 +3977,7 @@
     "lieu": "Eysines",
     "lat": 44.8854667,
     "lon": -0.6486943,
-    "vent_deg": 300
+    "validated": 1
   },
   {
     "id": "301514",
@@ -3987,6 +3987,6 @@
     "lieu": "Triel sur seine",
     "lat": 48.980925,
     "lon": 2.0030818,
-    "vent_deg": 120
+    "validated": 1
   }
 ]
