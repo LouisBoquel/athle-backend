@@ -335,8 +335,8 @@
     "date": "19/07",
     "nom": "50 et 100km self-transcendance",
     "lieu": "Paris",
-    "lat": 48.8534951,
-    "lon": 2.3483915,
+    "lat": 48.8588897,
+    "lon": 2.320041,
     "validated": 1
   },
   {
@@ -1605,8 +1605,8 @@
     "date": "02/08",
     "nom": "2 miles self-transcendence",
     "lieu": "Paris",
-    "lat": 48.8534951,
-    "lon": 2.3483915,
+    "lat": 48.8588897,
+    "lon": 2.320041,
     "validated": 1
   },
   {
@@ -3225,8 +3225,8 @@
     "date": "24/08",
     "nom": "Run in sene nature",
     "lieu": "Sene",
-    "lat": 47.6199584,
-    "lon": -2.7373441,
+    "lat": null,
+    "lon": null,
     "validated": 1
   },
   {
@@ -3715,8 +3715,8 @@
     "date": "31/08",
     "nom": "10km du trocadéro",
     "lieu": "Paris",
-    "lat": 48.8534951,
-    "lon": 2.3483915,
+    "lat": 48.8588897,
+    "lon": 2.320041,
     "validated": 1
   },
   {
