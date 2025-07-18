@@ -124,7 +124,6 @@ def admin_delete(comp_id):
     cur.close()
     return jsonify({"success": True})
 
-
 # --- ENDPOINT CRON POUR SCRAPER ---
 @app.route('/api/cron/scrape', methods=['GET'])
 def api_cron_scrape():
@@ -141,7 +140,6 @@ def api_cron_scrape():
         return jsonify({"success": True, "count": len(results)})
     except Exception as e:
         return jsonify({"success": False, "error": str(e)}), 500
-
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
