@@ -1,105 +1,107 @@
-import os
 import json
-from flask import Flask, request, jsonify, session
+from flask import Flask, request, jsonify, g
+from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required
 from flask_cors import CORS
 
 ADMIN_USER = "admin"
-ADMIN_PASSWORD = "cac"  # à changer évidemment !
-SECRET_KEY = "change-me-123"
-
-DATA_PATH = "json/competitions_full_2025.json"
+ADMIN_PASSWORD = "ton_mot_de_passe_fort"
+SECRET_KEY = "13457689"
+JSON_PATH = "json/competitions_full_2025.json"
 
 app = Flask(__name__)
 app.secret_key = SECRET_KEY
-CORS(app, supports_credentials=True, origins=[
-    "https://thegreenpadel.fr", 
-    "http://localhost:5173", 
-    "http://127.0.0.1:5173"
-])
+CORS(app, supports_credentials=True)
 
-def load_data():
-    if not os.path.exists(DATA_PATH):
-        return []
-    with open(DATA_PATH, "r", encoding="utf-8") as f:
-        try:
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = "admin_login"
+
+# --- Chargement et sauvegarde JSON ---
+def load_json():
+    try:
+        with open(JSON_PATH, encoding="utf-8") as f:
             return json.load(f)
-        except Exception:
-            return []
+    except Exception:
+        return []
 
-def save_data(data):
-    os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
-    with open(DATA_PATH, "w", encoding="utf-8") as f:
+def save_json(data):
+    with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-# ----------- PUBLIC ROUTES ------------
+# --- SÉCURITÉ ADMIN ---
+class AdminUser(UserMixin):
+    id = 1
+    username = ADMIN_USER
+
+@login_manager.user_loader
+def load_user(user_id):
+    if str(user_id) == "1":
+        return AdminUser()
+    return None
+
+# --- ROUTES PUBLIQUES ---
 @app.route('/api/competitions', methods=['GET'])
 def get_competitions():
-    data = load_data()
-    # Seules les compét validées sont publiques
-    comps = [c for c in data if c.get("validated", True)]
+    data = load_json()
+    comps = [c for c in data if c.get("validated", 0) == 1]
     return jsonify(comps)
 
 @app.route('/api/competitions', methods=['POST'])
 def add_competition():
-    comp = request.json
-    fields = ['nom', 'famille', 'date', 'lieu', 'lat', 'lon']
-    if not all(comp.get(f) for f in fields):
+    data = request.json
+    required_fields = ['nom', 'famille', 'date', 'lieu', 'lat', 'lon']
+    if not all(f in data for f in required_fields):
         return jsonify({"error": "Champs manquants"}), 400
-    comp["id"] = comp.get("id") or f"user-{int(1e10*os.urandom(4)[0])}"
-    comp["validated"] = False  # Toujours non validée à l'ajout utilisateur
-    data = load_data()
-    data.append(comp)
-    save_data(data)
-    return jsonify({"success": True}), 201
+    comps = load_json()
+    # id = max + 1 pour éviter doublon avec FFA
+    data['id'] = max((int(c['id']) for c in comps), default=100000) + 1
+    data['validated'] = 0
+    comps.append(data)
+    save_json(comps)
+    return jsonify({"success": True, "id": data['id']}), 201
 
-# ----------- ADMIN ROUTES ------------
+# --- AUTHENTIFICATION ADMIN ---
 @app.route('/api/admin/login', methods=['POST'])
 def admin_login():
-    d = request.json
-    if d.get("username") == ADMIN_USER and d.get("password") == ADMIN_PASSWORD:
-        session['admin'] = True
-        return jsonify({"success": True})
-    return jsonify({"success": False, "error": "Identifiants invalides"}), 401
+    data = request.json
+    if not data or data.get('username') != ADMIN_USER or data.get('password') != ADMIN_PASSWORD:
+        return jsonify({'success': False, 'error': 'Identifiants invalides'}), 401
+    login_user(AdminUser())
+    return jsonify({'success': True})
 
 @app.route('/api/admin/logout', methods=['POST'])
+@login_required
 def admin_logout():
-    session.pop('admin', None)
-    return jsonify({"success": True})
+    logout_user()
+    return jsonify({'success': True})
 
-def require_admin():
-    if not session.get('admin'):
-        return jsonify({"error": "Non authorisé"}), 401
-
+# --- ENDPOINTS ADMIN ---
 @app.route('/api/admin/competitions', methods=['GET'])
-def admin_competitions():
-    if not session.get('admin'): return require_admin()
-    return jsonify(load_data())
+@login_required
+def admin_get_all():
+    comps = load_json()
+    return jsonify(comps)
 
-@app.route('/api/admin/validate/<comp_id>', methods=['POST'])
+@app.route('/api/admin/validate/<int:comp_id>', methods=['POST'])
+@login_required
 def admin_validate(comp_id):
-    if not session.get('admin'): return require_admin()
-    data = load_data()
-    found = False
-    for c in data:
-        if str(c.get("id")) == str(comp_id):
-            c["validated"] = True
-            found = True
-    save_data(data)
-    return jsonify({"success": found})
+    comps = load_json()
+    modified = 0
+    for c in comps:
+        if int(c['id']) == int(comp_id):
+            c['validated'] = 1
+            modified += 1
+    save_json(comps)
+    return jsonify({"success": True, "validated": modified})
 
-@app.route('/api/admin/delete/<comp_id>', methods=['POST'])
+@app.route('/api/admin/delete/<int:comp_id>', methods=['POST'])
+@login_required
 def admin_delete(comp_id):
-    if not session.get('admin'): return require_admin()
-    data = load_data()
-    new_data = [c for c in data if str(c.get("id")) != str(comp_id)]
-    save_data(new_data)
-    return jsonify({"success": True})
+    comps = load_json()
+    n_before = len(comps)
+    comps = [c for c in comps if int(c['id']) != int(comp_id)]
+    save_json(comps)
+    return jsonify({"removed": n_before - len(comps), "success": True})
 
-# ---------- CORS TEST -----------
-@app.after_request
-def add_cors_headers(response):
-    response.headers['Access-Control-Allow-Credentials'] = 'true'
-    return response
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True, port=5000)
