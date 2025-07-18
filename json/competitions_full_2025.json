@@ -1,0 +1,3992 @@
+[
+  {
+    "id": "308823",
+    "famille": "Stade",
+    "date": "18/07",
+    "nom": "Meeting lancer poids et disque",
+    "lieu": "Epinal",
+    "lat": 48.1747684,
+    "lon": 6.4503643,
+    "vent_deg": 29
+  },
+  {
+    "id": "302348",
+    "famille": "Stade",
+    "date": "18-20/07",
+    "nom": "Championnats de france u18-u20-u23(WA)",
+    "lieu": "Saint etienne",
+    "lat": 45.4401467,
+    "lon": 4.3873058,
+    "vent_deg": 0
+  },
+  {
+    "id": "304618",
+    "famille": "Stade",
+    "date": "20/07",
+    "nom": "Les soirées de saint-denis",
+    "lieu": "Saint denis",
+    "lat": 48.935773,
+    "lon": 2.3580232,
+    "vent_deg": 40
+  },
+  {
+    "id": "309364",
+    "famille": "Stade",
+    "date": "22/07",
+    "nom": "Athlé'stival demi-fond - 2ème soirée",
+    "lieu": "Savigny sur orge",
+    "lat": 48.6794572,
+    "lon": 2.3458417,
+    "vent_deg": 120
+  },
+  {
+    "id": "302244",
+    "famille": "Stade",
+    "date": "23/07",
+    "nom": "Challenge chaudet s2",
+    "lieu": "Noumea",
+    "lat": -22.2745264,
+    "lon": 166.442419,
+    "vent_deg": 74
+  },
+  {
+    "id": "308846",
+    "famille": "Stade",
+    "date": "24/07",
+    "nom": "Epeuves ouvertes",
+    "lieu": "Cercy la tour",
+    "lat": 46.8696643,
+    "lon": 3.6457483,
+    "vent_deg": 125
+  },
+  {
+    "id": "302349",
+    "famille": "Stade",
+    "date": "26-27/07",
+    "nom": "Open de france(WA)",
+    "lieu": "Thonon les bains",
+    "lat": 46.3731303,
+    "lon": 6.4779448,
+    "vent_deg": 19
+  },
+  {
+    "id": "309365",
+    "famille": "Stade",
+    "date": "29/07",
+    "nom": "Athlé'stival demi-fond - 3ème soirée",
+    "lieu": "Savigny sur orge",
+    "lat": 48.6794572,
+    "lon": 2.3458417,
+    "vent_deg": 120
+  },
+  {
+    "id": "302245",
+    "famille": "Stade",
+    "date": "30/07",
+    "nom": "Challenge chaudet s3",
+    "lieu": "Noumea",
+    "lat": -22.2745264,
+    "lon": 166.442419,
+    "vent_deg": 74
+  },
+  {
+    "id": "309246",
+    "famille": "Salle",
+    "date": "23/07",
+    "nom": "Soiree sauts lancers 1 000 m",
+    "lieu": "Bastia",
+    "lat": 42.6993979,
+    "lon": 9.4509187,
+    "vent_deg": 0
+  },
+  {
+    "id": "295073",
+    "famille": "Hors Stade",
+    "date": "18/07",
+    "nom": "T'es pas cap - 11ème édition",
+    "lieu": "Lans en vercors",
+    "lat": 45.1279159,
+    "lon": 5.5885485,
+    "vent_deg": 109
+  },
+  {
+    "id": "297534",
+    "famille": "Hors Stade",
+    "date": "18/07",
+    "nom": "Trail des pêchers",
+    "lieu": "Voutezac",
+    "lat": 45.2910034,
+    "lon": 1.4383612,
+    "vent_deg": 176
+  },
+  {
+    "id": "297831",
+    "famille": "Hors Stade",
+    "date": "18/07",
+    "nom": "Foulées gossoises",
+    "lieu": "Goos",
+    "lat": 43.7297297,
+    "lon": -0.9003665,
+    "vent_deg": 270
+  },
+  {
+    "id": "302138",
+    "famille": "Hors Stade",
+    "date": "18/07",
+    "nom": "Trail de l'oppidum 2025",
+    "lieu": "Igon",
+    "lat": 43.1599245,
+    "lon": -0.2327802,
+    "vent_deg": 280
+  },
+  {
+    "id": "307395",
+    "famille": "Hors Stade",
+    "date": "18/07",
+    "nom": "43ème course pédestre jacques mandon duo nocturne",
+    "lieu": "Saint ambroix",
+    "lat": 44.2600172,
+    "lon": 4.19978,
+    "vent_deg": 49
+  },
+  {
+    "id": "295873",
+    "famille": "Hors Stade",
+    "date": "18-19/07",
+    "nom": "Oisans trail tour - 9ème édition",
+    "lieu": "Villard reculas",
+    "lat": 45.0914971,
+    "lon": 6.0313171,
+    "vent_deg": 271
+  },
+  {
+    "id": "296479",
+    "famille": "Hors Stade",
+    "date": "18-19/07",
+    "nom": "Trail des 24 heures de suchaux",
+    "lieu": "Lods",
+    "lat": 47.045525,
+    "lon": 6.2478258,
+    "vent_deg": 41
+  },
+  {
+    "id": "295234",
+    "famille": "Hors Stade",
+    "date": "18-20/07",
+    "nom": "Tiger balm ultra 01 2025",
+    "lieu": "Oyonnax",
+    "lat": 46.2575174,
+    "lon": 5.6556181,
+    "vent_deg": 224
+  },
+  {
+    "id": "298150",
+    "famille": "Hors Stade",
+    "date": "18-20/07",
+    "nom": "Trail des 4x1800",
+    "lieu": "Laveissiere",
+    "lat": 45.1153617,
+    "lon": 2.8079656,
+    "vent_deg": 158
+  },
+  {
+    "id": "299998",
+    "famille": "Hors Stade",
+    "date": "18-20/07",
+    "nom": "Ultrariege",
+    "lieu": "Ax les thermes",
+    "lat": 42.7193597,
+    "lon": 1.8379765,
+    "vent_deg": 113
+  },
+  {
+    "id": "293784",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Les foulées abbaroises",
+    "lieu": "Abbaretz",
+    "lat": 47.5525545,
+    "lon": -1.5322775,
+    "vent_deg": 339
+  },
+  {
+    "id": "295466",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Le grand roseau",
+    "lieu": "Plougastel daoulas",
+    "lat": 48.3742317,
+    "lon": -4.369679,
+    "vent_deg": 180
+  },
+  {
+    "id": "295670",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Ultra sud canigou montagne",
+    "lieu": "Arles sur tech",
+    "lat": 42.4562149,
+    "lon": 2.6343451,
+    "vent_deg": 139
+  },
+  {
+    "id": "295771",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Montée du nid d'aigle",
+    "lieu": "Saint gervais les bains",
+    "lat": 45.8928549,
+    "lon": 6.7113338,
+    "vent_deg": 245
+  },
+  {
+    "id": "296380",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Foulées du pâté aux pommes de terre",
+    "lieu": "Saint marc a loubaud",
+    "lat": 45.8487127,
+    "lon": 1.9961602,
+    "vent_deg": 65
+  },
+  {
+    "id": "296452",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Trail semi urbain de belvès",
+    "lieu": "Belves",
+    "lat": 44.7460712,
+    "lon": 0.9751867,
+    "vent_deg": 219
+  },
+  {
+    "id": "296655",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "La ronde des dolmens",
+    "lieu": "Corbere les cabanes",
+    "lat": 42.6571712,
+    "lon": 2.6737081,
+    "vent_deg": 0
+  },
+  {
+    "id": "296963",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Les foulées bressaudes",
+    "lieu": "La bresse",
+    "lat": 48.0066282,
+    "lon": 6.8766915,
+    "vent_deg": 81
+  },
+  {
+    "id": "297823",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "39ème course pédestre de verjon",
+    "lieu": "Verjon",
+    "lat": 46.3463405,
+    "lon": 5.3506518,
+    "vent_deg": 299
+  },
+  {
+    "id": "299016",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Marathon  du grand ballon",
+    "lieu": "Oderen",
+    "lat": 47.909675,
+    "lon": 6.9756051,
+    "vent_deg": 113
+  },
+  {
+    "id": "299173",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "10km et 4h marche la mailleraye sur seine",
+    "lieu": "La mailleraye sur seine",
+    "lat": 49.4475415,
+    "lon": 0.7504418,
+    "vent_deg": 147
+  },
+  {
+    "id": "299955",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Foulées thermales 2025",
+    "lieu": "Montrond les bains",
+    "lat": 45.6433431,
+    "lon": 4.2299344,
+    "vent_deg": 0
+  },
+  {
+    "id": "300028",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Course de la fête du rabseppi",
+    "lieu": "Voegtlinshofen",
+    "lat": null,
+    "lon": null,
+    "vent_deg": null
+  },
+  {
+    "id": "301402",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "50 et 100km self-transcendance",
+    "lieu": "Paris",
+    "lat": 48.8534951,
+    "lon": 2.3483915,
+    "vent_deg": 120
+  },
+  {
+    "id": "301442",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Trail de la riviere des galets",
+    "lieu": "Le port",
+    "lat": 42.8662832,
+    "lon": 1.3740316,
+    "vent_deg": 1
+  },
+  {
+    "id": "301615",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Course nature du chateau",
+    "lieu": "Saint jouvent",
+    "lat": 45.9572716,
+    "lon": 1.2052833,
+    "vent_deg": 60
+  },
+  {
+    "id": "304354",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Ultra tour du beaufortain",
+    "lieu": "Queige",
+    "lat": 45.7198103,
+    "lon": 6.4597224,
+    "vent_deg": 242
+  },
+  {
+    "id": "305500",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Trail dé loumagno",
+    "lieu": "Avezan",
+    "lat": 43.8769444,
+    "lon": 0.7966667,
+    "vent_deg": 260
+  },
+  {
+    "id": "305872",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Kid s cross",
+    "lieu": "La bresse",
+    "lat": 48.0066282,
+    "lon": 6.8766915,
+    "vent_deg": 81
+  },
+  {
+    "id": "307034",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Les foulées biotoises",
+    "lieu": "Biot",
+    "lat": 43.6270041,
+    "lon": 7.0989546,
+    "vent_deg": 0
+  },
+  {
+    "id": "307409",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "10 km de saint-jean-de-la-haize",
+    "lieu": "Saint jean de la haize",
+    "lat": 48.7037065,
+    "lon": -1.3608267,
+    "vent_deg": 346
+  },
+  {
+    "id": "299373",
+    "famille": "Hors Stade",
+    "date": "19-20/07",
+    "nom": "Vauban urban trail de briançon 2025",
+    "lieu": "Briancon",
+    "lat": 44.8984037,
+    "lon": 6.6436313,
+    "vent_deg": 229
+  },
+  {
+    "id": "299905",
+    "famille": "Hors Stade",
+    "date": "19-20/07",
+    "nom": "Défi du portet",
+    "lieu": "Saint lary soulan",
+    "lat": 42.816936,
+    "lon": 0.3219538,
+    "vent_deg": 188
+  },
+  {
+    "id": "301227",
+    "famille": "Hors Stade",
+    "date": "19-20/07",
+    "nom": "Trail des melezes du mercantour",
+    "lieu": "Colmars",
+    "lat": 44.1814485,
+    "lon": 6.6270041,
+    "vent_deg": 227
+  },
+  {
+    "id": "302033",
+    "famille": "Hors Stade",
+    "date": "19-20/07",
+    "nom": "Trail des gets",
+    "lieu": "Les gets",
+    "lat": 46.1550977,
+    "lon": 6.6633354,
+    "vent_deg": 316
+  },
+  {
+    "id": "295404",
+    "famille": "Hors Stade",
+    "date": "19-02/08",
+    "nom": "36ème tour de france en courant",
+    "lieu": "Bernay",
+    "lat": 49.0902278,
+    "lon": 0.5989157,
+    "vent_deg": 172
+  },
+  {
+    "id": "308438",
+    "famille": "Hors Stade",
+    "date": "19/07",
+    "nom": "Les foulées abbaroises",
+    "lieu": "Abbaretz",
+    "lat": 47.5525545,
+    "lon": -1.5322775,
+    "vent_deg": 339
+  },
+  {
+    "id": "294315",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Courir à pornic",
+    "lieu": "Pornic",
+    "lat": 47.1152695,
+    "lon": -2.1040102,
+    "vent_deg": 355
+  },
+  {
+    "id": "294590",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Trail de l'aigle de manigod",
+    "lieu": "Manigod",
+    "lat": 45.8609621,
+    "lon": 6.3697041,
+    "vent_deg": 267
+  },
+  {
+    "id": "295034",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "10kms du chateau de val seille",
+    "lieu": "Courthezon",
+    "lat": 44.0867088,
+    "lon": 4.8835125,
+    "vent_deg": 340
+  },
+  {
+    "id": "295037",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Petri bianchi trail",
+    "lieu": "Cuttoli corticchiato",
+    "lat": 41.9778633,
+    "lon": 8.8880341,
+    "vent_deg": 0
+  },
+  {
+    "id": "296046",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Trail de la vallée de l'ouche",
+    "lieu": "Saint victor sur ouche",
+    "lat": 47.2339062,
+    "lon": 4.7456575,
+    "vent_deg": 83
+  },
+  {
+    "id": "296376",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "La ronde des etangs de migné",
+    "lieu": "Migne",
+    "lat": 46.7164122,
+    "lon": 1.3179504,
+    "vent_deg": 93
+  },
+  {
+    "id": "297276",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Course de la madeleine",
+    "lieu": "Berville",
+    "lat": 49.7076762,
+    "lon": 0.8325183,
+    "vent_deg": 161
+  },
+  {
+    "id": "297459",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Les monts du haut-livradois",
+    "lieu": "Saint bonnet le bourg",
+    "lat": 45.43399,
+    "lon": 3.60751,
+    "vent_deg": 161
+  },
+  {
+    "id": "297795",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "La foulée du lac",
+    "lieu": "Ambrugeat",
+    "lat": 45.5271448,
+    "lon": 2.1186513,
+    "vent_deg": 158
+  },
+  {
+    "id": "297810",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "La bel'montaise",
+    "lieu": "Belmont de la loire",
+    "lat": 46.1658779,
+    "lon": 4.3463482,
+    "vent_deg": 80
+  },
+  {
+    "id": "297818",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "La perle du layon",
+    "lieu": "Saint aubin de luigne",
+    "lat": 47.3210699,
+    "lon": -0.6708303,
+    "vent_deg": 191
+  },
+  {
+    "id": "298227",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Trail des chevreuils",
+    "lieu": "Allonnes",
+    "lat": 47.969283,
+    "lon": 0.1578819,
+    "vent_deg": 130
+  },
+  {
+    "id": "298331",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "La course des rubef",
+    "lieu": "Quievy",
+    "lat": 50.1659358,
+    "lon": 3.4269019,
+    "vent_deg": 58
+  },
+  {
+    "id": "298514",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Foulées des 2 roches",
+    "lieu": "Rochefort montagne",
+    "lat": 45.6838904,
+    "lon": 2.8050875,
+    "vent_deg": 85
+  },
+  {
+    "id": "298714",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "10 km de la côte de beauté",
+    "lieu": "Saint georges de didonne",
+    "lat": 45.6024886,
+    "lon": -0.997949,
+    "vent_deg": 313
+  },
+  {
+    "id": "299163",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Trail d'enelle",
+    "lieu": "Boulzicourt",
+    "lat": 49.6949638,
+    "lon": 4.6944671,
+    "vent_deg": 130
+  },
+  {
+    "id": "299266",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "La boienne 2025",
+    "lieu": "Biganos",
+    "lat": 44.642014,
+    "lon": -0.9766226,
+    "vent_deg": 320
+  },
+  {
+    "id": "299476",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Course nature et trail",
+    "lieu": "Felines",
+    "lat": 45.3170207,
+    "lon": 4.728122,
+    "vent_deg": 31
+  },
+  {
+    "id": "299602",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Marvejols-mende",
+    "lieu": "Mende",
+    "lat": 44.5180226,
+    "lon": 3.4991057,
+    "vent_deg": 314
+  },
+  {
+    "id": "299695",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Foulees des battages",
+    "lieu": "Gaillan en medoc",
+    "lat": 45.3234694,
+    "lon": -0.9578932,
+    "vent_deg": 307
+  },
+  {
+    "id": "299938",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Foul'ay - foulées brettevillaises",
+    "lieu": "Bretteville sur ay",
+    "lat": 49.2600419,
+    "lon": -1.6330942,
+    "vent_deg": 346
+  },
+  {
+    "id": "301298",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Trail du caroux",
+    "lieu": "Mons la trivalle",
+    "lat": 43.5666226,
+    "lon": 2.9597045,
+    "vent_deg": 90
+  },
+  {
+    "id": "301329",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Trail de thélus",
+    "lieu": "Thelus",
+    "lat": 50.354547,
+    "lon": 2.8001074,
+    "vent_deg": 137
+  },
+  {
+    "id": "301445",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "trail des trois pitons",
+    "lieu": "La plaine des palmistes",
+    "lat": -21.1360638,
+    "lon": 55.6399545,
+    "vent_deg": 151
+  },
+  {
+    "id": "301965",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Bk trail",
+    "lieu": "Bidarray",
+    "lat": 43.2670721,
+    "lon": -1.3510613,
+    "vent_deg": 306
+  },
+  {
+    "id": "302066",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Gam color",
+    "lieu": "Gien",
+    "lat": 47.6918575,
+    "lon": 2.6313889,
+    "vent_deg": 117
+  },
+  {
+    "id": "302123",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Course à  la montagne",
+    "lieu": "Urdos",
+    "lat": 42.8730148,
+    "lon": -0.5550375,
+    "vent_deg": 201
+  },
+  {
+    "id": "302859",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Course des lacs",
+    "lieu": "Barry d'islemade",
+    "lat": 44.0777342,
+    "lon": 1.2455919,
+    "vent_deg": 249
+  },
+  {
+    "id": "304107",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Nog'en trail",
+    "lieu": "Nogent le bernard",
+    "lat": 48.2359975,
+    "lon": 0.4900954,
+    "vent_deg": 169
+  },
+  {
+    "id": "306009",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Argentrail",
+    "lieu": "Argentiere",
+    "lat": 45.9838402,
+    "lon": 6.9298616,
+    "vent_deg": 292
+  },
+  {
+    "id": "307012",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Trail de la lucerne d'outremer",
+    "lieu": "La lucerne d'outremer",
+    "lat": 48.7855292,
+    "lon": -1.4238126,
+    "vent_deg": 348
+  },
+  {
+    "id": "308741",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Course populaire de poilley",
+    "lieu": "Poilley",
+    "lat": 48.6183654,
+    "lon": -1.3099571,
+    "vent_deg": 340
+  },
+  {
+    "id": "306311",
+    "famille": "Hors Stade",
+    "date": "20/07",
+    "nom": "Le défi du volcan",
+    "lieu": "Saint claude",
+    "lat": 46.3874699,
+    "lon": 5.8643866,
+    "vent_deg": 171
+  },
+  {
+    "id": "300161",
+    "famille": "Hors Stade",
+    "date": "21-25/07",
+    "nom": "Le défi de la muzelle",
+    "lieu": "Les deux alpes",
+    "lat": 45.0099949,
+    "lon": 6.1237609,
+    "vent_deg": 260
+  },
+  {
+    "id": "308565",
+    "famille": "Hors Stade",
+    "date": "23/07",
+    "nom": "Relais trail des arcades",
+    "lieu": "Castelnau montratier",
+    "lat": 44.2705036,
+    "lon": 1.3543304,
+    "vent_deg": 219
+  },
+  {
+    "id": "298965",
+    "famille": "Hors Stade",
+    "date": "25/07",
+    "nom": "La begaaroise",
+    "lieu": "Begaar",
+    "lat": 43.8227791,
+    "lon": -0.8489899,
+    "vent_deg": 287
+  },
+  {
+    "id": "302105",
+    "famille": "Hors Stade",
+    "date": "25/07",
+    "nom": "24 ème foulées de saint sauveur",
+    "lieu": "Saint sauveur",
+    "lat": 49.9380929,
+    "lon": 2.2120112,
+    "vent_deg": 142
+  },
+  {
+    "id": "302115",
+    "famille": "Hors Stade",
+    "date": "25/07",
+    "nom": "La lacommandaise",
+    "lieu": "Lacommande",
+    "lat": 43.2777179,
+    "lon": -0.5089142,
+    "vent_deg": 280
+  },
+  {
+    "id": "302128",
+    "famille": "Hors Stade",
+    "date": "25/07",
+    "nom": "Trail et marche de ger 2025",
+    "lieu": "Ger",
+    "lat": 43.2525682,
+    "lon": -0.0525885,
+    "vent_deg": 280
+  },
+  {
+    "id": "306067",
+    "famille": "Hors Stade",
+    "date": "25/07",
+    "nom": "Corrida escatalens",
+    "lieu": "Escatalens",
+    "lat": 43.9858333,
+    "lon": 1.1897222,
+    "vent_deg": 257
+  },
+  {
+    "id": "297975",
+    "famille": "Hors Stade",
+    "date": "25-27/07",
+    "nom": "Vars mountain trail",
+    "lieu": "Vars",
+    "lat": 47.5343201,
+    "lon": 5.5342065,
+    "vent_deg": 61
+  },
+  {
+    "id": "294460",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Trail volodalen du jura",
+    "lieu": "Orgelet",
+    "lat": 46.5205835,
+    "lon": 5.6109831,
+    "vent_deg": 293
+  },
+  {
+    "id": "295556",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "31èmes foulées vertes",
+    "lieu": "Verton",
+    "lat": 50.4015533,
+    "lon": 1.6507982,
+    "vent_deg": 140
+  },
+  {
+    "id": "295567",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Red eo trail de guerlesquin",
+    "lieu": "Guerlesquin",
+    "lat": 48.517454,
+    "lon": -3.588165,
+    "vent_deg": 220
+  },
+  {
+    "id": "296203",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Ronde nocturne des ponts bleus",
+    "lieu": "Martigues",
+    "lat": 43.4057279,
+    "lon": 5.0548176,
+    "vent_deg": 310
+  },
+  {
+    "id": "297347",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Course des deux cagouilles",
+    "lieu": "Villejesus",
+    "lat": 45.9063712,
+    "lon": 0.0329026,
+    "vent_deg": 138
+  },
+  {
+    "id": "298623",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "L'orignaquoise 10 km",
+    "lieu": "Origny sainte benoite",
+    "lat": 49.8399408,
+    "lon": 3.4879558,
+    "vent_deg": 110
+  },
+  {
+    "id": "301446",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Pace of the montain",
+    "lieu": "Salazie",
+    "lat": -21.0243835,
+    "lon": 55.543545,
+    "vent_deg": 110
+  },
+  {
+    "id": "301890",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Run to prez 2025",
+    "lieu": "Prez",
+    "lat": 49.79979,
+    "lon": 4.35061,
+    "vent_deg": 135
+  },
+  {
+    "id": "302127",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Les foulies 2025",
+    "lieu": "Sauvagnon",
+    "lat": 43.404401,
+    "lon": -0.3858932,
+    "vent_deg": 280
+  },
+  {
+    "id": "302133",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Les foulees chaumoises 2025",
+    "lieu": "Chaum",
+    "lat": 42.9376097,
+    "lon": 0.6556996,
+    "vent_deg": 333
+  },
+  {
+    "id": "303629",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Ultra trail de l'obiou (utobi)",
+    "lieu": "Saint disdier",
+    "lat": 44.7349442,
+    "lon": 5.8953542,
+    "vent_deg": 358
+  },
+  {
+    "id": "305778",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "La gijounade",
+    "lieu": "Vabre",
+    "lat": 43.6938078,
+    "lon": 2.4255195,
+    "vent_deg": 0
+  },
+  {
+    "id": "308035",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Trail de l'abomynable",
+    "lieu": "Bomy",
+    "lat": 50.5744328,
+    "lon": 2.2354651,
+    "vent_deg": 176
+  },
+  {
+    "id": "308362",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "Course de la sainte-anne 2025",
+    "lieu": "Vallauris",
+    "lat": 43.5761001,
+    "lon": 7.05859,
+    "vent_deg": 0
+  },
+  {
+    "id": "296656",
+    "famille": "Hors Stade",
+    "date": "26-27/07",
+    "nom": "Trail coma d'or",
+    "lieu": "Porte puymorens",
+    "lat": 42.5488878,
+    "lon": 1.833462,
+    "vent_deg": 174
+  },
+  {
+    "id": "297084",
+    "famille": "Hors Stade",
+    "date": "26-27/07",
+    "nom": "Trail de l'etendard",
+    "lieu": "Le bourg d'oisans",
+    "lat": 45.054713,
+    "lon": 6.0306625,
+    "vent_deg": 261
+  },
+  {
+    "id": "306310",
+    "famille": "Hors Stade",
+    "date": "26/07",
+    "nom": "La ronde de la banane",
+    "lieu": "Capesterre belle eau",
+    "lat": 16.0423322,
+    "lon": -61.5697274,
+    "vent_deg": 76
+  },
+  {
+    "id": "292075",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Trail locunolois",
+    "lieu": "Locunole",
+    "lat": 47.9363705,
+    "lon": -3.4784972,
+    "vent_deg": 345
+  },
+  {
+    "id": "293592",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "42ème ascension de la bonette",
+    "lieu": "Saint etienne de tinee",
+    "lat": 44.2564013,
+    "lon": 6.9249179,
+    "vent_deg": 216
+  },
+  {
+    "id": "293659",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Ronde des douaniers",
+    "lieu": "Saint nazaire",
+    "lat": 47.2733517,
+    "lon": -2.2138905,
+    "vent_deg": 360
+  },
+  {
+    "id": "295275",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "La ronde illoise",
+    "lieu": "Ille sur tet",
+    "lat": 42.6709665,
+    "lon": 2.6224853,
+    "vent_deg": 93
+  },
+  {
+    "id": "295719",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "La course des ridins",
+    "lieu": "La barre de monts",
+    "lat": 46.8848965,
+    "lon": -2.1163235,
+    "vent_deg": 353
+  },
+  {
+    "id": "295897",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Course sainte anne",
+    "lieu": "Harcourt",
+    "lat": 49.1668691,
+    "lon": 0.7857071,
+    "vent_deg": 155
+  },
+  {
+    "id": "296239",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Les foulées du large",
+    "lieu": "Quiberon",
+    "lat": 47.4874,
+    "lon": -3.12152,
+    "vent_deg": 333
+  },
+  {
+    "id": "296277",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Les plages fautaises",
+    "lieu": "La faute sur mer",
+    "lat": 46.332778,
+    "lon": -1.321367,
+    "vent_deg": 340
+  },
+  {
+    "id": "296463",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Ma'mouthe trail",
+    "lieu": "Thenon",
+    "lat": 45.1371,
+    "lon": 1.06994,
+    "vent_deg": 179
+  },
+  {
+    "id": "296680",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Le tour de cabrenç",
+    "lieu": "Serralongue",
+    "lat": 42.3975059,
+    "lon": 2.5559092,
+    "vent_deg": 141
+  },
+  {
+    "id": "297033",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "20km de la côte de granit rose",
+    "lieu": "Perros guirec",
+    "lat": 48.8151133,
+    "lon": -3.4394662,
+    "vent_deg": 270
+  },
+  {
+    "id": "297552",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Les foulées bapalmoises",
+    "lieu": "Bapaume",
+    "lat": 50.1038393,
+    "lon": 2.8496211,
+    "vent_deg": 0
+  },
+  {
+    "id": "297953",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Foulee de la marquise",
+    "lieu": "Grignan",
+    "lat": 44.4205,
+    "lon": 4.90993,
+    "vent_deg": 2
+  },
+  {
+    "id": "298055",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Trail du geant",
+    "lieu": "Campeneac",
+    "lat": 47.9586458,
+    "lon": -2.2924529,
+    "vent_deg": 8
+  },
+  {
+    "id": "298089",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "La trace du bouquetin",
+    "lieu": "Pralognan la vanoise",
+    "lat": 45.381809,
+    "lon": 6.7212822,
+    "vent_deg": 294
+  },
+  {
+    "id": "298253",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "La ronde de saint-sauveur",
+    "lieu": "Saint sauveur",
+    "lat": 49.9380929,
+    "lon": 2.2120112,
+    "vent_deg": 142
+  },
+  {
+    "id": "298501",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "La forestière de la margeride",
+    "lieu": "Clavieres",
+    "lat": 44.9854418,
+    "lon": 3.2773532,
+    "vent_deg": 73
+  },
+  {
+    "id": "298566",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Ascension cîme de la bonette",
+    "lieu": "Saint etienne de tinee",
+    "lat": 44.2564013,
+    "lon": 6.9249179,
+    "vent_deg": 216
+  },
+  {
+    "id": "300492",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Dessines moi",
+    "lieu": "Saint goussaud",
+    "lat": 46.0404269,
+    "lon": 1.5779222,
+    "vent_deg": 90
+  },
+  {
+    "id": "300523",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "La course des 3 sentiers",
+    "lieu": "Vendays montalivet",
+    "lat": 45.3555884,
+    "lon": -1.0593641,
+    "vent_deg": 311
+  },
+  {
+    "id": "301447",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Trail k'frines",
+    "lieu": "Saint denis",
+    "lat": 48.935773,
+    "lon": 2.3580232,
+    "vent_deg": 40
+  },
+  {
+    "id": "301450",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Grand benare-trois bassinoise",
+    "lieu": "Les trois bassins",
+    "lat": -21.1137892,
+    "lon": 55.3359811,
+    "vent_deg": 152
+  },
+  {
+    "id": "303166",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Trail des sept laux - 4ème édition",
+    "lieu": "Prapoutel",
+    "lat": 45.2567786,
+    "lon": 5.9954353,
+    "vent_deg": 304
+  },
+  {
+    "id": "303559",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Les foulées buaisiennes 2025",
+    "lieu": "Buais",
+    "lat": 48.5221945,
+    "lon": -0.969104,
+    "vent_deg": 287
+  },
+  {
+    "id": "305980",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Trail des 3 clochers",
+    "lieu": "Escolives sainte camille",
+    "lat": 47.7178191,
+    "lon": 3.6069131,
+    "vent_deg": 98
+  },
+  {
+    "id": "306015",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Corrida de mazeres",
+    "lieu": "Mazeres",
+    "lat": 44.4948895,
+    "lon": -0.2586472,
+    "vent_deg": 277
+  },
+  {
+    "id": "306321",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Trailduro entraunes",
+    "lieu": "Entraunes",
+    "lat": 44.1880502,
+    "lon": 6.7489678,
+    "vent_deg": 223
+  },
+  {
+    "id": "308228",
+    "famille": "Hors Stade",
+    "date": "27/07",
+    "nom": "Les foulees de la voie verte",
+    "lieu": "Plouasne",
+    "lat": 48.3001245,
+    "lon": -2.0077252,
+    "vent_deg": 356
+  },
+  {
+    "id": "295813",
+    "famille": "Hors Stade",
+    "date": "30/07",
+    "nom": "Les boucles de cezelly",
+    "lieu": "Leucate",
+    "lat": 42.910007,
+    "lon": 3.0270222,
+    "vent_deg": 156
+  },
+  {
+    "id": "295167",
+    "famille": "Hors Stade",
+    "date": "31-02/08",
+    "nom": "La 6000d la plagne",
+    "lieu": "Macot la plagne",
+    "lat": 45.5223052,
+    "lon": 6.6933643,
+    "vent_deg": 286
+  },
+  {
+    "id": "302350",
+    "famille": "Stade",
+    "date": "01-03/08",
+    "nom": "Championnats de france elite(WA)",
+    "lieu": "Talence",
+    "lat": 44.8088438,
+    "lon": -0.5879629,
+    "vent_deg": 300
+  },
+  {
+    "id": "302246",
+    "famille": "Stade",
+    "date": "06/08",
+    "nom": "Challenge chaudet s4",
+    "lieu": "Noumea",
+    "lat": -22.2745264,
+    "lon": 166.442419,
+    "vent_deg": 74
+  },
+  {
+    "id": "305133",
+    "famille": "Stade",
+    "date": "07/08",
+    "nom": "Compétition lnca 3",
+    "lieu": "Noumea",
+    "lat": -22.2745264,
+    "lon": 166.442419,
+    "vent_deg": 74
+  },
+  {
+    "id": "302247",
+    "famille": "Stade",
+    "date": "08/08",
+    "nom": "Competition lnca 2025_8",
+    "lieu": "Mont dore",
+    "lat": 45.5749966,
+    "lon": 2.8094117,
+    "vent_deg": 164
+  },
+  {
+    "id": "304806",
+    "famille": "Stade",
+    "date": "08/08",
+    "nom": "Jsvdt coupe alain lazare",
+    "lieu": "Noumea",
+    "lat": -22.2745264,
+    "lon": 166.442419,
+    "vent_deg": 74
+  },
+  {
+    "id": "303497",
+    "famille": "Stade",
+    "date": "24/08",
+    "nom": "Meeting reprise chasseneuil lancers+eo",
+    "lieu": "Chasseneuil sur bonnieure",
+    "lat": 45.8239655,
+    "lon": 0.4487238,
+    "vent_deg": 155
+  },
+  {
+    "id": "302248",
+    "famille": "Stade",
+    "date": "29/08",
+    "nom": "Comp lnca 2025_9 & aceb_8",
+    "lieu": "Mont dore",
+    "lat": 45.5749966,
+    "lon": 2.8094117,
+    "vent_deg": 164
+  },
+  {
+    "id": "301265",
+    "famille": "Stade",
+    "date": "30/08",
+    "nom": "Meeting lancers 2025 uagm - masters et u14- u16",
+    "lieu": "Gujan mestras",
+    "lat": 44.6360982,
+    "lon": -1.0714014,
+    "vent_deg": 320
+  },
+  {
+    "id": "305134",
+    "famille": "Stade",
+    "date": "30/08",
+    "nom": "Lnca challenge jeunes 2",
+    "lieu": "Noumea",
+    "lat": -22.2745264,
+    "lon": 166.442419,
+    "vent_deg": 74
+  },
+  {
+    "id": "305153",
+    "famille": "Stade",
+    "date": "30/08",
+    "nom": "Les étoiles du lac(WA)",
+    "lieu": "Nantua",
+    "lat": 46.1534255,
+    "lon": 5.6058987,
+    "vent_deg": 232
+  },
+  {
+    "id": "309445",
+    "famille": "Stade",
+    "date": "30/08",
+    "nom": "Meeting usc albi",
+    "lieu": "Albi",
+    "lat": 43.9277552,
+    "lon": 2.147899,
+    "vent_deg": 301
+  },
+  {
+    "id": "304188",
+    "famille": "Stade",
+    "date": "31/08",
+    "nom": "Meeting de clôture du florentinois",
+    "lieu": "Saint florentin",
+    "lat": 48.00172,
+    "lon": 3.7280106,
+    "vent_deg": 110
+  },
+  {
+    "id": "309214",
+    "famille": "Stade",
+    "date": "31/08",
+    "nom": "Meeting 5 lancers luc romary",
+    "lieu": "Thaon les vosges",
+    "lat": 48.2494845,
+    "lon": 6.4123612,
+    "vent_deg": 36
+  },
+  {
+    "id": "309330",
+    "famille": "Stade",
+    "date": "31/08",
+    "nom": "Essai formation",
+    "lieu": "Nantes",
+    "lat": 47.2186371,
+    "lon": -1.5541362,
+    "vent_deg": 330
+  },
+  {
+    "id": "307806",
+    "famille": "Cross",
+    "date": "30/08",
+    "nom": "Les foulées de l'authie",
+    "lieu": "Colline beaumont",
+    "lat": 50.3398311,
+    "lon": 1.6808146,
+    "vent_deg": 146
+  },
+  {
+    "id": "305820",
+    "famille": "Cross",
+    "date": "30/08",
+    "nom": "Plouf trail",
+    "lieu": "Ploufragan",
+    "lat": 48.4893432,
+    "lon": -2.7933133,
+    "vent_deg": 310
+  },
+  {
+    "id": "297265",
+    "famille": "Hors Stade",
+    "date": "01/08",
+    "nom": "Trail des abeilles",
+    "lieu": "Roquebilliere",
+    "lat": 44.0127173,
+    "lon": 7.307673,
+    "vent_deg": 192
+  },
+  {
+    "id": "299254",
+    "famille": "Hors Stade",
+    "date": "01/08",
+    "nom": "Les foulées du coeur",
+    "lieu": "Peyrehorade",
+    "lat": 43.5440941,
+    "lon": -1.105088,
+    "vent_deg": 270
+  },
+  {
+    "id": "309443",
+    "famille": "Hors Stade",
+    "date": "01/08",
+    "nom": "La bézacoise",
+    "lieu": "Bezac",
+    "lat": 43.1485929,
+    "lon": 1.5753874,
+    "vent_deg": 309
+  },
+  {
+    "id": "296702",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "La course des 2 ponts",
+    "lieu": "Nedde",
+    "lat": 45.7192783,
+    "lon": 1.8314484,
+    "vent_deg": 236
+  },
+  {
+    "id": "297102",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "Course nature des dunes",
+    "lieu": "Plouhinec",
+    "lat": 48.0153626,
+    "lon": -4.4877863,
+    "vent_deg": 307
+  },
+  {
+    "id": "297412",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "La ronde cuquoise",
+    "lieu": "Cuq les vielmur",
+    "lat": null,
+    "lon": null,
+    "vent_deg": null
+  },
+  {
+    "id": "298093",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "Corrida de surbourg",
+    "lieu": "Surbourg",
+    "lat": 48.9090322,
+    "lon": 7.8497513,
+    "vent_deg": 320
+  },
+  {
+    "id": "298681",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "Trail du ceou",
+    "lieu": "Saint germain du bel air",
+    "lat": 44.6465961,
+    "lon": 1.4393677,
+    "vent_deg": 193
+  },
+  {
+    "id": "298690",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "La ronde du canal",
+    "lieu": "Briennon",
+    "lat": 46.1486343,
+    "lon": 4.0867174,
+    "vent_deg": 122
+  },
+  {
+    "id": "301396",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "2 miles self-transcendence",
+    "lieu": "Paris",
+    "lat": 48.8534951,
+    "lon": 2.3483915,
+    "vent_deg": 120
+  },
+  {
+    "id": "301651",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "Leu oxygene trail",
+    "lieu": "Saint leu",
+    "lat": -21.1677694,
+    "lon": 55.2881932,
+    "vent_deg": 147
+  },
+  {
+    "id": "302129",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "Trail du montagnon",
+    "lieu": "Aydius",
+    "lat": 43.0015205,
+    "lon": -0.5419161,
+    "vent_deg": 340
+  },
+  {
+    "id": "304521",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "La complice",
+    "lieu": "Merlimont",
+    "lat": 50.4553061,
+    "lon": 1.614809,
+    "vent_deg": 140
+  },
+  {
+    "id": "307454",
+    "famille": "Hors Stade",
+    "date": "02/08",
+    "nom": "Ronde de cubierettes",
+    "lieu": "Cubierettes",
+    "lat": 44.4597,
+    "lon": 3.78693,
+    "vent_deg": 259
+  },
+  {
+    "id": "300187",
+    "famille": "Hors Stade",
+    "date": "02-03/08",
+    "nom": "Trails des lacs d'orcières",
+    "lieu": "Merlette",
+    "lat": 17.9133969,
+    "lon": -62.8536857,
+    "vent_deg": 119
+  },
+  {
+    "id": "303652",
+    "famille": "Hors Stade",
+    "date": "02-03/08",
+    "nom": "Trail la frison roche",
+    "lieu": "Beaufort",
+    "lat": 50.2144406,
+    "lon": 3.9615305,
+    "vent_deg": 329
+  },
+  {
+    "id": "292919",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Les foulées nature de villenoy",
+    "lieu": "Villenoy",
+    "lat": 48.9412182,
+    "lon": 2.8596553,
+    "vent_deg": 113
+  },
+  {
+    "id": "294308",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Semi-marathon du pays de saint gilles",
+    "lieu": "Saint hilaire de riez",
+    "lat": 46.7199488,
+    "lon": -1.9461437,
+    "vent_deg": 348
+  },
+  {
+    "id": "294333",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Trail du pays du châtaignier",
+    "lieu": "Villefranche du perigord",
+    "lat": 44.6300268,
+    "lon": 1.0808003,
+    "vent_deg": 221
+  },
+  {
+    "id": "295038",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Les courses de vezzani",
+    "lieu": "Vezzani",
+    "lat": 42.17362,
+    "lon": 9.2461,
+    "vent_deg": 121
+  },
+  {
+    "id": "295277",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Run in saint laurent",
+    "lieu": "Saint laurent de la salan",
+    "lat": null,
+    "lon": null,
+    "vent_deg": null
+  },
+  {
+    "id": "295531",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Trail de la forêt de st sever",
+    "lieu": "Saint sever calvados",
+    "lat": 48.8253485,
+    "lon": -1.0403589,
+    "vent_deg": 356
+  },
+  {
+    "id": "296227",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Ronde chabrillannaise -souvenir alain charrier",
+    "lieu": "Chabrillan",
+    "lat": 44.724,
+    "lon": 4.94344,
+    "vent_deg": 355
+  },
+  {
+    "id": "296403",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Foulées de longemer",
+    "lieu": "Xonrupt longemer",
+    "lat": 48.0812783,
+    "lon": 6.9266841,
+    "vent_deg": 59
+  },
+  {
+    "id": "296860",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "37 ème les boucles de l'issole",
+    "lieu": "Sainte anastasie sur isso",
+    "lat": null,
+    "lon": null,
+    "vent_deg": null
+  },
+  {
+    "id": "296994",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Trail de ferrette",
+    "lieu": "Ferrette",
+    "lat": 47.4944546,
+    "lon": 7.3141424,
+    "vent_deg": 0
+  },
+  {
+    "id": "297078",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "La gévaudane",
+    "lieu": "Saugues",
+    "lat": 44.959244,
+    "lon": 3.5446108,
+    "vent_deg": 62
+  },
+  {
+    "id": "297152",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Run'in fav",
+    "lieu": "Turckheim",
+    "lat": 48.0878217,
+    "lon": 7.278011,
+    "vent_deg": 140
+  },
+  {
+    "id": "297257",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Trail de la fete",
+    "lieu": "Vigeois",
+    "lat": 45.3794309,
+    "lon": 1.5160928,
+    "vent_deg": 173
+  },
+  {
+    "id": "297357",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "34-me foulées stéphanoises",
+    "lieu": "Saint abraham",
+    "lat": 47.85528,
+    "lon": -2.41052,
+    "vent_deg": 9
+  },
+  {
+    "id": "297435",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "La christolaise - 34ème édition",
+    "lieu": "Saint christophe en oisan",
+    "lat": null,
+    "lon": null,
+    "vent_deg": null
+  },
+  {
+    "id": "297530",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "L'enclavienne",
+    "lieu": "Valreas",
+    "lat": 44.3851455,
+    "lon": 4.9906089,
+    "vent_deg": 6
+  },
+  {
+    "id": "297551",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Trail de la reine margot",
+    "lieu": "La tour d'auvergne",
+    "lat": 45.5326791,
+    "lon": 2.6896574,
+    "vent_deg": 207
+  },
+  {
+    "id": "298685",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Corsa di l'oriente",
+    "lieu": "Ghisoni",
+    "lat": 42.1035625,
+    "lon": 9.2122752,
+    "vent_deg": 135
+  },
+  {
+    "id": "298715",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "La saint augustinaise jc avril",
+    "lieu": "Saint augustin",
+    "lat": 48.7858921,
+    "lon": 3.0292059,
+    "vent_deg": 116
+  },
+  {
+    "id": "298876",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Trail edf cenis tour 2025",
+    "lieu": "Lanslebourg mont cenis",
+    "lat": 45.2509937,
+    "lon": 6.9325221,
+    "vent_deg": 251
+  },
+  {
+    "id": "301058",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Les foulees fougerollaises",
+    "lieu": "Fougerolles du plessis",
+    "lat": 48.4737398,
+    "lon": -0.9726933,
+    "vent_deg": 285
+  },
+  {
+    "id": "301652",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Trail et rando vaincre parkison",
+    "lieu": "La saline les bains",
+    "lat": -21.094984,
+    "lon": 55.2371304,
+    "vent_deg": 156
+  },
+  {
+    "id": "305099",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "5km et 10km d'hirel",
+    "lieu": "Hirel",
+    "lat": 48.606156,
+    "lon": -1.8019488,
+    "vent_deg": 349
+  },
+  {
+    "id": "305452",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Ronde des phares",
+    "lieu": "Le verdon sur mer",
+    "lat": 45.547543,
+    "lon": -1.0622993,
+    "vent_deg": 315
+  },
+  {
+    "id": "305579",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "La ronde des cyclamens",
+    "lieu": "Arith",
+    "lat": 45.7136,
+    "lon": 6.08678,
+    "vent_deg": 360
+  },
+  {
+    "id": "307595",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Hardiden",
+    "lieu": "Grust",
+    "lat": 42.889114,
+    "lon": -0.0318475,
+    "vent_deg": 181
+  },
+  {
+    "id": "308025",
+    "famille": "Hors Stade",
+    "date": "03/08",
+    "nom": "Le sentier des bouzedes",
+    "lieu": "Genolhac",
+    "lat": 44.3511996,
+    "lon": 3.9499106,
+    "vent_deg": 127
+  },
+  {
+    "id": "295892",
+    "famille": "Hors Stade",
+    "date": "07/08",
+    "nom": "Courses nature de brillac",
+    "lieu": "Sarzeau",
+    "lat": 47.5287694,
+    "lon": -2.7641997,
+    "vent_deg": 351
+  },
+  {
+    "id": "296859",
+    "famille": "Hors Stade",
+    "date": "07/08",
+    "nom": "10 km de soustons",
+    "lieu": "Soustons",
+    "lat": 43.75079,
+    "lon": -1.32955,
+    "vent_deg": 294
+  },
+  {
+    "id": "303566",
+    "famille": "Hors Stade",
+    "date": "07/08",
+    "nom": "Le trail des arcs",
+    "lieu": "Les arcs",
+    "lat": 43.4629097,
+    "lon": 6.4786269,
+    "vent_deg": 0
+  },
+  {
+    "id": "297032",
+    "famille": "Hors Stade",
+    "date": "08/08",
+    "nom": "Beach run tranchaise",
+    "lieu": "La tranche sur mer",
+    "lat": 46.3440097,
+    "lon": -1.4380541,
+    "vent_deg": 316
+  },
+  {
+    "id": "297828",
+    "famille": "Hors Stade",
+    "date": "08/08",
+    "nom": "Les foulées de la saint laurent",
+    "lieu": "Mugron",
+    "lat": 43.7506673,
+    "lon": -0.7496385,
+    "vent_deg": 290
+  },
+  {
+    "id": "301943",
+    "famille": "Hors Stade",
+    "date": "08/08",
+    "nom": "Hiri besta",
+    "lieu": "Hendaye",
+    "lat": 43.3641518,
+    "lon": -1.7616499,
+    "vent_deg": 0
+  },
+  {
+    "id": "303636",
+    "famille": "Hors Stade",
+    "date": "08/08",
+    "nom": "La ronde des bouscatiers",
+    "lieu": "Collobrieres",
+    "lat": 43.2374,
+    "lon": 6.3089533,
+    "vent_deg": 79
+  },
+  {
+    "id": "302494",
+    "famille": "Hors Stade",
+    "date": "08-10/08",
+    "nom": "Val tho summit games 2025",
+    "lieu": "Val thorens",
+    "lat": 45.2979109,
+    "lon": 6.5822693,
+    "vent_deg": 300
+  },
+  {
+    "id": "296121",
+    "famille": "Hors Stade",
+    "date": "09/08",
+    "nom": "Trail des 6 burons 2025",
+    "lieu": "Riom es montagnes",
+    "lat": 45.2832492,
+    "lon": 2.6594544,
+    "vent_deg": 244
+  },
+  {
+    "id": "297012",
+    "famille": "Hors Stade",
+    "date": "09/08",
+    "nom": "Las nonanta laurentaise",
+    "lieu": "Saint laurent sur gorre",
+    "lat": 45.7706201,
+    "lon": 0.9572501,
+    "vent_deg": 206
+  },
+  {
+    "id": "298248",
+    "famille": "Hors Stade",
+    "date": "09/08",
+    "nom": "Trail des hauts forts 2025",
+    "lieu": "Morzine",
+    "lat": 46.1799561,
+    "lon": 6.7091057,
+    "vent_deg": 321
+  },
+  {
+    "id": "299268",
+    "famille": "Hors Stade",
+    "date": "09/08",
+    "nom": "La ruee savignoise",
+    "lieu": "Savigny sous faye",
+    "lat": 46.8706115,
+    "lon": 0.2865446,
+    "vent_deg": 140
+  },
+  {
+    "id": "302136",
+    "famille": "Hors Stade",
+    "date": "09/08",
+    "nom": "Muga trail",
+    "lieu": "Sainte engrace",
+    "lat": 42.9958555,
+    "lon": -0.8108094,
+    "vent_deg": 1
+  },
+  {
+    "id": "303634",
+    "famille": "Hors Stade",
+    "date": "09/08",
+    "nom": "Kv du cheval noir",
+    "lieu": "Saint francois longchamp",
+    "lat": 45.4172599,
+    "lon": 6.3620514,
+    "vent_deg": 306
+  },
+  {
+    "id": "304838",
+    "famille": "Hors Stade",
+    "date": "09/08",
+    "nom": "Skyrace les orres 2025",
+    "lieu": "Les orres",
+    "lat": 44.5140024,
+    "lon": 6.5510313,
+    "vent_deg": 260
+  },
+  {
+    "id": "304929",
+    "famille": "Hors Stade",
+    "date": "09/08",
+    "nom": "La montségurienne trail 1244",
+    "lieu": "Montsegur",
+    "lat": 43.4328381,
+    "lon": -0.0154831,
+    "vent_deg": 275
+  },
+  {
+    "id": "305517",
+    "famille": "Hors Stade",
+    "date": "09/08",
+    "nom": "Course des parachutistes",
+    "lieu": "Sainte mere eglise",
+    "lat": 49.4117704,
+    "lon": -1.3268248,
+    "vent_deg": 24
+  },
+  {
+    "id": "296352",
+    "famille": "Hors Stade",
+    "date": "09-10/08",
+    "nom": "Méribel trail",
+    "lieu": "Meribel les allues",
+    "lat": 45.399064,
+    "lon": 6.5666055,
+    "vent_deg": 302
+  },
+  {
+    "id": "297198",
+    "famille": "Hors Stade",
+    "date": "09-10/08",
+    "nom": "Championnat du canigó",
+    "lieu": "Vernet les bains",
+    "lat": 42.5484832,
+    "lon": 2.3878706,
+    "vent_deg": 152
+  },
+  {
+    "id": "301969",
+    "famille": "Hors Stade",
+    "date": "09-10/08",
+    "nom": "42ème enduro des sables",
+    "lieu": "Agon coutainville",
+    "lat": 49.0426274,
+    "lon": -1.5767053,
+    "vent_deg": 351
+  },
+  {
+    "id": "302623",
+    "famille": "Hors Stade",
+    "date": "09-10/08",
+    "nom": "Trail du corbier",
+    "lieu": "Le corbier",
+    "lat": 45.2401623,
+    "lon": 6.2682259,
+    "vent_deg": 75
+  },
+  {
+    "id": "301654",
+    "famille": "Hors Stade",
+    "date": "09-12/08",
+    "nom": "Trophée de l'océan indien",
+    "lieu": "Saint denis",
+    "lat": 48.935773,
+    "lon": 2.3580232,
+    "vent_deg": 40
+  },
+  {
+    "id": "294316",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Foulées micheloises",
+    "lieu": "Saint michel chef chef",
+    "lat": 47.1816681,
+    "lon": -2.1497904,
+    "vent_deg": 360
+  },
+  {
+    "id": "295554",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "La rubatée verte",
+    "lieu": "Lajoux",
+    "lat": 46.3750388,
+    "lon": 5.9728027,
+    "vent_deg": 0
+  },
+  {
+    "id": "297588",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "La corrida de la st laurent",
+    "lieu": "Ollioules",
+    "lat": 43.1397205,
+    "lon": 5.8483538,
+    "vent_deg": 117
+  },
+  {
+    "id": "297952",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Foulées des langoustines",
+    "lieu": "Locmiquelic",
+    "lat": 47.7240686,
+    "lon": -3.3424834,
+    "vent_deg": 340
+  },
+  {
+    "id": "298835",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Ronde de chassignolles",
+    "lieu": "Chassignolles",
+    "lat": 46.5411862,
+    "lon": 1.9399055,
+    "vent_deg": 89
+  },
+  {
+    "id": "299949",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "La 1ère ronde de carcans",
+    "lieu": "Carcans",
+    "lat": 45.0796259,
+    "lon": -1.0439593,
+    "vent_deg": 307
+  },
+  {
+    "id": "299953",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Trail de dormillouse unesco geoparc - 12eme edition",
+    "lieu": "Montclar",
+    "lat": 43.1351201,
+    "lon": 2.247705,
+    "vent_deg": 260
+  },
+  {
+    "id": "301653",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Trail piton fougeres beaumont sainte marie",
+    "lieu": "Sainte marie",
+    "lat": 42.97204,
+    "lon": 0.62129,
+    "vent_deg": 334
+  },
+  {
+    "id": "301655",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Trail sud sauvage",
+    "lieu": "Saint philippe",
+    "lat": -21.359598,
+    "lon": 55.7676911,
+    "vent_deg": 154
+  },
+  {
+    "id": "301659",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Semi marathon de la corniche 2025",
+    "lieu": "Saint denis",
+    "lat": 48.935773,
+    "lon": 2.3580232,
+    "vent_deg": 40
+  },
+  {
+    "id": "301660",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Championnat réunion de marathon",
+    "lieu": "Saint denis",
+    "lat": 48.935773,
+    "lon": 2.3580232,
+    "vent_deg": 40
+  },
+  {
+    "id": "302114",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Course de la rhune 54ème édition",
+    "lieu": "Ascain",
+    "lat": 43.3449356,
+    "lon": -1.620839,
+    "vent_deg": 290
+  },
+  {
+    "id": "303573",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "La verticale du valbuche",
+    "lieu": "Montaimont",
+    "lat": 45.3781415,
+    "lon": 6.3635717,
+    "vent_deg": 306
+  },
+  {
+    "id": "308272",
+    "famille": "Hors Stade",
+    "date": "10/08",
+    "nom": "Foulees du milhassou",
+    "lieu": "Montaignac saint hippolyt",
+    "lat": null,
+    "lon": null,
+    "vent_deg": null
+  },
+  {
+    "id": "306287",
+    "famille": "Hors Stade",
+    "date": "11/08",
+    "nom": "Praeditrail",
+    "lieu": "La teste",
+    "lat": 44.6369726,
+    "lon": -1.1429337,
+    "vent_deg": 320
+  },
+  {
+    "id": "296748",
+    "famille": "Hors Stade",
+    "date": "13/08",
+    "nom": "Feriascapade",
+    "lieu": "Dax",
+    "lat": 43.7084065,
+    "lon": -1.0518771,
+    "vent_deg": 270
+  },
+  {
+    "id": "308726",
+    "famille": "Hors Stade",
+    "date": "13/08",
+    "nom": "Les 10 km de la feria",
+    "lieu": "Beziers",
+    "lat": 43.3426562,
+    "lon": 3.2131307,
+    "vent_deg": 270
+  },
+  {
+    "id": "296453",
+    "famille": "Hors Stade",
+    "date": "13-17/08",
+    "nom": "Challenge cecile narcy",
+    "lieu": "L'alpe d’huez",
+    "lat": 45.092401,
+    "lon": 6.0699443,
+    "vent_deg": 273
+  },
+  {
+    "id": "296486",
+    "famille": "Hors Stade",
+    "date": "14/08",
+    "nom": "La marinade",
+    "lieu": "Sainte marie",
+    "lat": 42.97204,
+    "lon": 0.62129,
+    "vent_deg": 334
+  },
+  {
+    "id": "299988",
+    "famille": "Hors Stade",
+    "date": "14/08",
+    "nom": "La sympathique",
+    "lieu": "Vaire",
+    "lat": 47.276952,
+    "lon": 6.1568122,
+    "vent_deg": 47
+  },
+  {
+    "id": "303757",
+    "famille": "Hors Stade",
+    "date": "14/08",
+    "nom": "La littorale juno",
+    "lieu": "Langrune sur mer",
+    "lat": 49.320622,
+    "lon": -0.3727503,
+    "vent_deg": 330
+  },
+  {
+    "id": "301839",
+    "famille": "Hors Stade",
+    "date": "14-17/08",
+    "nom": "Challenge du montcalm",
+    "lieu": "Auzat",
+    "lat": 42.7655046,
+    "lon": 1.4794271,
+    "vent_deg": 128
+  },
+  {
+    "id": "293000",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Foulées des dunes",
+    "lieu": "Saint brevin les pins",
+    "lat": 47.2473358,
+    "lon": -2.1677298,
+    "vent_deg": 360
+  },
+  {
+    "id": "295524",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "29 ieme foulées dampniacoise",
+    "lieu": "Dampniat",
+    "lat": 45.1678293,
+    "lon": 1.6324484,
+    "vent_deg": 166
+  },
+  {
+    "id": "295641",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Trail de sainte marie-sur-ouche",
+    "lieu": "Sainte marie sur ouche",
+    "lat": 47.2871706,
+    "lon": 4.7967455,
+    "vent_deg": 82
+  },
+  {
+    "id": "296353",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Les foulées du val d'amour",
+    "lieu": "Mont sous vaudrey",
+    "lat": 46.9756991,
+    "lon": 5.6039516,
+    "vent_deg": 30
+  },
+  {
+    "id": "296367",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Cross du 15 aout",
+    "lieu": "Oriol en royans",
+    "lat": 44.9968,
+    "lon": 5.27394,
+    "vent_deg": 348
+  },
+  {
+    "id": "296601",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Course pédestre de puget ville",
+    "lieu": "Puget ville",
+    "lat": 43.2848554,
+    "lon": 6.138408,
+    "vent_deg": 84
+  },
+  {
+    "id": "296765",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "La corruda de senhans",
+    "lieu": "Saint martin de seignanx",
+    "lat": 43.5415353,
+    "lon": -1.3870972,
+    "vent_deg": 310
+  },
+  {
+    "id": "296803",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Foulée du cézallier",
+    "lieu": "Marcenat",
+    "lat": 46.2343708,
+    "lon": 3.396444,
+    "vent_deg": 80
+  },
+  {
+    "id": "297681",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "36émes foulées de billiers",
+    "lieu": "Billiers",
+    "lat": 47.5300893,
+    "lon": -2.4886676,
+    "vent_deg": 5
+  },
+  {
+    "id": "297709",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "La remontada",
+    "lieu": "Rodes",
+    "lat": 44.3511408,
+    "lon": 2.5728493,
+    "vent_deg": 80
+  },
+  {
+    "id": "297755",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Les foulées du lavoir 2025",
+    "lieu": "Domeyrot",
+    "lat": 46.2498152,
+    "lon": 2.157501,
+    "vent_deg": 78
+  },
+  {
+    "id": "298053",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "La foulée des tourterelles",
+    "lieu": "Saint geraud de corps",
+    "lat": 44.9520717,
+    "lon": 0.2268816,
+    "vent_deg": 227
+  },
+  {
+    "id": "298716",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Les foulées médisaises",
+    "lieu": "Medis",
+    "lat": 45.6422545,
+    "lon": -0.966034,
+    "vent_deg": 313
+  },
+  {
+    "id": "298950",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Trails de l'estivale",
+    "lieu": "Saint hilaire la croix",
+    "lat": 46.0464674,
+    "lon": 3.0463657,
+    "vent_deg": 108
+  },
+  {
+    "id": "299253",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "La judocienne",
+    "lieu": "Saint josse",
+    "lat": 50.4674768,
+    "lon": 1.6639835,
+    "vent_deg": 130
+  },
+  {
+    "id": "300237",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "La miou",
+    "lieu": "Treffort cuisiat",
+    "lat": 46.2734827,
+    "lon": 5.3537793,
+    "vent_deg": 293
+  },
+  {
+    "id": "301657",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "5 km et 10 km de saint leu",
+    "lieu": "Saint leu",
+    "lat": -21.1677694,
+    "lon": 55.2881932,
+    "vent_deg": 147
+  },
+  {
+    "id": "301658",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Trail tour ti benare",
+    "lieu": "Les avirons",
+    "lat": -21.2423582,
+    "lon": 55.3357911,
+    "vent_deg": 120
+  },
+  {
+    "id": "301970",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Utah beach -ste marie du mont",
+    "lieu": "Sainte marie du mont",
+    "lat": 49.3788361,
+    "lon": -1.2254755,
+    "vent_deg": 19
+  },
+  {
+    "id": "302518",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Le trail du hatschbourg",
+    "lieu": "Hattstatt",
+    "lat": 48.0108981,
+    "lon": 7.300144,
+    "vent_deg": 140
+  },
+  {
+    "id": "307054",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "La cadarcétoise",
+    "lieu": "Cadarcet",
+    "lat": 43.0139106,
+    "lon": 1.4995835,
+    "vent_deg": 344
+  },
+  {
+    "id": "307888",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Trail du mézenc",
+    "lieu": "Les estables",
+    "lat": 44.903352,
+    "lon": 4.1558714,
+    "vent_deg": 353
+  },
+  {
+    "id": "308872",
+    "famille": "Hors Stade",
+    "date": "15/08",
+    "nom": "Trail des castors",
+    "lieu": "Vebron",
+    "lat": 44.2393086,
+    "lon": 3.5783427,
+    "vent_deg": 349
+  },
+  {
+    "id": "295765",
+    "famille": "Hors Stade",
+    "date": "16/08",
+    "nom": "10 km de mont d'origny",
+    "lieu": "Mont d’origny",
+    "lat": 49.842125,
+    "lon": 3.4992201,
+    "vent_deg": 110
+  },
+  {
+    "id": "296448",
+    "famille": "Hors Stade",
+    "date": "16/08",
+    "nom": "Trail de la vinière",
+    "lieu": "Jard sur mer",
+    "lat": 46.4173018,
+    "lon": -1.5758538,
+    "vent_deg": 326
+  },
+  {
+    "id": "298277",
+    "famille": "Hors Stade",
+    "date": "16/08",
+    "nom": "Trail d'acollay montée des caves",
+    "lieu": "Irancy",
+    "lat": 47.7132623,
+    "lon": 3.6653566,
+    "vent_deg": 94
+  },
+  {
+    "id": "300438",
+    "famille": "Hors Stade",
+    "date": "16/08",
+    "nom": "Corrida des remparts de rocroy",
+    "lieu": "Rocroi",
+    "lat": 49.925032,
+    "lon": 4.5204519,
+    "vent_deg": 166
+  },
+  {
+    "id": "301656",
+    "famille": "Hors Stade",
+    "date": "16/08",
+    "nom": "Up & down",
+    "lieu": "La possession",
+    "lat": -20.9269658,
+    "lon": 55.3362758,
+    "vent_deg": 110
+  },
+  {
+    "id": "302132",
+    "famille": "Hors Stade",
+    "date": "16/08",
+    "nom": "Adarreko lasterketa 2025",
+    "lieu": "Louhossoa",
+    "lat": 43.3163993,
+    "lon": -1.3506594,
+    "vent_deg": 292
+  },
+  {
+    "id": "293862",
+    "famille": "Hors Stade",
+    "date": "16-17/08",
+    "nom": "Isolienne trail challenge",
+    "lieu": "Isola",
+    "lat": 44.1860506,
+    "lon": 7.0519874,
+    "vent_deg": 204
+  },
+  {
+    "id": "297070",
+    "famille": "Hors Stade",
+    "date": "16-17/08",
+    "nom": "Cimalp tignes trail",
+    "lieu": "Tignes",
+    "lat": 45.4697293,
+    "lon": 6.907594,
+    "vent_deg": 292
+  },
+  {
+    "id": "301282",
+    "famille": "Hors Stade",
+    "date": "16-17/08",
+    "nom": "Trail du galibier - thabor",
+    "lieu": "Valloire",
+    "lat": 45.165,
+    "lon": 6.4296372,
+    "vent_deg": 294
+  },
+  {
+    "id": "293223",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Sournia trail",
+    "lieu": "Sournia",
+    "lat": 42.7279934,
+    "lon": 2.4421869,
+    "vent_deg": 35
+  },
+  {
+    "id": "295322",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Trail de queue d'ane",
+    "lieu": "Saint martin de fressenge",
+    "lat": null,
+    "lon": null,
+    "vent_deg": null
+  },
+  {
+    "id": "295819",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Trail des etoiles",
+    "lieu": "Molines en queyras",
+    "lat": 44.729805,
+    "lon": 6.8448169,
+    "vent_deg": 254
+  },
+  {
+    "id": "296346",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "8 ème foulees de madranges",
+    "lieu": "Madranges",
+    "lat": 45.4739883,
+    "lon": 1.7914574,
+    "vent_deg": 190
+  },
+  {
+    "id": "296438",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "La parlanaise",
+    "lieu": "Parlan",
+    "lat": 44.8288037,
+    "lon": 2.1727311,
+    "vent_deg": 191
+  },
+  {
+    "id": "297431",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "36e foulees en montagne noire",
+    "lieu": "Cuxac cabardes",
+    "lat": 43.3706114,
+    "lon": 2.2832002,
+    "vent_deg": 260
+  },
+  {
+    "id": "298291",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Trail d'accolay",
+    "lieu": "Accolay",
+    "lat": 47.654119,
+    "lon": 3.7061672,
+    "vent_deg": 87
+  },
+  {
+    "id": "300998",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Le trail du mont gargan",
+    "lieu": "Saint gilles les forets",
+    "lat": 45.6288115,
+    "lon": 1.6641666,
+    "vent_deg": 214
+  },
+  {
+    "id": "301664",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Boucle parapente",
+    "lieu": "Saint paul",
+    "lat": 49.4318046,
+    "lon": 2.0100016,
+    "vent_deg": 110
+  },
+  {
+    "id": "302062",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "A rezzinca",
+    "lieu": "Rezza",
+    "lat": 42.1247196,
+    "lon": 8.9470353,
+    "vent_deg": 238
+  },
+  {
+    "id": "302456",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Kilomètre vertical du criou",
+    "lieu": "Samoens",
+    "lat": 46.0834066,
+    "lon": 6.7269485,
+    "vent_deg": 268
+  },
+  {
+    "id": "304529",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Trails alpins du grand bec",
+    "lieu": "Champagny en vanoise",
+    "lat": 45.4551515,
+    "lon": 6.6942009,
+    "vent_deg": 295
+  },
+  {
+    "id": "309073",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "La montee du menez hom",
+    "lieu": "Argol",
+    "lat": 48.2461346,
+    "lon": -4.3173536,
+    "vent_deg": 0
+  },
+  {
+    "id": "297194",
+    "famille": "Hors Stade",
+    "date": "17-23/08",
+    "nom": "Tour des 6 vallées de l'oisans",
+    "lieu": "Les deux alpes",
+    "lat": 45.0099949,
+    "lon": 6.1237609,
+    "vent_deg": 260
+  },
+  {
+    "id": "307837",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Alisgianinca trail",
+    "lieu": "Felce",
+    "lat": 42.3499886,
+    "lon": 9.4173512,
+    "vent_deg": 132
+  },
+  {
+    "id": "307467",
+    "famille": "Hors Stade",
+    "date": "17/08",
+    "nom": "Grand prix pedestre des baillots",
+    "lieu": "Luzoir",
+    "lat": 49.9261111,
+    "lon": 3.9627778,
+    "vent_deg": 111
+  },
+  {
+    "id": "299814",
+    "famille": "Hors Stade",
+    "date": "20/08",
+    "nom": "La ronde du cassoulet",
+    "lieu": "Castelnaudary",
+    "lat": 43.3192021,
+    "lon": 1.9533495,
+    "vent_deg": 290
+  },
+  {
+    "id": "299127",
+    "famille": "Hors Stade",
+    "date": "21/08",
+    "nom": "Le relais du houblon",
+    "lieu": "Haguenau",
+    "lat": 48.8172236,
+    "lon": 7.7885978,
+    "vent_deg": 336
+  },
+  {
+    "id": "301587",
+    "famille": "Hors Stade",
+    "date": "21-24/08",
+    "nom": "Grand raid des pyrenees",
+    "lieu": "Vielle aure",
+    "lat": 42.82998,
+    "lon": 0.3271205,
+    "vent_deg": 188
+  },
+  {
+    "id": "305971",
+    "famille": "Hors Stade",
+    "date": "22/08",
+    "nom": "Corrida de montech",
+    "lieu": "Montech",
+    "lat": 43.9577778,
+    "lon": 1.2305556,
+    "vent_deg": 259
+  },
+  {
+    "id": "297679",
+    "famille": "Hors Stade",
+    "date": "22-24/08",
+    "nom": "Echappee belle - 13eme edition",
+    "lieu": "Vizille",
+    "lat": 45.0758358,
+    "lon": 5.7715863,
+    "vent_deg": 275
+  },
+  {
+    "id": "298458",
+    "famille": "Hors Stade",
+    "date": "22-24/08",
+    "nom": "Le bélier trail&rando",
+    "lieu": "La clusaz",
+    "lat": 45.9043659,
+    "lon": 6.4239011,
+    "vent_deg": 282
+  },
+  {
+    "id": "294706",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Ronde des caps",
+    "lieu": "Sainte anne",
+    "lat": 43.7434569,
+    "lon": 0.9648468,
+    "vent_deg": 264
+  },
+  {
+    "id": "294721",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Les foulées de la grotte a jules - 21ème edition",
+    "lieu": "Vignats",
+    "lat": 48.8550289,
+    "lon": -0.1046028,
+    "vent_deg": 184
+  },
+  {
+    "id": "296265",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Creux de l'enfer",
+    "lieu": "Mignovillard",
+    "lat": 46.7738933,
+    "lon": 6.141891,
+    "vent_deg": 71
+  },
+  {
+    "id": "296528",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Foulées gouvillaises",
+    "lieu": "Gouville sur mer",
+    "lat": 49.0979057,
+    "lon": -1.5773793,
+    "vent_deg": 353
+  },
+  {
+    "id": "296843",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "20èmes foulees fressinoises-cardon frères",
+    "lieu": "Fressin",
+    "lat": 50.4465629,
+    "lon": 2.0553542,
+    "vent_deg": 170
+  },
+  {
+    "id": "297367",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Trail des pérics",
+    "lieu": "Les angles",
+    "lat": 43.0835762,
+    "lon": 0.0062129,
+    "vent_deg": 290
+  },
+  {
+    "id": "298388",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Les 8èmes foulées de dettwiller",
+    "lieu": "Dettwiller",
+    "lat": 48.7535135,
+    "lon": 7.4675594,
+    "vent_deg": 18
+  },
+  {
+    "id": "298462",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Foulees de saint martin la pallu",
+    "lieu": "Vendeuvre du poitou",
+    "lat": 46.7213689,
+    "lon": 0.3259792,
+    "vent_deg": 40
+  },
+  {
+    "id": "299316",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Trail de garonne en fête",
+    "lieu": "Agen",
+    "lat": 44.2015827,
+    "lon": 0.6176112,
+    "vent_deg": 260
+  },
+  {
+    "id": "299473",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Trail des argales",
+    "lieu": "Rieulay",
+    "lat": 50.3802594,
+    "lon": 3.2542358,
+    "vent_deg": 4
+  },
+  {
+    "id": "299994",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Les sentiers de nounours",
+    "lieu": "Le cambout",
+    "lat": 48.0581077,
+    "lon": -2.6155533,
+    "vent_deg": 358
+  },
+  {
+    "id": "302069",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Transvellotine",
+    "lieu": "Velluire",
+    "lat": 46.4052778,
+    "lon": -0.8927778,
+    "vent_deg": 7
+  },
+  {
+    "id": "305994",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Trail de larroque",
+    "lieu": "Larroque",
+    "lat": 43.1948395,
+    "lon": 0.608575,
+    "vent_deg": 291
+  },
+  {
+    "id": "307924",
+    "famille": "Hors Stade",
+    "date": "23/08",
+    "nom": "Trail de l'algue",
+    "lieu": "Pleubian",
+    "lat": 48.841766,
+    "lon": -3.138518,
+    "vent_deg": 286
+  },
+  {
+    "id": "295666",
+    "famille": "Hors Stade",
+    "date": "23-24/08",
+    "nom": "Week-end trail des moulins",
+    "lieu": "Mauges sur loire",
+    "lat": 47.3492914,
+    "lon": -0.8660318,
+    "vent_deg": 309
+  },
+  {
+    "id": "303855",
+    "famille": "Hors Stade",
+    "date": "23-24/08",
+    "nom": "Trail de l'énergie",
+    "lieu": "Saint etienne de tinee",
+    "lat": 44.2564013,
+    "lon": 6.9249179,
+    "vent_deg": 216
+  },
+  {
+    "id": "293456",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Marche nordique compétition - circuit du golf  de la cha",
+    "lieu": "Pont de pany",
+    "lat": 47.2964154,
+    "lon": 4.809174,
+    "vent_deg": 82
+  },
+  {
+    "id": "295610",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Bruixes de llo",
+    "lieu": "Llo",
+    "lat": 42.4553415,
+    "lon": 2.0618369,
+    "vent_deg": 190
+  },
+  {
+    "id": "296034",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "La cromagnon",
+    "lieu": "Drucat",
+    "lat": 50.1418504,
+    "lon": 1.8684452,
+    "vent_deg": 138
+  },
+  {
+    "id": "296861",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "28 ème les foulées néoulaises",
+    "lieu": "Neoules",
+    "lat": 43.3109287,
+    "lon": 6.0134378,
+    "vent_deg": 93
+  },
+  {
+    "id": "297153",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Cretes vosgiennes",
+    "lieu": "Markstein",
+    "lat": 47.9233312,
+    "lon": 7.0318064,
+    "vent_deg": 106
+  },
+  {
+    "id": "297900",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Les foulées de cours de pile",
+    "lieu": "Cours de pile",
+    "lat": 44.8411135,
+    "lon": 0.5459787,
+    "vent_deg": 200
+  },
+  {
+    "id": "298306",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Trail d'espeyrut",
+    "lieu": "Donzenac",
+    "lat": 45.2277393,
+    "lon": 1.5230861,
+    "vent_deg": 176
+  },
+  {
+    "id": "298875",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Marathon des oussailles",
+    "lieu": "Saint girons",
+    "lat": 42.9841865,
+    "lon": 1.1464455,
+    "vent_deg": 336
+  },
+  {
+    "id": "299139",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "La course des 2 clochers",
+    "lieu": "Colleret",
+    "lat": 50.2563884,
+    "lon": 4.075551,
+    "vent_deg": 311
+  },
+  {
+    "id": "299809",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Les foulées gourmandes",
+    "lieu": "Langrune sur mer",
+    "lat": 49.320622,
+    "lon": -0.3727503,
+    "vent_deg": 320
+  },
+  {
+    "id": "300242",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Trail des balcons de chateauvieux",
+    "lieu": "Chateauvieux",
+    "lat": 47.2307912,
+    "lon": 1.3824577,
+    "vent_deg": 111
+  },
+  {
+    "id": "300918",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Mvm",
+    "lieu": "Louzouer",
+    "lat": 48.0384021,
+    "lon": 2.8835144,
+    "vent_deg": 122
+  },
+  {
+    "id": "301665",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Foulées sentier littoral de sainte suzanne",
+    "lieu": "Sainte suzanne",
+    "lat": 47.5061216,
+    "lon": 6.7750956,
+    "vent_deg": 68
+  },
+  {
+    "id": "301669",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Trail du 23° km",
+    "lieu": "La plaine des cafres",
+    "lat": -21.2252979,
+    "lon": 55.5552098,
+    "vent_deg": 120
+  },
+  {
+    "id": "301750",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Run in sene nature",
+    "lieu": "Sene",
+    "lat": 47.6199584,
+    "lon": -2.7373441,
+    "vent_deg": 10
+  },
+  {
+    "id": "302047",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Montée de l'aubisque",
+    "lieu": "Laruns",
+    "lat": 42.9882368,
+    "lon": -0.4266324,
+    "vent_deg": 340
+  },
+  {
+    "id": "302174",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Trauca segas",
+    "lieu": "Berenx",
+    "lat": 43.5024238,
+    "lon": -0.8581147,
+    "vent_deg": 287
+  },
+  {
+    "id": "302986",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "La 21e course du run, traversées de tatihou",
+    "lieu": "Saint vaast la hougue",
+    "lat": 49.5877016,
+    "lon": -1.2662184,
+    "vent_deg": 310
+  },
+  {
+    "id": "303321",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Semi marathon du chemin du train saugeais",
+    "lieu": "Gilley",
+    "lat": 47.0479919,
+    "lon": 6.4812983,
+    "vent_deg": 108
+  },
+  {
+    "id": "303723",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Semi  et 10 km courir pour le plaisir",
+    "lieu": "Le porge",
+    "lat": 44.8727944,
+    "lon": -1.0927165,
+    "vent_deg": 304
+  },
+  {
+    "id": "304706",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Brest court(WA)",
+    "lieu": "Brest",
+    "lat": 48.3905283,
+    "lon": -4.4860088,
+    "vent_deg": 180
+  },
+  {
+    "id": "305285",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Trail de peyrignac",
+    "lieu": "Peyrignac",
+    "lat": 45.1567406,
+    "lon": 1.1919001,
+    "vent_deg": 175
+  },
+  {
+    "id": "305531",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Les foulées de chassiron",
+    "lieu": "Saint denis d'oleron",
+    "lat": 46.033611,
+    "lon": -1.3775,
+    "vent_deg": 316
+  },
+  {
+    "id": "306024",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Trailrail34",
+    "lieu": "Cazouls les beziers",
+    "lat": 43.3918541,
+    "lon": 3.1013558,
+    "vent_deg": 254
+  },
+  {
+    "id": "306095",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Trail des moises 2025",
+    "lieu": "Habere poche",
+    "lat": 46.2486108,
+    "lon": 6.4735471,
+    "vent_deg": 343
+  },
+  {
+    "id": "307769",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "La savoyarde trail",
+    "lieu": "La feclaz",
+    "lat": 45.6448216,
+    "lon": 5.9832778,
+    "vent_deg": 0
+  },
+  {
+    "id": "307800",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "trail de la houn sante",
+    "lieu": "Estang",
+    "lat": 43.8675,
+    "lon": -0.1075,
+    "vent_deg": 276
+  },
+  {
+    "id": "299537",
+    "famille": "Hors Stade",
+    "date": "24/08",
+    "nom": "Casinca trail",
+    "lieu": "Penta di casinca",
+    "lat": 42.4671285,
+    "lon": 9.4595153,
+    "vent_deg": 130
+  },
+  {
+    "id": "301635",
+    "famille": "Hors Stade",
+    "date": "25-31/08",
+    "nom": "Utmb mont-blanc",
+    "lieu": "Chamonix mont blanc",
+    "lat": 45.9246705,
+    "lon": 6.8727506,
+    "vent_deg": 273
+  },
+  {
+    "id": "308378",
+    "famille": "Hors Stade",
+    "date": "27/08",
+    "nom": "Lou tour de la gauda",
+    "lieu": "La gaude",
+    "lat": 43.7228225,
+    "lon": 7.1503312,
+    "vent_deg": 90
+  },
+  {
+    "id": "297616",
+    "famille": "Hors Stade",
+    "date": "29/08",
+    "nom": "Urban trail de pierrefeu",
+    "lieu": "Pierrefeu du var",
+    "lat": 43.2272615,
+    "lon": 6.14307,
+    "vent_deg": 0
+  },
+  {
+    "id": "299793",
+    "famille": "Hors Stade",
+    "date": "29/08",
+    "nom": "Pradin'trail 2025",
+    "lieu": "Pradinas",
+    "lat": 44.4794941,
+    "lon": 1.403984,
+    "vent_deg": 202
+  },
+  {
+    "id": "292713",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "La llupianenque",
+    "lieu": "Llupia",
+    "lat": 42.6227781,
+    "lon": 2.7703201,
+    "vent_deg": 160
+  },
+  {
+    "id": "295697",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Courses nature - foulées de chaumussay",
+    "lieu": "Chaumussay",
+    "lat": 46.8699633,
+    "lon": 0.8624074,
+    "vent_deg": 112
+  },
+  {
+    "id": "296595",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Agri run",
+    "lieu": "Quemigny sur seine",
+    "lat": 47.6628649,
+    "lon": 4.6681254,
+    "vent_deg": 78
+  },
+  {
+    "id": "296705",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Trail de la planète",
+    "lieu": "Mars",
+    "lat": 45.022172,
+    "lon": 4.3221548,
+    "vent_deg": 10
+  },
+  {
+    "id": "296824",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Boucles rubemprénnes pierre stannard",
+    "lieu": "Rubempre",
+    "lat": 50.0183595,
+    "lon": 2.3846198,
+    "vent_deg": 154
+  },
+  {
+    "id": "297258",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Le trail d'annesse",
+    "lieu": "Annesse et beaulieu",
+    "lat": 45.175,
+    "lon": 0.5919444,
+    "vent_deg": 203
+  },
+  {
+    "id": "297597",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Giroutrail",
+    "lieu": "Giroussens",
+    "lat": 43.7626,
+    "lon": 1.7749,
+    "vent_deg": 270
+  },
+  {
+    "id": "297829",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Les foulées saint-pandelonnaises",
+    "lieu": "Saint pandelon",
+    "lat": 43.66915,
+    "lon": -1.03911,
+    "vent_deg": 270
+  },
+  {
+    "id": "298409",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Foulees de la moder",
+    "lieu": "Schweighouse sur moder",
+    "lat": 48.8212588,
+    "lon": 7.7358441,
+    "vent_deg": 345
+  },
+  {
+    "id": "298425",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Foulees cutsoises (35èmes)",
+    "lieu": "Cuts",
+    "lat": 49.5313296,
+    "lon": 3.1013685,
+    "vent_deg": 162
+  },
+  {
+    "id": "298930",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Circuit des geants",
+    "lieu": "Cassel",
+    "lat": 50.8000011,
+    "lon": 2.4868314,
+    "vent_deg": 187
+  },
+  {
+    "id": "300018",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Course des bords de loire",
+    "lieu": "Aurec sur loire",
+    "lat": 45.3698465,
+    "lon": 4.2008542,
+    "vent_deg": 57
+  },
+  {
+    "id": "300978",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Un ti tour en plus",
+    "lieu": "La possession",
+    "lat": -20.9269658,
+    "lon": 55.3362758,
+    "vent_deg": 110
+  },
+  {
+    "id": "301670",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Cimasa run",
+    "lieu": "Cilaos",
+    "lat": -21.1360575,
+    "lon": 55.472515,
+    "vent_deg": 147
+  },
+  {
+    "id": "302175",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "La géussoise",
+    "lieu": "Geus d'arzacq",
+    "lat": 43.482489,
+    "lon": -0.5216079,
+    "vent_deg": 270
+  },
+  {
+    "id": "302226",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Ronde des marais",
+    "lieu": "Bourges",
+    "lat": 47.0811658,
+    "lon": 2.399125,
+    "vent_deg": 110
+  },
+  {
+    "id": "303165",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Course de la rosiere - 19ème édition",
+    "lieu": "Pontcharra",
+    "lat": 45.4327537,
+    "lon": 6.0204233,
+    "vent_deg": 333
+  },
+  {
+    "id": "304572",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Les foulées de decat",
+    "lieu": "Mondeville",
+    "lat": 49.1770906,
+    "lon": -0.3200702,
+    "vent_deg": 320
+  },
+  {
+    "id": "305281",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Les foulées pexinoises",
+    "lieu": "Niort",
+    "lat": 46.3239233,
+    "lon": -0.4646064,
+    "vent_deg": 78
+  },
+  {
+    "id": "305571",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Courses les casse-pattes à un canard",
+    "lieu": "Prailles",
+    "lat": 46.3199302,
+    "lon": -0.2042972,
+    "vent_deg": 125
+  },
+  {
+    "id": "305626",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Saint mont vignoble en course",
+    "lieu": "Aignan",
+    "lat": 43.698595,
+    "lon": 0.0846181,
+    "vent_deg": 273
+  },
+  {
+    "id": "306020",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Trail de la mouline",
+    "lieu": "Valence d'agen",
+    "lat": 44.1116826,
+    "lon": 0.8916094,
+    "vent_deg": 248
+  },
+  {
+    "id": "306974",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Les 6 heures de thiers",
+    "lieu": "Thiers",
+    "lat": 45.855795,
+    "lon": 3.5489707,
+    "vent_deg": 312
+  },
+  {
+    "id": "307441",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Le parigny running show",
+    "lieu": "Parigny",
+    "lat": 45.9903707,
+    "lon": 4.0967191,
+    "vent_deg": 136
+  },
+  {
+    "id": "308103",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "10km de houlle",
+    "lieu": "Houlle",
+    "lat": 50.7965913,
+    "lon": 2.1742979,
+    "vent_deg": 182
+  },
+  {
+    "id": "308738",
+    "famille": "Hors Stade",
+    "date": "30/08",
+    "nom": "Cross de la foire d'automne",
+    "lieu": "Desertines",
+    "lat": 46.3556648,
+    "lon": 2.6157229,
+    "vent_deg": 89
+  },
+  {
+    "id": "296723",
+    "famille": "Hors Stade",
+    "date": "30-31/08",
+    "nom": "Le3h, 6h, 12h et 24 heure de villenave d'ornon",
+    "lieu": "Villenave d'ornon",
+    "lat": 44.7737872,
+    "lon": -0.5595029,
+    "vent_deg": 300
+  },
+  {
+    "id": "300186",
+    "famille": "Hors Stade",
+    "date": "30-31/08",
+    "nom": "La grande trace été",
+    "lieu": "Superdevoluy",
+    "lat": 44.6765415,
+    "lon": 5.9295878,
+    "vent_deg": 14
+  },
+  {
+    "id": "292268",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Trail des châteaux",
+    "lieu": "Chauvigny",
+    "lat": 46.5695048,
+    "lon": 0.6439464,
+    "vent_deg": 95
+  },
+  {
+    "id": "293650",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Les foulees du sillon de bretagne",
+    "lieu": "Savenay",
+    "lat": 47.3592304,
+    "lon": -1.9421244,
+    "vent_deg": 360
+  },
+  {
+    "id": "293732",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Les 4 heures de montévrain",
+    "lieu": "Montevrain",
+    "lat": 48.8741286,
+    "lon": 2.748344,
+    "vent_deg": 115
+  },
+  {
+    "id": "293745",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "10km du trocadéro",
+    "lieu": "Paris",
+    "lat": 48.8534951,
+    "lon": 2.3483915,
+    "vent_deg": 120
+  },
+  {
+    "id": "294543",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "La villersoise course nature",
+    "lieu": "Villers bocage",
+    "lat": 49.9956745,
+    "lon": 2.3141984,
+    "vent_deg": 151
+  },
+  {
+    "id": "295119",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Ata : aosis trail des abeilles",
+    "lieu": "Villey saint etienne",
+    "lat": 48.7322,
+    "lon": 5.978,
+    "vent_deg": 140
+  },
+  {
+    "id": "295842",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Trail des aventuriers",
+    "lieu": "Belleu",
+    "lat": 49.3591667,
+    "lon": 3.3355556,
+    "vent_deg": 157
+  },
+  {
+    "id": "296159",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Trail de vernon - giverny",
+    "lieu": "Vernon",
+    "lat": 49.0932008,
+    "lon": 1.4857205,
+    "vent_deg": 123
+  },
+  {
+    "id": "296314",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Tour du lac de paladru - 48ème édition",
+    "lieu": "Montferrat",
+    "lat": 45.4858,
+    "lon": 5.5902,
+    "vent_deg": 8
+  },
+  {
+    "id": "296698",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Les foulées foucarmontaises",
+    "lieu": "Foucarmont",
+    "lat": 49.8482364,
+    "lon": 1.5678906,
+    "vent_deg": 155
+  },
+  {
+    "id": "296769",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "M.i.c.i on bellebouche",
+    "lieu": "Mezieres en brenne",
+    "lat": 46.8197395,
+    "lon": 1.2126177,
+    "vent_deg": 101
+  },
+  {
+    "id": "297101",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "La domartoise 2025",
+    "lieu": "Domart en ponthieu",
+    "lat": 50.0741656,
+    "lon": 2.1263174,
+    "vent_deg": 151
+  },
+  {
+    "id": "297173",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Trail de la vallée de la sonnette",
+    "lieu": "Saint claud",
+    "lat": 45.8944098,
+    "lon": 0.4650861,
+    "vent_deg": 144
+  },
+  {
+    "id": "297647",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "La bouvillaise",
+    "lieu": "Bouville",
+    "lat": 49.5605729,
+    "lon": 0.8937539,
+    "vent_deg": 152
+  },
+  {
+    "id": "297684",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Ronde des sapins",
+    "lieu": "Belcaire",
+    "lat": 42.8163554,
+    "lon": 1.9603877,
+    "vent_deg": 27
+  },
+  {
+    "id": "297786",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "10km d'arras",
+    "lieu": "Arras",
+    "lat": 50.291048,
+    "lon": 2.7772211,
+    "vent_deg": 140
+  },
+  {
+    "id": "297929",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Les 100 foulées de la st gilliet",
+    "lieu": "Fruges",
+    "lat": 50.5150387,
+    "lon": 2.1349286,
+    "vent_deg": 173
+  },
+  {
+    "id": "298329",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Les foulées du patrimoine de dachstein",
+    "lieu": "Dachstein",
+    "lat": 48.5608856,
+    "lon": 7.5318998,
+    "vent_deg": 0
+  },
+  {
+    "id": "298337",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Sur les pas de tnguy",
+    "lieu": "Saint andre de corcy",
+    "lat": 45.9281426,
+    "lon": 4.9534729,
+    "vent_deg": 25
+  },
+  {
+    "id": "298574",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Les 10 km  vayres - rochechouart",
+    "lieu": "Rochechouart",
+    "lat": 45.8219757,
+    "lon": 0.8198124,
+    "vent_deg": 214
+  },
+  {
+    "id": "298890",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Semi marathon cancale / saint-malo",
+    "lieu": "Saint malo",
+    "lat": 48.649518,
+    "lon": -2.0260409,
+    "vent_deg": 10
+  },
+  {
+    "id": "299221",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Trail de la dagnarde",
+    "lieu": "Dagneux",
+    "lat": 45.8541,
+    "lon": 5.07498,
+    "vent_deg": 330
+  },
+  {
+    "id": "299411",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Trail de la tufière",
+    "lieu": "Rolampont",
+    "lat": 47.9493239,
+    "lon": 5.2865474,
+    "vent_deg": 69
+  },
+  {
+    "id": "299469",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "La foulée des vignerons de vals",
+    "lieu": "Vals pres le puy",
+    "lat": 45.0300955,
+    "lon": 3.8757116,
+    "vent_deg": 35
+  },
+  {
+    "id": "299726",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Foulées saint pierroises",
+    "lieu": "Saint pierre le moutier",
+    "lat": 46.7905584,
+    "lon": 3.1180359,
+    "vent_deg": 114
+  },
+  {
+    "id": "299908",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Qbrc (quelques bonnes raisons de courir)",
+    "lieu": "Viroflay",
+    "lat": 48.7995951,
+    "lon": 2.1730571,
+    "vent_deg": 90
+  },
+  {
+    "id": "300489",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Trail diege et collines",
+    "lieu": "Ussel",
+    "lat": 45.545591,
+    "lon": 2.3119397,
+    "vent_deg": 160
+  },
+  {
+    "id": "300614",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Les boulevards de colomiers",
+    "lieu": "Colomiers",
+    "lat": 43.6112476,
+    "lon": 1.3367443,
+    "vent_deg": 270
+  },
+  {
+    "id": "300770",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Course pedestre de st laurent",
+    "lieu": "Saint laurent",
+    "lat": 43.3253,
+    "lon": 0.79977,
+    "vent_deg": 272
+  },
+  {
+    "id": "301239",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "Course nature du pinsan",
+    "lieu": "Eysines",
+    "lat": 44.8854667,
+    "lon": -0.6486943,
+    "vent_deg": 300
+  },
+  {
+    "id": "301514",
+    "famille": "Hors Stade",
+    "date": "31/08",
+    "nom": "La foulee trielloise",
+    "lieu": "Triel sur seine",
+    "lat": 48.980925,
+    "lon": 2.0030818,
+    "vent_deg": 120
+  }
+]

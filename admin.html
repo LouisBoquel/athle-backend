@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Administration – Compétitions Athlé</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body { background: #f6f8fb; font-family: 'Montserrat', sans-serif; color: #232942; }
+    .container { max-width: 520px; margin: 2rem auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 16px #0001; padding: 2.4rem 2rem; }
+    h1 { text-align: center; margin-bottom: 1.5rem; font-weight: 600; }
+    .hidden { display: none; }
+    input, button { font-size: 1rem; padding: 0.7rem; border-radius: 7px; border: 1px solid #ccc; margin-bottom: 1.1rem; width: 100%; }
+    button { background: #36b98b; color: #fff; border: none; font-weight: 600; cursor: pointer; transition: background .2s; }
+    button:hover { background: #269d71; }
+    .logout { background: #e25d4d; margin-top: 1.2rem;}
+    .msg { text-align: center; margin-bottom: 1.2rem; color: #e25d4d; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.98rem; }
+    th, td { padding: 0.65em 0.4em; border-bottom: 1px solid #eee; }
+    th { background: #f3f5f8; }
+    tr.pending { background: #fffde8; }
+    .btn-action { padding: .3em .8em; font-size: .97em; margin: 0 .2em; }
+    .btn-validate { background: #36b98b; color: #fff; border: none; border-radius: 5px;}
+    .btn-delete { background: #e25d4d; color: #fff; border: none; border-radius: 5px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Admin – Modération Compétitions</h1>
+    <div id="login-area">
+      <form id="login-form">
+        <input type="text" id="login-username" placeholder="Nom d'utilisateur" required autofocus />
+        <input type="password" id="login-password" placeholder="Mot de passe" required />
+        <button type="submit">Connexion</button>
+      </form>
+      <div class="msg" id="login-msg"></div>
+    </div>
+    <div id="admin-area" class="hidden">
+      <button class="logout" id="logout-btn">Déconnexion</button>
+      <div style="margin-top:1.1rem;">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nom</th>
+              <th>Date</th>
+              <th>Famille</th>
+              <th>Validée</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="comps-table"></tbody>
+        </table>
+      </div>
+      <div class="msg" id="admin-msg"></div>
+    </div>
+  </div>
+
+  <script>
+    // --- CONFIG ---
+    const API_URL = 'https://athle-backend.onrender.com';
+
+    // --- Elements
+    const loginArea = document.getElementById('login-area');
+    const adminArea = document.getElementById('admin-area');
+    const loginForm = document.getElementById('login-form');
+    const loginMsg = document.getElementById('login-msg');
+    const adminMsg = document.getElementById('admin-msg');
+    const compsTable = document.getElementById('comps-table');
+    const logoutBtn = document.getElementById('logout-btn');
+
+    // --- Fonction utilitaire fetch avec credentials (pour session)
+    function apiFetch(url, options={}) {
+      options.credentials = "include";
+      if (!options.headers) options.headers = {};
+      if (!(options.body instanceof FormData) && options.body && typeof options.body !== "string")
+        options.headers['Content-Type'] = 'application/json';
+      if (options.body && typeof options.body !== "string" && !(options.body instanceof FormData))
+        options.body = JSON.stringify(options.body);
+      return fetch(API_URL + url, options)
+        .then(async r => {
+          if (!r.ok) throw await r.json().catch(() => ({error: 'Erreur inconnue'}));
+          return r.json();
+        });
+    }
+
+    // --- Login form
+    loginForm.onsubmit = function(e) {
+      e.preventDefault();
+      loginMsg.textContent = '';
+      apiFetch('/api/admin/login', {
+        method: 'POST',
+        body: {
+          username: document.getElementById('login-username').value,
+          password: document.getElementById('login-password').value
+        }
+      })
+      .then(() => {
+        loginArea.classList.add('hidden');
+        adminArea.classList.remove('hidden');
+        loadCompetitions();
+      })
+      .catch(err => {
+        loginMsg.textContent = err.error || 'Erreur lors de la connexion';
+      });
+    };
+
+    // --- Logout
+    logoutBtn.onclick = () => {
+      apiFetch('/api/admin/logout', { method: 'POST' })
+      .then(() => {
+        loginArea.classList.remove('hidden');
+        adminArea.classList.add('hidden');
+      });
+    };
+
+    // --- Charger la liste des compétitions
+    function loadCompetitions() {
+      compsTable.innerHTML = "<tr><td colspan='6'>Chargement...</td></tr>";
+      apiFetch('/api/admin/competitions')
+      .then(list => {
+        compsTable.innerHTML = "";
+        if (!list.length) {
+          compsTable.innerHTML = "<tr><td colspan='6'>Aucune compétition</td></tr>";
+          return;
+        }
+        list.forEach(c => {
+          const tr = document.createElement('tr');
+          if (!c.validated) tr.classList.add('pending');
+          tr.innerHTML = `
+            <td>${c.id}</td>
+            <td>${c.nom}</td>
+            <td>${c.date}</td>
+            <td>${c.famille}</td>
+            <td style="text-align:center">${c.validated ? "✅" : "⏳"}</td>
+            <td>
+              ${!c.validated ? `<button class="btn-action btn-validate" data-id="${c.id}">Valider</button>` : ""}
+              <button class="btn-action btn-delete" data-id="${c.id}">Supprimer</button>
+            </td>
+          `;
+          compsTable.appendChild(tr);
+        });
+        addActionListeners();
+      })
+      .catch(() => {
+        compsTable.innerHTML = "<tr><td colspan='6'>Erreur chargement.</td></tr>";
+      });
+    }
+
+    // --- Actions boutons
+    function addActionListeners() {
+      document.querySelectorAll('.btn-validate').forEach(btn => {
+        btn.onclick = function() {
+          if (!confirm("Valider cette compétition ?")) return;
+          apiFetch('/api/admin/validate/' + btn.dataset.id, {method: 'POST'})
+          .then(() => { adminMsg.textContent = "Compétition validée."; loadCompetitions(); });
+        };
+      });
+      document.querySelectorAll('.btn-delete').forEach(btn => {
+        btn.onclick = function() {
+          if (!confirm("Supprimer cette compétition ?")) return;
+          apiFetch('/api/admin/delete/' + btn.dataset.id, {method: 'POST'})
+          .then(() => { adminMsg.textContent = "Compétition supprimée."; loadCompetitions(); });
+        };
+      });
+    }
+
+    // --- Si déjà connecté, auto-charge
+    apiFetch('/api/admin/competitions')
+      .then(() => {
+        loginArea.classList.add('hidden');
+        adminArea.classList.remove('hidden');
+        loadCompetitions();
+      })
+      .catch(() => {});
+
+  </script>
+</body>
+</html>
