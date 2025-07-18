@@ -22,6 +22,7 @@
     .btn-action { padding: .3em .8em; font-size: .97em; margin: 0 .2em; }
     .btn-validate { background: #36b98b; color: #fff; border: none; border-radius: 5px;}
     .btn-delete { background: #e25d4d; color: #fff; border: none; border-radius: 5px;}
+    .loader { text-align: center; margin: 2em 0; }
   </style>
 </head>
 <body>
@@ -57,10 +58,8 @@
   </div>
 
   <script>
-    // --- CONFIG ---
     const API_URL = 'https://athle-backend.onrender.com';
 
-    // --- Elements
     const loginArea = document.getElementById('login-area');
     const adminArea = document.getElementById('admin-area');
     const loginForm = document.getElementById('login-form');
@@ -69,7 +68,6 @@
     const compsTable = document.getElementById('comps-table');
     const logoutBtn = document.getElementById('logout-btn');
 
-    // --- Fonction utilitaire fetch avec credentials (pour session)
     function apiFetch(url, options={}) {
       options.credentials = "include";
       if (!options.headers) options.headers = {};
@@ -84,7 +82,6 @@
         });
     }
 
-    // --- Login form
     loginForm.onsubmit = function(e) {
       e.preventDefault();
       loginMsg.textContent = '';
@@ -105,7 +102,6 @@
       });
     };
 
-    // --- Logout
     logoutBtn.onclick = () => {
       apiFetch('/api/admin/logout', { method: 'POST' })
       .then(() => {
@@ -114,9 +110,8 @@
       });
     };
 
-    // --- Charger la liste des compétitions
     function loadCompetitions() {
-      compsTable.innerHTML = "<tr><td colspan='6'>Chargement...</td></tr>";
+      compsTable.innerHTML = "<tr><td colspan='6' class='loader'>Chargement...</td></tr>";
       apiFetch('/api/admin/competitions')
       .then(list => {
         compsTable.innerHTML = "";
@@ -147,7 +142,6 @@
       });
     }
 
-    // --- Actions boutons
     function addActionListeners() {
       document.querySelectorAll('.btn-validate').forEach(btn => {
         btn.onclick = function() {
@@ -165,7 +159,7 @@
       });
     }
 
-    // --- Si déjà connecté, auto-charge
+    // Si déjà connecté, auto-charge
     apiFetch('/api/admin/competitions')
       .then(() => {
         loginArea.classList.add('hidden');
