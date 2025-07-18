@@ -11,16 +11,16 @@ SECRET_KEY = "13457689"  # CHANGE MOI AUSSI
 
 # --- MySQL ---
 MYSQL_CONFIG = {
-    "host":     "l70kvq.myd.infomaniak.com",              # ou une URL genre mysqlXXX.infomaniak.com
-    "user":     "l70kvq_louis",        # ex : l70kvq_athle
-    "password": "rKZP516wl3k&?.@",                # le mot de passe MySQL
-    "database": "l70kvq_athle",           # nom de ta base
+    "host":     "l70kvq.myd.infomaniak.com",              
+    "user":     "l70kvq_louis",        
+    "password": "rKZP516wl3k&?.@",                
+    "database": "l70kvq_athle",           
     "port":     3306
 }
 
 app = Flask(__name__)
 app.secret_key = SECRET_KEY
-CORS(app, supports_credentials=True, origins=['https://thegreenpadel.fr'])  # adapte au besoin
+CORS(app, supports_credentials=True, origins=['https://thegreenpadel.fr'])
 
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -49,7 +49,7 @@ def load_user(user_id):
         return AdminUser()
     return None
 
-# --- ROUTES PUBLIQUES (compétitions validées et ajout) ---
+# --- ROUTES PUBLIQUES ---
 @app.route('/api/competitions', methods=['GET'])
 def get_competitions():
     db = get_db()
@@ -123,6 +123,25 @@ def admin_delete(comp_id):
     db.commit()
     cur.close()
     return jsonify({"success": True})
+
+
+# --- ENDPOINT CRON POUR SCRAPER ---
+@app.route('/api/cron/scrape', methods=['GET'])
+def api_cron_scrape():
+    # --- Sécurité par token ---
+    token = request.args.get("token")
+    if token != os.environ.get("CRON_TOKEN", ""):
+        return jsonify({"error": "unauthorized"}), 403
+
+    try:
+        # Appel du scraper en mode import
+        from scraper.scraper_full_year import scrape_full_year
+        year = 2025
+        results = scrape_full_year(year)
+        return jsonify({"success": True, "count": len(results)})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
